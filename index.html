@@ -53,7 +53,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://mobilefrontier.github.io"></form>
@@ -63,6 +63,84 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-weekly-20" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/articles/weekly-20/" class="article-date">
+  <time datetime="2016-07-19T14:27:36.000Z" itemprop="datePublished">2016-07-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/articles/weekly-20/">移动开发每周阅读清单：第二十期</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="新闻"><a href="#新闻" class="headerlink" title="新闻"></a>新闻</h2><p><a href="http://tech.sina.com.cn/mobile/n/n/2016-07-19/doc-ifxuapvs8777687.shtml" target="_blank" rel="external">苹果放出系统更新全家桶 正式版+测试版全都有</a></p>
+<p>7月19日，苹果发布旗下多款产品的系统更新，涵盖iOS、macOS、tvOS、以及watchOS四大系统正式版，以及这些系统的开发者测试版。现在苹果旗下的系统很多，一次更新完也不轻松啊。</p>
+<p><a href="http://news.mydrivers.com/1/491/491795.htm" target="_blank" rel="external">Android 7.0最后一版预览开放下载</a></p>
+<p>谷歌官方释出了第五版Android 7.0 Nougat Developer Preview，这将是正式版前最后一版预览。本版支持General Mobile 4G、Pixel C、Nexus 5X、Nexus 6、Nexus 6P、Nexus 9、Nexus Player等谷歌直系设备。新的Android N开发者预览版包含了最新的API（level 24）和模拟器，开发者依然可以做应用兼容测试准备。</p>
+<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p><strong>iOS</strong></p>
+<p><a href="https://gist.github.com/mackuba/e8fb4219c7ef611f47cdb66b93986d85" target="_blank" rel="external">WWDC 16上发布的更新全攻略</a></p>
+<p>波兰开发者Kuba Suder在看完本届的WWDC、各种Session和官网发布声明之后总结的文章，非常全面，有些隐藏更新苹果很可能只是在某些地方不经意提到，很容易忽略过去，因此本文对于iOS开发者来说值得一读。</p>
+<p><a href="http://www.jianshu.com/p/b8db6c142aad" target="_blank" rel="external">Swift类型的秘密</a></p>
+<p>Swift团队负责编译器部分的Slava Pestov的文章。本文是对Swift类型是如何实现的一个详细解释，看完能让你对Swift中的类型理解更加深入，同时也让你对如何给Swift项目贡献给出了一些提示。</p>
+<p><a href="https://pspdfkit.com/blog/2016/efficient-iOS-version-checking" target="_blank" rel="external">高效的iOS系统版本检查</a></p>
+<p>对于iOS系统版本检查我们有许多方案来实现，Peter Steinberger写了这篇文章，梳理了各种方案并给出他认为最有效率的做法。</p>
+<p><strong>Android</strong></p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;mid=2651231949&amp;idx=1&amp;sn=c5de2b2a719644392ddc756a6c6d5920&amp;scene=0" target="_blank" rel="external">浅谈Android自定义锁屏页的发车姿势</a></p>
+<p>要实现一个自定义锁屏是一件繁琐的事情，因为系统有100种方法让这个非本地的锁屏待不下去。但是，人类的智慧是无限的，程序员需要逆流而上。Android系统实现自定义锁屏页的思路很简单，即在App启动时开启一个service，在Service中时刻监听系统SCREEN_OFF的广播，当屏幕熄灭时，Service监听到广播，开启一个锁屏页Activity在屏幕最上层显示，该Activity创建的同时会去掉系统锁屏。本文给出了自定义锁屏的具体实现。</p>
+<p><a href="https://elelogistics.github.io/2016/07/13/HermesEventBus-%E4%B8%80%E7%A7%8D%E6%96%B0%E7%9A%84Android%E8%B7%A8%E8%BF%9B%E7%A8%8B%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E6%A1%86%E6%9E%B6" target="_blank" rel="external">HermesEventBus-饿了么开源的Android跨进程事件分发框架</a></p>
+<p>由于Android不同进程之前不能相互通信，所以当开发过程中遇到跨进程通信的时候,常用的方案就是AIDL(Android Interface Definition Language)通过它我们可以定义进程间的通信接口,但是当应用中出现大量跨进程通信的时候，比如你想体验一下插件化开发或者特殊需求在单应用中需要开多个进程，那么写过AIDL的同学都会有痛不欲生的感觉。HermesEventBus就是为了解决此问题而生，本文详细讲解了该框架的用法及原理。</p>
+<p><a href="http://www.jianshu.com/p/831f936b8304" target="_blank" rel="external">FaceBook出品：基于Android的内存优化</a></p>
+<p>作者通过自动化工具来测试不同场景和设备上运行的性能，以此衡量出代码在运行时的内存使用率，帧率等。当使用其中一个工具，TraceView，测试发现对Long.valueOf()有频发的调用，使内存中堆积的对象过多，导致崩溃。这篇文章描述了如何解决这个问题，并且提供了相关的源码。</p>
+<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><p><strong>iOS</strong></p>
+<p><a href="https://github.com/Dschee/FileKit" target="_blank" rel="external">FileKit</a></p>
+<p>在Objective-C中我们有非常方便的调用NSString的文件路径的方法，但在Swift中会比较麻烦，这个开源项目即将相关API进行封装，模仿成NSString的调用方式，并且还增加了一些功能。</p>
+<p><a href="https://github.com/facebook/facebook-sdk-swift" target="_blank" rel="external">facebook-sdk-swift</a></p>
+<p>Facebook发布了纯由Swift编写的SDK开源项目，表明了它对Swift语言的大力支持。目前项目还是beta版本，初始的commit message是非常可爱的颜文字，而且有亚洲风格，让人怀疑此SDK的主开发者是个亚裔呢。</p>
+<p><a href="https://github.com/100mango/Celluloid" target="_blank" rel="external">Celluloid</a></p>
+<p>一个完整的iOS app项目，其对应的app已上架app store，充分运用和支持Photo Extension特性。纯Swift编写，非常好的学习项目。</p>
+<p><strong>Android</strong></p>
+<p><a href="https://github.com/ImmortalZ/StereoView" target="_blank" rel="external">StereoView</a></p>
+<p>这是一个Android 3D立体无限旋转滚动容器项目，实现的3D效果使用场景很多，推荐大家收藏。</p>
+<p><a href="https://github.com/ldoublem/GiftCard" target="_blank" rel="external">GiftCard</a></p>
+<p>这是一个效果很棒的礼物卡效果，动画效果很赞，适合于卡券类页面的显示。</p>
+<p><a href="https://github.com/JackyAndroid/AndroidChromium/blob/master/README-CN.md" target="_blank" rel="external">AndroidChromium</a></p>
+<p>谷歌浏览器安卓版源码项目，本项目是世界级的安卓架构，理清本项目业务逻辑完全可以胜任国内一线公司工程师。</p>
+<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><blockquote>
+<p>新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。</p>
+</blockquote>
+<p>本周暂无新工作推荐，可以看看上周刚发布的两个新职位。</p>
+<h2 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h2><blockquote>
+<p>新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。</p>
+</blockquote>
+<p><a href="http://www.bagevent.com/event/109881" target="_blank" rel="external">APMCon中国应用性能管理大会</a></p>
+<p>8月18日~19日在北京召开。聚焦于应用性能管理垂直领域的盛会。来自LinkedIn、AppDynamics、阿里巴巴、腾讯、京东、新浪、美团、360等国内外一线互联网公司的技术专家将给大家带来精彩的演讲分享！</p>
+<hr>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-20/" data-id="ciqtmupmt000awcp1wn5jyemj" class="article-share-link">Delen</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-weekly-19" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -150,7 +228,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-19/" data-id="ciql2n1gh000be4p1udkutain" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-19/" data-id="ciqtmupmh0004wcp129xmxfpa" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -237,7 +315,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-18/" data-id="ciql2n1gj000de4p1bb6su39r" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-18/" data-id="ciqtmupmk0006wcp1wxmcen79" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -331,7 +409,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-17/" data-id="ciql2n1gi000ce4p1ikoapx6h" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-17/" data-id="ciqtmupmy000ewcp1n1z5te15" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -423,7 +501,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-16/" data-id="ciql2n1ga0007e4p1gbho5rzs" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-16/" data-id="ciqtmupmj0005wcp1rxradmhy" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -514,7 +592,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-15/" data-id="ciql2n1g40004e4p19nci77r2" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-15/" data-id="ciqtmupmn0007wcp1kgfqfhyc" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -604,7 +682,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-14/" data-id="ciql2n1gf000ae4p1l61xn09b" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-14/" data-id="ciqtmupmo0008wcp1a0kjb2zv" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -698,7 +776,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-13/" data-id="ciql2n1g70005e4p1pznzw40o" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-13/" data-id="ciqtmupmr0009wcp1tdx3os8f" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -793,7 +871,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-12/" data-id="ciql2n1g30003e4p1bbaa8bjf" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-12/" data-id="ciqtmupmg0003wcp1xkpbg4xk" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -883,105 +961,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-11/" data-id="ciql2n1g90006e4p1nhvf209o" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-weekly-10" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/articles/weekly-10/" class="article-date">
-  <time datetime="2016-05-03T09:06:56.000Z" itemprop="datePublished">2016-05-03</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/articles/weekly-10/">移动开发每周阅读清单：第十期</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>『移动开发每周阅读清单』第十期与大家见面了，上周五一劳动节，不知道大家有没有好好放松自己呢~</p>
-<h2 id="新闻"><a href="#新闻" class="headerlink" title="新闻"></a>新闻</h2><p><a href="http://open.xamarin.com" target="_blank" rel="external">Xamarin 宣布开源</a></p>
-<p>Microsoft 收购了使用 Mono 进行跨平台开发的工具提供商 Xamarin 后，与本周将 Xamarin 各部件进行了开源，其中也包含 <a href="https://github.com/xamarin/xamarin-macios" target="_blank" rel="external">iOS 和 Mac 的相关组件</a>。Xamarin 在之前完全变为免费，而本次的开源也预示了微软继续对这个项目进行开发和支持的愿景。对于同时开发 iOS 和 Android 应用的开发者来说，使用 C# 在同一个项目中对逻辑和 Model 部分进行开发维护是一件很吸引人的方式，而以 Xaramin 为代表的统一逻辑层以及各自原生的 UI 层在现在看来是一种相对稳定的跨平台开发方式。</p>
-<p><a href="https://affiliate.itunes.apple.com/resources/documentation/apple-music-best-practices-for-app-developers/" target="_blank" rel="external">Apple 向开发者宣传 Apple Music API</a></p>
-<p>Apple 在 <a href="https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9_3.html" target="_blank" rel="external">iOS 9.3</a> 中新加了 <code>SKCloudServiceController</code> 在内的一系列访问和更新 Apple Music 的功能，但是因为是在小版本中进行的更新，对于开发者来说缺少学习和了解的机会。为了让更多开发者及时了解相关 API 的信息，Apple 本周制作了一个介绍 Apple Music 相关 API 使用方法的网页，并通过邮件的方式通知开发者。如果你需要在项目中涉及访问或者操作 Apple Music 的话，可以关注一下。</p>
-<p><a href="http://digi.tech.qq.com/a/20160502/004625.htm" target="_blank" rel="external">谷歌低调推进Android Auto 已有百款车型支持</a></p>
-<p>Android Auto是一款谷歌为汽车开发的操作系统，用户需要用5.0版本以上的Android系统智能手机连接到Android Auto平台，激活内置的车载娱乐系统。在过去的一年里，Android Auto已经有了很大程度的发展，许多汽车厂商都计划为自己的产品增加这一系统，并且支持的车型也在逐渐增加。</p>
-<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p><strong>iOS</strong></p>
-<p><a href="https://www.raywenderlich.com/126522/reactivecocoa-vs-rxswift" target="_blank" rel="external">ReactiveCocoa vs RxSwift</a></p>
-<p>自从 ReactiveCocoa 以来，响应式函数式编程一直被不少开发者使用和喜爱。相对于命令式的编程方式，响应式编程在处理用户响应和事件流上天生的优势在不少时候能够简化代码，提高可读性。而在 Swift 中，后起之秀 RxSwift 更是抢尽风头。这篇文章为我们对比了 ReactiveCocoa 和 RxSwift 各自的优势和适用场景，如果你正打算在项目中尝试响应式编程的方法，这篇文章可能可以为你的基础框架选择提供一定建议。</p>
-<p><a href="http://casatwy.com/OOP_nomodel.html" target="_blank" rel="external">去model化和数据对象</a></p>
-<p>在我们构建项目时，一般都会有一个 Model 层来存储和表示数据。在应用的各组件或者各层中，我们是否应该直接传递这个 model 对象，是一个很重要的选择。因为对于 model 对象的传递，往往意味着向我们的代码中引入新的依赖，这在有些时候可能不是我们想要的结果。本文分析了在数据传递时的“去 Model 化”的一些想法以及对应的替代方式，如果又需要，可以在进行架构设计时进行参考。</p>
-<p><a href="http://swiftcafe.io/2016/05/01/swift3/" target="_blank" rel="external">聊聊 Swift 3.0 - 新版本对我们的影响</a></p>
-<p>随着 WWDC 16 的临近，Swift 3.0 也将很快与我们见面。得益于 Swift 的开源和详细的发展进程表，我们可以提前预知 Swift 3 中稳定的 ABI (Application Binary Interface)、更加简洁的新 API 规范、更完善的跨平台支持等特性。新版本中的这些变化到底意味着什么，会对我们的开发产生什么影响，这篇文章从这些方面着手为我们进行了一些分析。</p>
-<p><a href="http://holko.pl/2016/04/26/xcode-search/" target="_blank" rel="external">Xcode Search: the Hidden Gems</a></p>
-<p>Xcode 应该是大多数 iOS/Mac 开发者日常工作中最常用的 IDE 工具了。Xcode 其实为我们提供了十分强大的搜索功能，包括像是使用 Pattern 搜索、只搜索定义、自定义搜索范围等等特性。这篇文章为我们列举了那些不太常用但是绝对有效的提高我们搜索效率的方法，如果你经常困扰于使用 Xcode 的搜索却找不到想要的代码的话，这篇文章绝对值得一读。</p>
-<p><strong>Android</strong></p>
-<p><a href="http://hukai.me/android-performance-patterns-season-5/" target="_blank" rel="external">Android性能优化典范 - 第5季</a></p>
-<p>这是Android性能优化典范第5季，文章共10个段落，涉及的内容有：多线程并发的性能问题，介绍了AsyncTask，HandlerThread，IntentService与ThreadPool分别适合的使用场景以及各自的使用注意事项，这是一篇了解Android多线程编程不可多得的基础文章，清楚的了解这些Android系统提供的多线程基础组件之间的差异以及优缺点，才能够在项目实战中做出最恰当的选择。</p>
-<p><a href="http://bugly.qq.com/bbs/forum.php?mod=viewthread&amp;tid=894" target="_blank" rel="external">关于 Android N 那些你不知道的事儿</a></p>
-<p>今年3月，Google破天荒提前半年发布了Android N开发者预览版。本文分析了Android N的新特性，内容详细并且分析的全面到位。</p>
-<p><a href="http://blog.csdn.net/guolin_blog/article/details/50727753" target="_blank" rel="external">Android drawable微技巧，你所不知道的drawable的那些细节</a></p>
-<p>drawable这个东西相信大家天天都在使用，每个人都再熟悉不过了，但再熟悉不过的技术，可能也有一些你所不知道的细节，本文就带我们一起探究了这些微小的细节。 </p>
-<p><a href="https://github.com/nukc/SearchViewAnalysis" target="_blank" rel="external">SearchView源码解析</a></p>
-<p>SearchView是一个搜索框控件。搜索是一个使用频率非常高的功能，很多同学都是用EditText来自定义搜索功能，其实Android的v7包中的SearchView就是用来实现搜索框功能的，很多同学对这个组件并不了解。本文对android.support.v7.widget包下的SearchView进行了解析，有助于我们了解SearchView的特性。</p>
-<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><p><strong>iOS</strong></p>
-<p><a href="https://github.com/garnele007/SwiftOCR" target="_blank" rel="external">SwiftOCR</a></p>
-<p>SwiftOCR 是一个用 Swift 写的 OCR 框架，相比于 C++ 写的有三十年历史的 <a href="https://github.com/tesseract-ocr/tesseract" target="_blank" rel="external">Tesseract</a>，作者宣称在识别数字和字母的准确性和效率上，SwiftOCR 都具有压倒性的优势。如果你恰好有识别像是验证码或者礼品卡上的数字和字母这样的需求的话，不妨尝试下这个框架。同时如果你在学习图像识别或者是人工智能之类的课题的话，这个项目也会  是不错的学习资料。</p>
-<p><a href="https://github.com/JohnEstropia/CoreStore" target="_blank" rel="external">CoreStore</a></p>
-<p>很多时候我们往往会选择一些替代方案或者对 Core Data 的再次包装和简化。CoreStore 就是一个基于 Core Data 的 API 封装，它能让我们利用 Swift 的特性以一种更好的方式使用 Core Data。</p>
-<p><a href="https://github.com/symentis/Palau" target="_blank" rel="external">Palau</a></p>
-<p>Swift 提供的类型安全对现有的 Cocoa API 的改进是很有潜力的，而 <code>NSUserDefaults</code> 就是一个很好的改进案例。Palau 用类型安全的方式对 <code>NSUserDefaults</code> 进行了封装，同时也扩展了 <code>NSUserDefaults</code> 所能支持的类型，让我们可以用更好的方式使用 <code>NSUserDefaults</code>。 </p>
-<p><a href="https://github.com/wangshengjia/LeeGo" target="_blank" rel="external">LeeGo</a></p>
-<p>LeeGo 是一个尝试使用声明式的，可配置的和易复用的 UI 组件进行用户界面开发的方式。相对于直接创建和书写 <code>UIView</code> 的子类，LeeGo 通过创建 <code>Brick</code> 来将用户界面分解成一个一个的小块，然后再将它们进行组合并展示为完整的用户界面。相比于传统的 <code>UIView</code>，LeeGo 的 UI 创建方式是声明式的，并且能够通过 JSON 进行远程的更新，是一种十分具有吸引力的 UI 构建方式。</p>
-<p><strong>Android</strong></p>
-<p><a href="https://github.com/danielzeller/Depth-LIB-Android-" target="_blank" rel="external">Depth-LIB-Android-</a></p>
-<p>这是一个非常酷炫的Fragment切换动画效果。<a href="http://www.jianshu.com/p/a4dabb3554c1" target="_blank" rel="external">这里</a>是一篇介绍该动画实现过程的文章。</p>
-<p><a href="https://github.com/sfsheng0322/StickyHeaderListView" target="_blank" rel="external">StickyHeaderListView</a></p>
-<p>这是国内开发者的一个开源项目，可基于实际需求做出的灵活可定制的ListView，比如支持无限循环的广告位，高度可动态配置的Header2和Header3（使用GridView实现），分类、排序和筛选布局滑动到顶部后吸附、悬停等等。</p>
-<p><a href="https://github.com/pili-engineering/PLDroidPlayer" target="_blank" rel="external">PLDroidPlayer</a></p>
-<p>PLDroidPlayer 是一个适用于Android平台的音视频播放器SDK，可高度定制化和二次开发，为Android开发者提供了简单、快捷的接口，帮助开发者在Android平台上快速开发播放器应用。</p>
-<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><blockquote>
-<p>新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。</p>
-</blockquote>
-<p><strong>资深Android/iOS开发工程师 by 阿里云</strong></p>
-<p>地点北京或杭州。负责阿里云MBaaS相关产品的移动端研发工作。要求两年以上客户端开发经验，薪资面议。有意者发送简历至：lingming.yb@alibaba-inc.com</p>
-<h2 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h2><blockquote>
-<p>新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。</p>
-</blockquote>
-<p><a href="http://gmtc.geekbang.org/?utm_source=zhoubao&amp;utm_medium=xuachuan02&amp;utm_campaign=0425" target="_blank" rel="external">GMTC全球移动技术大会</a></p>
-<p>6月24-25日北京举办。上周新增讲师腾讯社交平台部Android开发工程师王少鸣，向大家分享QQ空间的React Native实践。本周起开始8折促销期间，5人以上团购更多优惠，欢迎购票参加。</p>
-<p><a href="https://developer.ubuntu.com/zh-cn/beijing-hackathon/?utm_source=BeijingHack201605&amp;utm_medium=infoq&amp;utm_campaign=Hackathons" target="_blank" rel="external">Celebrate Ubuntu黑客松——北京站</a></p>
-<p>5月7-8日在北京举行。使用Ubuntu手机SDK开发应用，包括Native和类似H5的一种都可以。奖品有装有Ubuntu手机系统的魅族PRO5、BQ M10平板等。喜欢Hackathon和Ubuntu的同学不可错过。</p>
-<hr>
-<p>上周移动开发前线公众号精彩文章：</p>
-<ul>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112121&amp;idx=1&amp;sn=c5cc27a8cefd0dc8e1ed956e82a76cd9#rd" target="_blank" rel="external">群分享：蘑菇街支付金融Android单元测试实践</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112134&amp;idx=1&amp;sn=c26ceb682e361ae33bc1eb5348e5e7bb#rd" target="_blank" rel="external">React Native如何做跨平台设计</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112140&amp;idx=1&amp;sn=8989b9a6ea5cf22fbea8d666e66a9767#rd" target="_blank" rel="external">使用Swift进行Android开发</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112156&amp;idx=1&amp;sn=8dfaa630e8bc6ef66b4263bffd2d29dc#rd" target="_blank" rel="external">群分享：从Android到Swift iOS开发：语言与框架对比</a></li>
-</ul>
-<p>阅读更多移动开发好文，欢迎关注『移动开发前线』公众号。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-10/" data-id="ciql2n1fq0001e4p1oxbxoh67" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-11/" data-id="ciqtmupmu000bwcp1v2cemcxo" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -994,7 +974,7 @@
 
 
   <nav id="page-nav">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">__('next') &raquo;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">__('next') &raquo;</a>
   </nav>
 </section>
         
@@ -1010,7 +990,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archieven</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li></ul>
     </div>
@@ -1020,9 +1000,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Recente berichten</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/articles/weekly-20/">移动开发每周阅读清单：第二十期</a>
+          </li>
         
           <li>
             <a href="/articles/weekly-19/">移动开发每周阅读清单：第十九期</a>
@@ -1038,10 +1022,6 @@
         
           <li>
             <a href="/articles/weekly-16/">移动开发每周阅读清单：第十六期</a>
-          </li>
-        
-          <li>
-            <a href="/articles/weekly-15/">移动开发每周阅读清单：第十五期</a>
           </li>
         
       </ul>
