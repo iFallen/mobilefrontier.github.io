@@ -64,6 +64,97 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-weekly-15" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/articles/weekly-15/" class="article-date">
+  <time datetime="2016-06-06T14:03:21.000Z" itemprop="datePublished">2016-06-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/articles/weekly-15/">移动开发每周阅读清单：第十五期</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>『移动开发每周阅读清单』第十五期与大家见面了，下周就是WWDC了，除了我们都已经知道的Swift 3.0，不知道苹果这次会给开发者带来什么惊喜呢？请拭目以待。</p>
+<h2 id="新闻"><a href="#新闻" class="headerlink" title="新闻"></a>新闻</h2><p><a href="http://www.macrumors.com/2016/06/03/apple-updates-wwdc-app-for-2016/" target="_blank" rel="external">WWDC 16 临近，Apple 推出新的 WWDC 应用</a></p>
+<p>WWDC 16 将于一周后召开，最近 Apple 升级了 WWDC 的应用。新版本中采用了开发者们普遍喜爱的暗色主题，你也可以使用这个应用下载和观看之前几年的 WWDC 视频。除此之外，新版本还支持新一代的 Apple TV，也针对 iPad 进行了多任务的适配。</p>
+<p><a href="https://swift.org/download/#releases" target="_blank" rel="external">Swift 3.0 Preview 1 短暂发布后被撤回</a></p>
+<p>WWDC 16 上应该会公布 Swift 3.0 的相关消息。本周，Apple 曾经发布了第一个 Swift 3.0 的预览版本，其中这一年来的大部分被接受的提案都已经被实现了。但是随后这个版本就被替换回了 2.2 的开发分支的快照版本。可能最终 Swift 3.0 预览版还是要等到 WWDC 召开才会和 Xcode 8 beta 一同发布，如果你有计划将应用或者框架尽快升级适配 Swift 3.0 的话，最好尽早开始准备和关注。</p>
+<p><a href="http://www.ithome.com/html/android/230173.htm" target="_blank" rel="external">中文Android 7.0体验：改进不明显，升级需慎重</a></p>
+<p>谷歌早前已经放出了Android N（安卓7.0）的第三个预览版，整体功能改进已经成形，之后应该就只是小修小补了。Android 7.0的一些重要改进包括多任务窗口模式、快速回复通知消息、DayDreamVR模式（目前还不能体验）、快速切换最近应用、新Emoji等，那么现在值不值得升级呢？国内已经有人体验了升级Android N后的Nexus6P，得出的结论是目前该版本还存在较多的bug，并且相较国内其它ROM功能改进并没有新意，建议用户谨慎升级。</p>
+<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p><strong>iOS</strong></p>
+<p><a href="http://www.jianshu.com/p/a8db4fa6d155" target="_blank" rel="external">使用 CocoaPods 模块化iOS应用</a></p>
+<p>很多开发者会使用 CocoaPods 来作为第三方框架的依赖管理工具，但是 CocoaPods 的用途绝不仅限于此。我们可以在开发中将复杂的程序的各个模块进行拆分，以降低开发难度和代码耦合，然后使用 CocoaPods 把这些模块聚合在一起，来构建更完整和强大的应用程序。这篇文章就针对 CocoaPods 的该使用场景进行了介绍。</p>
+<p><a href="http://wereadteam.github.io/2016/05/23/GYBootingProtection/" target="_blank" rel="external">iOS 启动连续闪退保护方案</a></p>
+<p>iOS 应用有时可能遇到启动必 crash 的绝境：也就是每次打开应用都闪退，无法正常使用。这可以说是最差的用户体验，也必然意味着很多一星评论。尽量避免这种情况的发生，或者当发生启动时崩溃的时候，采取一些补救措施，可能可以挽救你的应用的口碑。本文介绍了一种对连续闪退问题的产生原因进行检测和修复机制方式，通过引入 GYBootingProtection，可以让你的应用具备一些自修复的功能。</p>
+<p><a href="http://www.jessesquires.com/avoiding-objc-in-swift/" target="_blank" rel="external">Avoiding the overuse of @objc in Swift</a></p>
+<p>作者在迁移到 Swift 2.2 的过程中发现了新加入的 <code>#selector</code> 语法和原来的 <code>Selector(&quot;method:&quot;)</code> 的不同。对于纯 Swift 的内容，如果不添加 <code>@objc</code> 的话将失去一些与 Objective-C 运行时相关的特性。但是 <code>@objc</code> 关键字又很容易扩散到项目的其他地方，作者通过组合两个协议来巧妙地实现了原来的意图。</p>
+<p><strong>Android</strong></p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&amp;mid=2653577186&amp;idx=1&amp;sn=1a5f6369faeb22b4b68ea39f25020d28&amp;scene=1" target="_blank" rel="external">深入浅出Retrofit</a></p>
+<p>Android开发中，从原生的HttpUrlConnection到经典的Apache的HttpClient，再到对前面这些网络基础框架的封装，比如Volley、Async Http Client，Http 相关开源框架的选择还是很多的，其中由著名的Square公司开源的Retrofit 更是以其简易的接口配置、强大的扩展支持、优雅的代码结构受到大家的追捧。本文详细解析了Retrofit的使用方法及实现原理。</p>
+<p><a href="http://www.jianshu.com/p/1d2dcbc1e0f2" target="_blank" rel="external">Android用户引导库MaterialIntroView使用及源码分析</a></p>
+<p>由于新功能引导在各个发布版间表现各异，几乎难以统筹。其次，功能引导具有塑造艺术的可能，直接导致每一个版本都需要单独沟通，而且变更几率较大，难以一次性审校通过。MaterialIntroView是一款能解决这个痛点的开源项目，本文介绍了MaterialIntroView的实现原理。</p>
+<p><a href="http://blog.csdn.net/u012673089/article/details/51592352" target="_blank" rel="external">浅谈AndroidTV开发与常规APP开发的异同点</a></p>
+<p>如今Android电视、Android盒子已经逐渐被人们接受，国内已经有多家厂商生产这些产品。随着Android TV销售渠道的打开，开发TV App必然是另一个新的机会。虽然手机App与TV App都是基于Android SDK进行开发，但也有一些不同之处，本文作者根据自己几个月的TV App开发经验，总结了一些AndroidTV开发与常规APP开发的异同点。</p>
+<p><a href="http://weishu.me/2016/05/30/how-to-debug-android-framework/" target="_blank" rel="external">如何调试Android Framework？</a></p>
+<p>要想精通Android开发，仅仅能熟练使用SDK是远远不够的，Android Framework层的知识是也必须学习。学习Framework层有助于我们理解Android的运行机制，能够帮助我们写出更加高效、优雅的代码。学习Framework层时，调试技能显的尤为重要，本文为大家介绍了如何调试Android Framework。</p>
+<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><p><strong>iOS</strong></p>
+<p><a href="https://github.com/philackm/Scrollable-GraphView" target="_blank" rel="external">ScrollableGraphView</a></p>
+<p>一个非常漂亮的带有动画的图表框架。你可以用它来制作无限滚动的条形图或者曲线图。该框架也提供了很多可自定义的要素，使用起来非常容易。这个框架很适合用来进行简单的数据展示，原型设计等。</p>
+<p><a href="https://github.com/AugustRush/Stellar" target="_blank" rel="external">Stellar</a></p>
+<p>Stellar 是一个 Swift 的物理动画框架，它基于 Apple 的 UIDynamic，并对其进行了一些高层次的封装，是我们能以很简单的 API 来制作常见的动画效果。这个框架使用了类似 Promise 的层联方法来组织动画，并且全面适配和利用了 Swift 的语法特点。同时，框架还为我们提供了一些 Playground 的例子，让我们能够很直观和迅速地调试动画，非常方便。</p>
+<p><a href="https://github.com/layerhq/Atlas-iOS" target="_blank" rel="external">Atlas</a></p>
+<p>如果你需要在应用中制作一个和系统的信息应用类似的交流工具的聊天界面的话，Atlas 可能会是最快的选择了。你可以通过简单地实现 Atlas 的 data source 来迅速搭建一个聊天界面，也可以使用内建的众多组件来实现像是联系人查找，消息排序等功能。如果有需要，你也可以对界面元素进行自定义，以满足业务需求。</p>
+<p><strong>Android</strong></p>
+<p><a href="https://github.com/dodola/RocooFix" target="_blank" rel="external">RocooFix</a></p>
+<p>该项目是HotFix项目作者的又一新作。之前的HotFix项目太过简单，也有很多同学用Nuwa遇到很多问题，作者也不再修复，所以重新构建了一套工具。</p>
+<p><a href="https://github.com/fcannizzaro/material-tip" target="_blank" rel="external">material-tip</a></p>
+<p>这是一个自定义的选择提示框，根据Google的<a href="https://www.google.com/design/spec/growth-communications/onboarding.html#onboarding-quickstart" target="_blank" rel="external">offer education</a>编写。</p>
+<p><a href="https://github.com/DmitryMalkovich/material-design-dimens" target="_blank" rel="external">material-design-dimens</a></p>
+<p>该项目封装了Material Design指南上要求的颜色、尺寸等信息。使用该项目可以让我们在适配Material　Design时，减少一些细节操作。</p>
+<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><blockquote>
+<p>新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。</p>
+</blockquote>
+<p><strong>iOS 高级/资深工程师 by 饿了么</strong></p>
+<p>地点上海。要求能独立完成开发主管分配的开发任务，并对质量负责，参与iOS应用架构的设计和规范化工作。薪资面议。简历投递邮箱：zhongdan.wei@ele.me</p>
+<h2 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h2><blockquote>
+<p>新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。</p>
+</blockquote>
+<p><a href="http://gmtc.geekbang.org/?utm_source=zhoubao&amp;utm_medium=xuachuan02&amp;utm_campaign=0606" target="_blank" rel="external">GMTC全球移动技术大会</a></p>
+<p>6月24-25日北京举办。来自BAT、携程、滴滴、微博、和社区的技术专家联袂分享，主题包括应用架构、性能优化、动态化、插件化、Swift、React Native、Weex等，为中高级移动开发工程师献上一场技术盛宴！在『移动开发前线』公众号回复“大会”可获得购票优惠码。</p>
+<hr>
+<p>上周移动开发前线公众号精彩文章：</p>
+<ul>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112337&amp;idx=1&amp;sn=3f5e09f1894de4111c0e41d6f230d18a#rd" target="_blank" rel="external">2016年，你要学习这些移动开发技术</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112342&amp;idx=1&amp;sn=7e8ceacb00e9facb2adc399d29ed99c1#rd" target="_blank" rel="external">Android新布局方式ConstraintLayout介绍与学习资料</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112345&amp;idx=1&amp;sn=a910fb11d5478acec4dd99dcd1967b44#rd" target="_blank" rel="external">LuaView：基于Lua的移动端跨平台动态化方案</a></li>
+</ul>
+<p>阅读更多移动开发好文，欢迎关注『移动开发前线』公众号。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-15/" data-id="cis8u1ovg00069cp1zdz8c1fp" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-weekly-14" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/articles/weekly-14/" class="article-date">
@@ -144,7 +235,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-14/" data-id="cirw75lcu0004awp1bb2oct10" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-14/" data-id="cis8u1ovj00079cp18zt3zpr6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -238,7 +329,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-13/" data-id="cirw75lcw0006awp1curfxe55" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-13/" data-id="cis8u1ov100019cp1usyjey4c" class="article-share-link">Share</a>
       
       
     </footer>
@@ -333,7 +424,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-12/" data-id="cirw75lct0003awp1mmw9m87x" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-12/" data-id="cis8u1ovd00049cp1taucpoxz" class="article-share-link">Share</a>
       
       
     </footer>
@@ -423,7 +514,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-11/" data-id="cirw75lcv0005awp1u2x8yew4" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-11/" data-id="cis8u1ovk00089cp15e0azwt8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -521,7 +612,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-10/" data-id="cirw75le0000lawp1v311tbgs" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-10/" data-id="cis8u1ov300029cp1dkwdshtv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -615,7 +706,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-9/" data-id="cirw75ldf000jawp1p4w2cxyg" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-9/" data-id="cis8u1owf000n9cp1hgplwrt7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -714,7 +805,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-8/" data-id="cirw75le3000nawp1w79icsk0" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-8/" data-id="cis8u1owg000o9cp1wt0br532" class="article-share-link">Share</a>
       
       
     </footer>
@@ -813,7 +904,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-7/" data-id="cirw75ldd000hawp1qntdh95o" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-7/" data-id="cis8u1ow9000j9cp1bcs8kzwl" class="article-share-link">Share</a>
       
       
     </footer>
@@ -895,92 +986,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-6/" data-id="cirw75ldc000gawp1w56t0edi" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-weekly-5" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/articles/weekly-5/" class="article-date">
-  <time datetime="2016-03-28T07:49:20.000Z" itemprop="datePublished">2016-03-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/articles/weekly-5/">移动开发每周阅读清单：第五期</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>​『移动开发每周阅读清单』第五期与大家见面了，上周苹果春季发布会已经开过了，比起以往的产品还有亮点，这次大家好像就剩下吐槽了呢。</p>
-<h2 id="新闻"><a href="#新闻" class="headerlink" title="新闻"></a>新闻</h2><p><a href="http://www.macrumors.com/2016/03/22/9-7-ipad-pro-iphone-se-2gb-ram/" target="_blank" rel="external">Apple 2016 春季发布会公布小屏 iPhone SE 以及 9.7 inch iPad Pro</a></p>
-<p>今年的春季发布会比以往都要短，Apple 在发布会上主要公布了小屏 iPhone SE 以及 9.7 inch iPad Pro。两者都配置了与当前 Apple 旗舰产品类似的硬件，包括 2GB 的内存以及最新的 CPU。Mac 产品线本次没有按照惯例进行更新，有媒体猜测 Apple 正在重新设计 13 inch 和 15 inch 的笔记本电脑，并将于六月或者七月随着 WWDC 一同公布。</p>
-<p><a href="http://minutestomidnight.net/blog/2016/3/considering-an-xcode-for-ipad-pro" target="_blank" rel="external">Xcode for iPad Pro 消息</a></p>
-<p>iPad Pro 具有堪比甚至超过某些笔记本电脑的屏幕尺寸和性能，而且被 Apple 定义为一款生产力工具。最近有传言表明 Apple 正在开发 iPad Pro 版的 Xcode，包括文本编辑，Interface Builder，完整的编译链工具，版本管理，以及本机调试等一系列激动人心的特性。如果消息属实，那在不久的将来我们应该就可以在移动设备上开发移动设备应用了。</p>
-<p><a href="http://news.4399.com/hangye/zixun/vr/m/615648.html" target="_blank" rel="external">谷歌计划做Android手机通用VR设备 类似三星Gear开放版</a></p>
-<p>Google内部人士的消息称，Google第一款真正意义上的VR设备实际上就相当于三星Gear VR的开放版——该产品不会受品牌约束，支持所有的Android手机设备接入。在软件层面上，Google未来的计划是把VR功能内建到Android中。如果这是真的，那么诸如Cardboard这样的VR设备将无需第三方应用介入，简化转换过程，进而从理论上降低延迟。目前Google官方尚未对Android VR和VR头戴设备的消息做出回应，但如果不出意外的话，相信在今年5月的I/O大会上我们就能一睹为快了。</p>
-<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p><strong>iOS</strong></p>
-<p><a href="https://github.com/seedante/iOS-Note/wiki/ViewController-Transition" target="_blank" rel="external">iOS 视图控制器转场详解</a></p>
-<p>iOS 7 开始，SDK 为我们提供了方便的自定义 View Controller 转场的解决方案，通过精心调整，可以说我们现在能够实现任何复杂的转场效果，这对于提高应用品质和用户的使用体验可以说是至关重要的。这篇文章介绍了转场背后的机制，缺陷以及实现过程中的技巧与陷阱。如果你对自定义转场还不理解的话，这篇文章将通过一步步带你实现一些转场效果，让你理解自定义转场背后的原理。</p>
-<p><a href="https://github.com/stepanhruda/dyld-image-loading-performance" target="_blank" rel="external">iOS 9.3 更新，动态库加载速度大幅优化</a></p>
-<p>随着春季发布会的结束，iOS 9.3 也正是发布了。之前 iOS 8 一直以来困扰开发者的动态库冷加载速度太慢的问题在 iOS 9.3 中得到了彻底的解决。开发者发现，对于数量较多的动态框架，新版本中加载速度约提升了 75%。不过因为现在 app 的不太可能只从 iOS 9.3 开始支持，因此动态库的使用还是应该谨慎，或者使用文中的方法来绕过加载过慢的问题。</p>
-<p><a href="https://realm.io/news/tryswift-jesse-squires-contributing-open-source-swift/" target="_blank" rel="external">Contributing to Open Source Swift</a></p>
-<p>这是本月 try! Swift 会议上一个 session 的视频。在 Swift 开源后，iOS/OS X 开发者社区展现出了巨大的热情并提交了相当多的贡献，来帮助 Swift 进步。这个 session 为我们讲述了如何上手并准备为 Swift 提交代码或者做出贡献。有志于为 Swift 开源作出贡献，或者是对 Swift 源码结构和开发方式好奇的开发者可以看看。</p>
-<p><strong>Android</strong></p>
-<p><a href="http://blog.zhaiyifan.cn/2016/03/16/android-new-project-from-0-p3/" target="_blank" rel="external">从零开始的Android新项目3 - MVPVM in Action， 谁告诉你MVP和MVVM是互斥的</a></p>
-<p>MVVM(Model-View-ViewModel)，在Android上对应data binding。即ViewModel到View的映射，不需要再去自己找到View，然后更新字段，而是在映射建立后直接更新ViewModel然后反映到View上。而MVP解决了activity/fragment过重的问题，通过V/P分离能够帮助提高可维护性。本文作者在自己的新应用中，采用了MVP+MVVM的混合方式，阅读文章，了解这种架构的详细实施方案。</p>
-<p><a href="http://www.jayfeng.com/2016/03/22/Android-Bitmap%E9%9D%A2%E9%9D%A2%E8%A7%82/" target="_blank" rel="external">Android Bitmap面面观</a></p>
-<p>在日常开发中，可以说和Bitmap低头不见抬头见，基本上每个应用都会直接或间接的用到，而这里面又涉及到大量的相关知识。本文是对Bitmap常用知识的梳理总结，有助于我们全面的了解Bitmap的一些细节。</p>
-<p><a href="http://www.jianshu.com/p/749c4531d108" target="_blank" rel="external">ViewAnimator源码分析</a></p>
-<p>在项目开发中我们应该都接触过动画效果的开发。我们知道在Andorid中实现动画大致分为两类，一种是Tween/Frame动画，另一种是Property Animation也就是属性动画。本文章介绍了属性动画中关于ViewAnimator的相关实现原理。ViewAnimator是用来简化我们写属性动画代码量的，它可以通过非常简洁的代码通过建造者模式调用来组合各种动画，从而让代码简洁易读。本文详细解析了ViewAnimator的源码。</p>
-<p><a href="http://tech.meituan.com/android_custom_lint.html" target="_blank" rel="external">Android自定义Lint实践</a></p>
-<p>Android Lint是Google提供给Android开发者的静态代码检查工具。使用Lint对Android工程代码进行扫描和检查，可以发现代码潜在的问题，提醒程序员及早修正。为保证代码质量，很多开发者都会在开发流程中加入代码检查的功能，如果代码检测到问题，则无法合并到正式分支中，这些检查中就包括Lint。而由于原生Lint无法满足一些特有的需求以及原生Lint存在一些检测缺陷或者缺少一些必要的检测，所以需要自定义Lint。本文是美团关于自定义Lint的实践。</p>
-<p><a href="http://wangxinghe.me/blog/2016-03-27/rxjava-basis/" target="_blank" rel="external">RxJava学习总结</a></p>
-<p>RxJava一个响应式编程框架，采用观察者设计模式，该框架毫无疑问是近两年来最火热的Android开发技术这一，本文是一篇关于RxJava的基础教程，作者总结了自己学习RxJava的一些知识点，有助于RxJava新手快速熟练该技术。</p>
-<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><p><strong>iOS</strong></p>
-<p><a href="https://github.com/SwiftKitz/Appz" target="_blank" rel="external">Appz</a></p>
-<p>在 iOS 9 中使用 URL Scheme 打开其他 app 的方式受到了很大的限制，为了安全因素，Apple 鼓励使用 Universal Link 的方式在应用间跳转。但是相比起探测应用的 URL Scheme，链接更难以整理。Appz 是一个帮助开发者更容易使用 Deep Link 的框架，它收集了很多常见应用的打开方式和对应的 app id，并且保证了外部链接的检查和打开代码与应用的其他逻辑代码分离，并且易于测试。</p>
-<p><a href="https://github.com/delba/Permission" target="_blank" rel="external">Permission</a></p>
-<p>在 iOS 中获取像是推送通知，麦克风或者联系人等权限的代码虽然不是很困难，但是却分散在 SDK 的各处，使用起来不是很方便。这个框架将 iOS 中所有的权限请求集中处理，并为我们提供了统一和简洁的 API。</p>
-<p><a href="https://github.com/kuler90/RKTagsView" target="_blank" rel="external">RKTagsView</a></p>
-<p>帮助生成类似 OS X 上 NSTokenField 那样的 tag 的视图类。</p>
-<p><a href="https://github.com/muukii/NextGrowingTextView" target="_blank" rel="external">NextGrowingTextView</a></p>
-<p>随着输入文本变化而自动调整高度的 text view。相比起其他类似的实现，NextGrowingTextView 是基于 iOS 7 的 TextKit 大幅修改之前的类似框架的重写。它为使用者提供了足够的委托方法和访问接口，十分灵活。</p>
-<p><strong>Android</strong></p>
-<p><a href="https://github.com/arut/nginx-rtmp-module" target="_blank" rel="external">nginx-rtmp-module</a></p>
-<p>这是一个本地的RTMP音视频直播demo，有了它，就可以自己学习和使用ffmpeg、libRTMP库，能够在Android下写推流以及拉流播放的代码和应用。</p>
-<p><a href="https://github.com/Nightonke/BoomMenu" target="_blank" rel="external">BoomMenu</a></p>
-<p>BoomMenu是一款带有爆炸效果的菜单按钮，不仅效果很炫，并且提供了多达32种的排列方式。</p>
-<p><a href="https://github.com/glomadrian/RoadRunner" target="_blank" rel="external">RoadRunner</a></p>
-<p>Road Runner是一个通过使用SVG图片，快速生成加载动画的库。</p>
-<hr>
-<p>上周移动开发前线公众号优秀文章：</p>
-<ul>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=402985015&amp;idx=1&amp;sn=7a25c3f3de45031d5c9c58478113fa5e#rd" target="_blank" rel="external">国外iOS大牛的分享经验和对Swift的看法</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=403009403&amp;idx=1&amp;sn=d19264fa1d06b9c5a9dfb1d192a0ed8e#rd" target="_blank" rel="external">携程移动App架构优化之旅</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=403063229&amp;idx=1&amp;sn=34651b982e211ae64742913026d459b0#rd" target="_blank" rel="external">JSPatch开源经验分享</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=403104403&amp;idx=1&amp;sn=8a200e29db744eb032a75e88a61e5c9c#rd" target="_blank" rel="external">移动平台的3D编程介绍：在你的应用展示3D模型</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-5/" data-id="cirw75ldb000fawp1rzfayktl" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-6/" data-id="cis8u1owd000l9cp19o05j84d" class="article-share-link">Share</a>
       
       
     </footer>
@@ -1024,6 +1030,10 @@
       <ul>
         
           <li>
+            <a href="/articles/weekly-25/">移动开发每周阅读清单：第二十五期</a>
+          </li>
+        
+          <li>
             <a href="/articles/weekly-24/">移动开发每周阅读清单：第二十四期</a>
           </li>
         
@@ -1037,10 +1047,6 @@
         
           <li>
             <a href="/articles/weekly-21/">移动开发每周阅读清单：第二十一期</a>
-          </li>
-        
-          <li>
-            <a href="/articles/weekly-20/">移动开发每周阅读清单：第二十期</a>
           </li>
         
       </ul>
