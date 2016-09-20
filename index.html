@@ -64,6 +64,82 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-weekly-29" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/articles/weekly-29/" class="article-date">
+  <time datetime="2016-09-20T14:59:37.000Z" itemprop="datePublished">2016-09-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/articles/weekly-29/">移动开发每周阅读清单：第二十九期</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="新闻"><a href="#新闻" class="headerlink" title="新闻"></a>新闻</h2><p><a href="http://thenextweb.com/apple/2016/09/13/what-a-day-for-apple/" target="_blank" rel="external">iOS 10 正式版发布 用户升级遇多种问题</a></p>
+<p>Apple 发布了 iOS 10 正式版更新，不少在第一时间升级的用户在通过 OTA 方式升级时都遇到了假死的情况，设备会进入恢复模式，需要连接 iTunes 进行恢复以及 Apple Music 音乐库无法同步的问题。</p>
+<p><a href="http://www.ithome.com/html/iphone/258057.htm" target="_blank" rel="external">可怕的事实：美国49%用户每月下载App数量为零</a></p>
+<p>根据comScore最新的移动应用报告，美国一半智能手机用户每月下载的应用数量为零。在给定的一个月时间里，有49%美国智能手机用户没有下载应用。在51%下载过应用的智能手机用户中，“平均的应用下载数量为3.5个”。“然而，一小部分用户下载了大部分应用。13%的智能手机用户下载的应用数量超过总数的一半。”</p>
+<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p><strong>iOS</strong></p>
+<p><a href="">Chris Lattner 对 Swift 3 的总结与对 Swift 4 的展望</a></p>
+<p>Swift 语言创始人 Chris 发表了对 Swift 3 开发的回顾以及公布了对 Swift 4 阶段性的开发计划。同时本文还有一篇<a href="http://swift.gg/2016/09/14/chris-lattner-on-wrapping-up-swift-3-starting-swift-4/" target="_blank" rel="external">中文翻译</a>。</p>
+<p><a href="https://developer.apple.com/swift/blog/?id=37" target="_blank" rel="external">Working with JSON in Swift</a></p>
+<p>Apple 官方关于 JSON 转 Model 的 Swift 3 例子，它比 JSONExport 等通常的做法要优雅一点的地方在于：它不是在 struct 里面定义optional var, 而是在 model extension 里增加一个 failable initializer。</p>
+<p><a href="http://paper.seebug.org/42/" target="_blank" rel="external">BadURLScheme in iOS</a></p>
+<p>本文作者分享了 iOS 中的 XSS 漏洞，主要是在 iOS 对于 URL Scheme 及其在 UIWebView 等控件的自动诊断识别等处理机制下导致跨应用 XSS 漏洞。</p>
+<p><strong>Android</strong></p>
+<p><a href="http://blog.csdn.net/sbsujjbcy/article/details/52541803" target="_blank" rel="external">Android 热补丁技术——资源的热修复</a></p>
+<p>今年真是热补丁框架的洪荒之力爆发的一年，短短几个月内，已经出现了好几个热修复的框架了，基本上都是大同小异。但只有自己真正的去经历过，你才会发现其中的大写的坑。</p>
+<p><a href="http://blog.csdn.net/bboyfeiyu/article/details/52572963" target="_blank" rel="external">Android ButterKnife 的实现思路</a></p>
+<p>在Android开发中，我们为了方便初始化Activity中的各种View，我们可能会使用到Jake Wharton的ButterKnife库，这个库是针对View、资源id等进行注解的开源库，它能够去除掉一些丑陋不堪的样板式代码，使得我们的代码更加简洁、易于维护，同时基于APT也使得它的效率得到保证。那么ButterKnife的原理是什么呢？@InjectView又是什么？ButterKnife的inject函数又有什么作用？本文给出了答案。</p>
+<p><a href="http://gityuan.com/2016/09/17/android-lowmemorykiller/" target="_blank" rel="external">Android LowMemoryKiller原理分析</a></p>
+<p>Android的设计理念之一，便是应用程序退出,但进程还会继续存在系统以便再次启动时提高响应时间. 这样的设计会带来一个问题, 每个进程都有自己独立的内存地址空间，随着应用打开数量的增多,系统已使用的内存越来越大，就很有可能导致系统内存不足, 那么需要一个能管理所有进程，根据一定策略来释放进程的策略，这便有了lmk，全称为LowMemoryKiller(低内存杀手)，lmkd来决定什么时间杀掉什么进程.</p>
+<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><p><strong>iOS</strong></p>
+<p><a href="https://github.com/devxoul/URLNavigator" target="_blank" rel="external">URLNavigator</a></p>
+<p>优雅的 URL Router Swift 框架，支持 UIViewController 的转场，以及可定制的匹配结果处理，如弹窗、从 Stroyboard 初始化 ViewController 转场等。</p>
+<p><a href="https://github.com/iwasrobbed/Down" target="_blank" rel="external">Down</a></p>
+<p>基于 cmark 高性能 Markdown 渲染 Swift 框架。</p>
+<p><a href="https://github.com/MModel/MetaModel" target="_blank" rel="external">MetaModel</a></p>
+<p>底层基于 SQL 的持久化方案。不需要直接使用 SQL 语言处理数据，有更简洁的 API ，基于 Ruby 栈创建 Model 。</p>
+<p><strong>Android</strong></p>
+<p><a href="https://github.com/ryanhoo/StylishMusicPlayer" target="_blank" rel="external">StylishMusicPlayer</a></p>
+<p>这是一款完整的音乐播放器项目，支持音乐播放、文件浏览等功能，可以在版本号为16+的设备上运行。</p>
+<p><a href="https://github.com/scola/Qart" target="_blank" rel="external">Qart</a></p>
+<p>Qart是一个二维码生成项目，支持图片合成，使用该项目可以生成非常漂亮的二维码。</p>
+<p><a href="https://github.com/adrielcafe/AndroidAudioConverter" target="_blank" rel="external">AndroidAudioConverter</a></p>
+<p>这是一个格式转换项目，支持的格式有AAC, MP3, M4A, WMA, WAV、FLAC，集成简单。</p>
+<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><blockquote>
+<p>新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。</p>
+</blockquote>
+<p>本期暂无工作推推荐。</p>
+<h2 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h2><blockquote>
+<p>新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。</p>
+</blockquote>
+<hr>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-29/" data-id="citbmm37u000gskp1id9wftca" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-weekly-28" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/articles/weekly-28/" class="article-date">
@@ -129,7 +205,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-28/" data-id="cit1mc6pb000h18p18fwslcwa" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-28/" data-id="citbmm381000mskp1mcf3q924" class="article-share-link">Share</a>
       
       
     </footer>
@@ -206,7 +282,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-27/" data-id="cit1mc6p9000f18p1hlje7lgb" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-27/" data-id="citbmm37w000iskp1loe9nmkh" class="article-share-link">Share</a>
       
       
     </footer>
@@ -286,7 +362,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-26/" data-id="cit1mc6pn000i18p1xf6lvv29" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-26/" data-id="citbmm37v000hskp1s8cmn2kj" class="article-share-link">Share</a>
       
       
     </footer>
@@ -363,7 +439,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-25/" data-id="cit1mc6p8000e18p1bhz6tmva" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-25/" data-id="citbmm37t000fskp1stxkvut7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -446,7 +522,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-24/" data-id="cit1mc6pa000g18p1otdi65tq" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-24/" data-id="citbmm37f000bskp136qrjqzv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -531,7 +607,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-23/" data-id="cit1mc6qk000s18p180uibg8u" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-23/" data-id="citbmm38g000tskp1km6jo2e7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -614,7 +690,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-22/" data-id="cit1mc6pp000j18p11ruomyzv" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-22/" data-id="citbmm385000qskp1vfn33jv8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -694,7 +770,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-21/" data-id="cit1mc6q4000q18p1zmp7juil" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-21/" data-id="citbmm380000lskp1qmzxgnm7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -772,103 +848,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-20/" data-id="cit1mc6p4000b18p1p3h3pacz" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-weekly-19" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/articles/weekly-19/" class="article-date">
-  <time datetime="2016-07-12T15:03:31.000Z" itemprop="datePublished">2016-07-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/articles/weekly-19/">移动开发每周阅读清单：第十九期</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>『移动开发每周阅读清单』第十九期与大家见面了，这两周发生了很多大事，让人目不暇接，移动这边则是Pokemon Go爆款，成为现象级应用，大家有玩过吗？</p>
-<h2 id="新闻"><a href="#新闻" class="headerlink" title="新闻"></a>新闻</h2><p><a href="http://tech.sina.com.cn/mobile/n/n/2016-07-11/doc-ifxtwiht3494966.shtml" target="_blank" rel="external">苹果公布iOS 10系统中23款可删除预装应用</a></p>
-<p>本周五，苹果公司正式放出了新一代操作系统iOS 10和macOS Sierra首个公开测试版，而期待已久的“允许删除iPhone预装应用”功能正式到来。随后，苹果公司正式揭晓了这23款可卸载的iPhone预装应用。不过，根据官方描述，这种删除更像是隐藏，应用代码实际上并不好移除。</p>
-<p><a href="http://digi.163.com/16/0708/10/BREP49MN00162OUT.html" target="_blank" rel="external">Android Marshmallow/Nougat 进行时：设备升级列表已公布</a></p>
-<p>近日Google携众厂商发布了Android Marshmallow和Android Nougat的设备升级列表。Nexus系列一直是重点关怀对象，从最新的Nexus 6P/5X、Nexus 6 / Player、Nexus 9 LTE / WiFi，到Nexus 5、以及Nexus 7 2013（双版本），均支持升级到“棉花糖”（Marshmallow）。此外，前半截还很有望吃到“牛轧糖”（Nougat）。</p>
-<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p><strong>iOS</strong></p>
-<p><a href="http://www.jianshu.com/p/b8db6c142aad" target="_blank" rel="external">iOS视频直播初窥:高仿&lt;喵播APP&gt;</a></p>
-<p>本文介绍了作者在研究iOS视频直播技术之时，高仿了喵播App，并分享了开发过程、相关技术和关键代码。并且作者还将高仿App代码开源了，想研究直播技术的可以下载把玩。</p>
-<p><a href="http://blog.cnbang.net/tech/3219/" target="_blank" rel="external">如何动态调用 C 函数</a></p>
-<p>本文作者为JSPatch作者bang，JSPatch支持动态调用C函数，本文是他对其中原理的分享解读。</p>
-<p><a href="http://www.jianshu.com/p/a46297f2ce70" target="_blank" rel="external">让UIWebview拥有超强的图片处理能力</a></p>
-<p>其实不仅仅局限于为了让其支持webp，如果能让webview的图片请求都走向自己实现的图片库，那么可以实现很多很多黑科技如加水印等，本文介绍了其中的技术点以及具体实现。</p>
-<p><strong>Android</strong></p>
-<p><a href="https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=2649286327&amp;idx=1&amp;sn=b69513e3dfd1de848daefe03ab6719c2&amp;scene=0" target="_blank" rel="external">Android内存申请分析</a></p>
-<p>在做优化的过程，除了关注内存的申请量以及GC的情况之外，我们经常需要想方法找出是那些对象占用了大量内存，以及他们是如何导致GC的，这意味着我们需要获取对象申请的信息（大小，类型，堆栈等），本文为我们介绍了几种获取对象申请信息的方法。</p>
-<p><a href="https://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;mid=2651231917&amp;idx=1&amp;sn=ce2e0f7251e26f7b5a9b2fddadf96bcc&amp;scene=0" target="_blank" rel="external">Unity Android Plugin开发指南</a></p>
-<p>本文为我们介绍了如何在Unity工程中使用Android或者Java的库，包括：如何在Unity项目中使用Android Plugin、Unity-Android相互调用、Unity接口设计的最佳实践、如何构建Unity-Android混合项目、如何调试Unity和Android代码。本文有助于我们上手Unity。</p>
-<p><a href="http://www.jianshu.com/p/2cd745e54a78#rd" target="_blank" rel="external">安卓单元测试(八)：Junit Rule的使用</a></p>
-<p>一个JUnit Rule就是一个实现了TestRule的类，这些类的作用类似于@Before、@After，是用来在每个测试方法的执行前后执行一些代码的一个方法。此外，JUnit Rule还能做一些@Before这些Annotation做不到的事情，那就是他们可以动态的获取将要运行的测试类、测试方法的信息。阅读文章，了解Junit Rule的更多细节。</p>
-<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><p><strong>iOS</strong></p>
-<p><a href="https://github.com/linkedin/LayoutKit" target="_blank" rel="external">LayoutKit</a></p>
-<p>LinkedIn开源的iOS快速视图布局库。看上去LinkedIn对这个库还是很重视的，不但写了一篇<a href="https://engineering.linkedin.com/blog/2016/06/open-sourcing-layoutkit--a-fast-view-layout-library-for-ios-appl" target="_blank" rel="external">博客</a>介绍它，还为它买域名做了<a href="http://layoutkit.org/" target="_blank" rel="external">官网</a>。</p>
-<p><a href="https://github.com/JohnEstropia/CoreStore" target="_blank" rel="external">CoreStore</a></p>
-<p>对CordData做的封装，让其使用更加安全优雅，使用Swift编写。</p>
-<p><a href="https://github.com/soapyigu/LeetCode_Swift" target="_blank" rel="external">LeetCode_Swift</a></p>
-<p>LeetCode题库在程序员中应该是鼎鼎大名了，上面的算法题几乎是面试必备，有人对其中的解答给出了Swift版本，既可以学算法，又可以学习Swift语法中的一些技巧。</p>
-<p><a href="https://github.com/Zepo/GYDataCenter" target="_blank" rel="external">GYDataCenter</a></p>
-<p>GYDataCenter 是微信读书团队开源的一个 SQLite 数据库框架，提供了一套简单易用的面向对象的数据操作接口，同时保留了 SQL 查询的灵活性。GYDataCenter 简单易上手，相对于 CoreData，GYDataCenter 的学习成本更低。同时，根据自己的需求，开发者可以更方便地划分数据库，设计数据库表，数据库索引等。</p>
-<p><strong>Android</strong></p>
-<p><a href="https://github.com/andremion/Music-Player" target="_blank" rel="external">Music-Player</a></p>
-<p>这是一款简易的音乐播放器，列表页到播放页的切换动画很赞。这里是一篇介绍项目实现过程的文章。</p>
-<p><a href="https://github.com/borjabravo10/FocusResize" target="_blank" rel="external">FocusResize</a></p>
-<p>该项目实现了RecyclerView在滑动时动态伸缩的效果。</p>
-<p><a href="https://github.com/asLody/VirtualApp" target="_blank" rel="external">VirtualApp</a></p>
-<p>VirtualApp是一个App虚拟引擎的开源实现，类似LBE平行空间。 VirtualApp在你的App进程内创建一个虚拟空间，你可以在虚拟空间内任意的安装、启动和卸载APK， 这一切都与外部隔离，就如同一个沙盒。VirtualApp亦是一个插件化框架，运行在VirtualApp的插件不需要任何的约束。</p>
-<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><blockquote>
-<p>新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。</p>
-</blockquote>
-<p><strong>iOS/Android工程师 by 快看世界科技有限公司</strong></p>
-<p>坐标北京。负责快看漫画App产品研发，能独立完成模块设计及开发，以及一些优化工作。要求2年实际项目经验。薪资15k-30k。简历发至hr@kuaikanmanhua.com 可标注“从移动开发前线看到”。</p>
-<p><strong>iOS工程师/高级工程师/技术专家 by 新美大平台部门iOS组</strong></p>
-<p>坐标北京。负责维护新美大旗下的主客户端之一美团，以及全公司的iOS相关基础设施。需要合格的iOS开发能力，如果是高级或以上，还需要有技术规划选型，指导他人的能力。薪资面议。简历投至 luozexiang@meituan.com</p>
-<h2 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h2><blockquote>
-<p>新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。</p>
-</blockquote>
-<p><a href="http://www.bagevent.com/event/56573" target="_blank" rel="external">中国移动互联网测试大会</a></p>
-<p>7月16日于北京举行。专注移动互联网测试技术的分享会，关注移动互联网质量的有志之士的集会。本次大会主题涉及移动端的自动化、持续集成、性能、安全等一系列测试领域，以及当下移动端最新最热最实用的测试技术交流分享。</p>
-<p><a href="http://sz2016.archsummit.com/" target="_blank" rel="external">ArchSummit架构师大会深圳站</a></p>
-<p>7月15-16日于深圳举行。面向高端技术管理者、架构师的技术大会。秉承“实践第一、案例为主”的原则，展示新技术在行业应用中的最新实践，技术在企业转型中的加速作用，帮助企业技术管理者、CTO、架构师做好技术选型、技术团队组建与管理，并确立技术对于产品和业务的关键作用。</p>
-<hr>
-<p>上两周移动开发前线公众号精彩文章：</p>
-<ul>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112417&amp;idx=1&amp;sn=4a6bf640ab72a4c72af1e602a634a2ca#rd" target="_blank" rel="external">安全模式：天猫App启动保护实践</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112424&amp;idx=1&amp;sn=51401124fbab3917520cc889dae824fe#rd" target="_blank" rel="external">为什么Android开发者应该使用FlatBuffers替代JSON?</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112433&amp;idx=1&amp;sn=f50bd52f056570e3229307fba9d9839a#rd" target="_blank" rel="external">不要再给MVP中的Presenter写接口了</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112441&amp;idx=1&amp;sn=f39a1988a37a78b9b865856c63907f94#rd" target="_blank" rel="external">Storyboard 优雅使用规范</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112450&amp;idx=1&amp;sn=3807acbfac41675cdfd1f9e7c1f50231#rd" target="_blank" rel="external">iOS交互式动画详解（上）：iOS 10以下的实现</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112458&amp;idx=1&amp;sn=3c61daa725f74c56a58312f55407d267#rd" target="_blank" rel="external">iOS交互式动画详解（下）：iOS 10 的新变化</a></li>
-</ul>
-<p>阅读更多移动开发好文，欢迎关注『移动开发前线』公众号。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-19/" data-id="cit1mc6p6000d18p18vtu6w86" class="article-share-link">Share</a>
+      <a data-url="http://mobilefrontier.github.io/articles/weekly-20/" data-id="citbmm37s000dskp1wr85t46n" class="article-share-link">Share</a>
       
       
     </footer>
@@ -912,6 +892,10 @@
       <ul>
         
           <li>
+            <a href="/articles/weekly-29/">移动开发每周阅读清单：第二十九期</a>
+          </li>
+        
+          <li>
             <a href="/articles/weekly-28/">移动开发每周阅读清单：第二十八期</a>
           </li>
         
@@ -925,10 +909,6 @@
         
           <li>
             <a href="/articles/weekly-25/">移动开发每周阅读清单：第二十五期</a>
-          </li>
-        
-          <li>
-            <a href="/articles/weekly-24/">移动开发每周阅读清单：第二十四期</a>
           </li>
         
       </ul>
