@@ -1,267 +1,220 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
-  <meta charset="utf-8">
-  
-  <title>移动开发每周阅读清单：第十一期 | 移动开发前线</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="『移动开发每周阅读清单』第十一期与大家见面了，上周App Store又出故障了，让人不得不怀疑苹果工程师的软件质量呢。
-新闻6月1日起iOS应用须支持IPv6
-日前苹果发布声明，向应用开发者发出提醒：即将到来的App Store策略要求所有iOS应用必须包含对IPv6-only网络的支持。根据此次苹果在开发者网站的声明，大部分现有应用程序已经通过NSURLSession和CFNetwork API">
-<meta property="og:type" content="article">
-<meta property="og:title" content="移动开发每周阅读清单：第十一期">
-<meta property="og:url" content="http://mobilefrontier.github.io/articles/weekly-11/index.html">
-<meta property="og:site_name" content="移动开发前线">
-<meta property="og:description" content="『移动开发每周阅读清单』第十一期与大家见面了，上周App Store又出故障了，让人不得不怀疑苹果工程师的软件质量呢。
-新闻6月1日起iOS应用须支持IPv6
-日前苹果发布声明，向应用开发者发出提醒：即将到来的App Store策略要求所有iOS应用必须包含对IPv6-only网络的支持。根据此次苹果在开发者网站的声明，大部分现有应用程序已经通过NSURLSession和CFNetwork API">
-<meta property="og:updated_time" content="2016-05-09T15:30:45.654Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="移动开发每周阅读清单：第十一期">
-<meta name="twitter:description" content="『移动开发每周阅读清单』第十一期与大家见面了，上周App Store又出故障了，让人不得不怀疑苹果工程师的软件质量呢。
-新闻6月1日起iOS应用须支持IPv6
-日前苹果发布声明，向应用开发者发出提醒：即将到来的App Store策略要求所有iOS应用必须包含对IPv6-only网络的支持。根据此次苹果在开发者网站的声明，大部分现有应用程序已经通过NSURLSession和CFNetwork API">
-  
-    <link rel="alternate" href="/atom.xml" title="移动开发前线" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+    <title>移动开发每周阅读清单：第十一期 &middot; 移动开发前线</title>
+    <meta name="author" content="pockry">
+    <meta name="description" content="移动开发每周阅读清单，由移动开发前线微信公众号提供。">
+    <meta name="generator" content="Hugo 0.17" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- RSS autodiscovery -->
+    
+
+    <link rel="shortcut icon" href="http://mobilefrontier.github.io/img/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="http://mobilefrontier.github.io/css/screen.css">
+    <link rel="stylesheet" href="http://mobilefrontier.github.io/css/github.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+    
+
+    
+    <link rel="shortcut icon" type="image/x-icon" href="http://mobilefrontier.github.io/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://mobilefrontier.github.io/favicon.ico">
+    
+
+    <!-- Stylesheet for theme color -->
+    
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">移动开发前线</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://mobilefrontier.github.io"></form>
-      </div>
-    </div>
-  </div>
+<body class="home-template">
+    <header id="site-head">
+	
+	<h1 class="blog-title"><a href="http://mobilefrontier.github.io/">移动开发前线</a></h1>
+	
+	
+	<h1 class="blog-subtitle">Fresh mobile development learning materials every week</h1>
+	
 </header>
-      <div class="outer">
-        <section id="main"><article id="post-weekly-11" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/articles/weekly-11/" class="article-date">
-  <time datetime="2016-05-09T12:52:05.000Z" itemprop="datePublished">2016-05-09</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      移动开发每周阅读清单：第十一期
-    </h1>
-  
+    <main class="content" role="main">
+    
+<article class="post">
+    <header>
+        <h1 class="post-title">移动开发每周阅读清单：第十一期</h1>
+        <div class="post-meta">
+            <time datetime="09 May 2016">
+                09 May 2016
+            </time>
+        </div>
+    </header>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>『移动开发每周阅读清单』第十一期与大家见面了，上周App Store又出故障了，让人不得不怀疑苹果工程师的软件质量呢。</p>
-<h2 id="新闻"><a href="#新闻" class="headerlink" title="新闻"></a>新闻</h2><p><a href="https://developer.apple.com/news/?id=05042016a" target="_blank" rel="external">6月1日起iOS应用须支持IPv6</a></p>
+    <section class="post-content">
+        
+
+<p>『移动开发每周阅读清单』第十一期与大家见面了，上周App Store又出故障了，让人不得不怀疑苹果工程师的软件质量呢。</p>
+
+<h2 id="新闻">新闻</h2>
+
+<p><a href="https://developer.apple.com/news/?id=05042016a">6月1日起iOS应用须支持IPv6</a></p>
+
 <p>日前苹果发布声明，向应用开发者发出提醒：即将到来的App Store策略要求所有iOS应用必须包含对IPv6-only网络的支持。根据此次苹果在开发者网站的声明，大部分现有应用程序已经通过NSURLSession和CFNetwork APIs兼容该协议。依然使用IPv4 APIs的或者硬件编码IP地址的开发者将需要手工调整应用代码来适应苹果的最新策略。</p>
-<p><a href="http://techcrunch.com/2016/05/05/apples-app-store-search-is-completely-broken-right-now/" target="_blank" rel="external">App Store出现搜索故障 多款知名应用从搜索结果消失</a></p>
+
+<p><a href="http://techcrunch.com/2016/05/05/apples-app-store-search-is-completely-broken-right-now/">App Store出现搜索故障 多款知名应用从搜索结果消失</a></p>
+
 <p>上周有人发现在App Store搜索时出现问题，得不到想要的结果，一时之间还有人认为苹果大规模下架应用。后来发现只是苹果调整算法出现故障，有人猜测是因为苹果可能在App Store推出竞价排名，调整算法导致的结果。不过现在搜索结果已恢复正常。</p>
-<p><a href="http://www.ithome.com/html/android/222547.htm" target="_blank" rel="external">安卓6.0最新安装率出炉：“大增”2.9%</a></p>
+
+<p><a href="http://www.ithome.com/html/android/222547.htm">安卓6.0最新安装率出炉：“大增”2.9%</a></p>
+
 <p>又来到了月初，意味着又到谷歌更新安卓各版本安装率数据的时候了。在最新的安卓系统安装率数据中，Froyo（2.2）仍然还没消失，Marshmallow（6.0）则增长势头强劲，安卓6.0则是唯一一个安装率上升的版本，增长了2.9%，达到7.5%，虽然增幅很大，但这个增长率仍不及去年这个时候Lollipop的增长率。</p>
-<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p><strong>iOS</strong></p>
-<p><a href="https://medium.com/@RobertGummesson/regarding-swift-build-time-optimizations-fc92cdd91e31#.rp2smfllt" target="_blank" rel="external">关于Swift编译时间优化</a></p>
+
+<h2 id="教程">教程</h2>
+
+<p><strong>iOS</strong></p>
+
+<p><a href="https://medium.com/@RobertGummesson/regarding-swift-build-time-optimizations-fc92cdd91e31#.rp2smfllt">关于Swift编译时间优化</a></p>
+
 <p>本文介绍了Swift应用编译期的一些性能问题（及绕过方法），顺便介绍了测量编译器性能的一个Xcode插件，如果你在编译Swift应用时遇到了缓慢现象，你应该看看这篇文章并且试试其中的方法。</p>
-<p><a href="http://swift.gg/2016/05/03/preparing-for-3-0-api-pruning/" target="_blank" rel="external">准备好迎接Swift 3.0 API变化</a></p>
+
+<p><a href="http://swift.gg/2016/05/03/preparing-for-3-0-api-pruning/">准备好迎接Swift 3.0 API变化</a></p>
+
 <p>Swift 3.0 API 命名方式会大改，作者总结了几条改动规则，帮助你更好地“重新入门 Swift”。</p>
-<p><a href="https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update" target="_blank" rel="external">Swift Style Guide: April 2016 Update Guide</a></p>
+
+<p><a href="https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update">Swift Style Guide: April 2016 Update Guide</a></p>
+
 <p>Raywenderilich官方的Style Guide更新了，针对Swift2.2的新特性进行了更新。Raywenderilich的这份Swift编码规范比较流行，并且官方一直在保持更新，使用Swift开发的同学可以参照他们的规范制定自己的编码规范。</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&amp;mid=2650948304&amp;idx=1&amp;sn=f76e7b765a7fcabcb71d37052b46e489&amp;scene=0#wechat_redirect" target="_blank" rel="external">别人的App不好用？自己改了便是。Moves篇</a></p>
+
+<p><a href="http://mp.weixin.qq.com/s?__biz=MzIwMTYzMzcwOQ==&amp;mid=2650948304&amp;idx=1&amp;sn=f76e7b765a7fcabcb71d37052b46e489&amp;scene=0#wechat_redirect">别人的App不好用？自己改了便是。Moves篇</a></p>
+
 <p>虾神分享的iOS逆向方面的教程，分为上下两篇。本文以Moves应用威力，修改其应用并重新签名，以达到在不越狱的情况修正Moves中的中国火星坐标。</p>
+
 <p><strong>Android</strong></p>
-<p><a href="http://taobaofed.org/blog/2016/05/05/new-compiler-for-android/" target="_blank" rel="external">Android 新一代编译toolchain Jack&amp;Jill 简介</a></p>
+
+<p><a href="http://taobaofed.org/blog/2016/05/05/new-compiler-for-android/">Android 新一代编译toolchain Jack&amp;Jill 简介</a></p>
+
 <p>在众多的Android N新特性中，有一项新工具链的出现与Android生态圈的所有开发者息息相关，即Jack&amp;Jill编译器的引入。在依赖了Sun/Oracle的Java编译器十年之后，Android 终于有了自己的Java编译器。本文试图对市面上非常有限的资料进行总结，向大家介绍Jack&amp;Jill的缘起，工作方式和原理。</p>
-<p><a href="http://blog.piasy.com/2016/05/06/Perfect-Android-Model-Layer/" target="_blank" rel="external">完美的安卓model层架构</a></p>
+
+<p><a href="http://blog.piasy.com/2016/05/06/Perfect-Android-Model-Layer/">完美的安卓model层架构</a></p>
+
 <p>无论是MVC、MVP还是MVVM，Model的角色都非常重要，合理的Model设计对整个项目的架构有着至关重要的作用。本文作者提出的Model思想利用OkHttp和Retrofit进行网络请求；使用了SqlDelight、AutoValue及其系列扩展生成model，通过SqlBrite提供数据库访问的reactive API，最终给出了一个完美的Model层。</p>
-<p><a href="https://medium.com/google-developers/instant-run-how-does-it-work-294a1633367f#.lmfl31ig1" target="_blank" rel="external">Instant Run: How Does it Work（墙）</a></p>
-<p>Android Studio 2引入了Instant Run功能，降低了开发者（修改→调试）的执行周期。想了解背后是如何实现的吗？简而言之，Instant Run = Incremental build + Hot，Warm，or Cold swap。更多介绍见Reto Meier发在Google Developers上这篇<a href="https://medium.com/google-developers/instant-run-how-does-it-work-294a1633367f#.65tachhhc" target="_blank" rel="external">文章</a>和<a href="http://v.youku.com/v_show/id_XMTU2MDI0NTE3Mg==.html?f=26291338" target="_blank" rel="external">视频</a>。</p>
-<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><p><strong>iOS</strong></p>
-<p><a href="https://github.com/groue/GRDB.swift" target="_blank" rel="external">GRDB.swift</a></p>
+
+<p><a href="https://medium.com/google-developers/instant-run-how-does-it-work-294a1633367f#.lmfl31ig1">Instant Run: How Does it Work（墙）</a></p>
+
+<p>Android Studio 2引入了Instant Run功能，降低了开发者（修改→调试）的执行周期。想了解背后是如何实现的吗？简而言之，Instant Run = Incremental build + Hot，Warm，or Cold swap。更多介绍见Reto Meier发在Google Developers上这篇<a href="https://medium.com/google-developers/instant-run-how-does-it-work-294a1633367f#.65tachhhc">文章</a>和<a href="http://v.youku.com/v_show/id_XMTU2MDI0NTE3Mg==.html?f=26291338">视频</a>。</p>
+
+<h2 id="开源项目">开源项目</h2>
+
+<p><strong>iOS</strong></p>
+
+<p><a href="https://github.com/groue/GRDB.swift">GRDB.swift</a></p>
+
 <p>简化SQLite在Swift中使用的工具包。其中一个有趣的特性是GRDB提供协议和一个类用于像操作普通对象一个操作数据库中的列。</p>
-<p><a href="https://github.com/marmelroy/Interpolate" target="_blank" rel="external">Interpolate</a></p>
+
+<p><a href="https://github.com/marmelroy/Interpolate">Interpolate</a></p>
+
 <p>Interpolate是一个Swift下的插值框架，用于插入手势动画。它的核心思想认为所有动画都是初始值随着时间的变化。</p>
+
 <p><strong>Android</strong></p>
-<p><a href="https://github.com/google/flexbox-layout" target="_blank" rel="external">flexbox-layout</a></p>
+
+<p><a href="https://github.com/google/flexbox-layout">flexbox-layout</a></p>
+
 <p>这是一个来自Google官方的开源项目，支持通过CSS的方式来灵活的进行页面布局。</p>
-<p><a href="https://github.com/hitherejoe/Bourbon" target="_blank" rel="external">Bourbon</a></p>
+
+<p><a href="https://github.com/hitherejoe/Bourbon">Bourbon</a></p>
+
 <p>这是一个MVP架构的开源项目，项目内容来自Dribbble，支持Android Mobile，Tablet，Wear和TV。</p>
-<p><a href="https://github.com/tyzlmjj/PagerBottomTabStrip" target="_blank" rel="external">PagerBottomTabStrip</a></p>
+
+<p><a href="https://github.com/tyzlmjj/PagerBottomTabStrip">PagerBottomTabStrip</a></p>
+
 <p>PagerBottomTabStrip 是一个基本谷歌Material Design规范完成的安卓底部导航栏控件。</p>
-<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><blockquote>
+
+<h2 id="工作">工作</h2>
+
+<blockquote>
 <p>新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。</p>
 </blockquote>
+
 <p>本周暂无新工作介绍，找工作的同学可以看看前几期的推荐。</p>
-<h2 id="活动"><a href="#活动" class="headerlink" title="活动"></a>活动</h2><blockquote>
+
+<h2 id="活动">活动</h2>
+
+<blockquote>
 <p>新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。</p>
 </blockquote>
-<p><a href="http://gmtc.geekbang.org/?utm_source=zhoubao&amp;utm_medium=xuachuan02&amp;utm_campaign=0509" target="_blank" rel="external">GMTC全球移动技术大会</a></p>
+
+<p><a href="http://gmtc.geekbang.org/?utm_source=zhoubao&amp;utm_medium=xuachuan02&amp;utm_campaign=0509">GMTC全球移动技术大会</a></p>
+
 <p>6月24-25日北京举办。上周新增千米网移动架构师张西涛，阿里聚划算高级技术专家朴诚（马召），淘宝无线技术专家、Weex核心开发宁栗（凝砺）。本周为8折促销期间，5人以上团购更多优惠，欢迎购票参加。</p>
-<p><a href="http://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&amp;mid=2652038418&amp;idx=1&amp;sn=0ef846d70dcaf8cc65ed9f0479aa51fd&amp;scene=4#wechat_redirect" target="_blank" rel="external">Google I/O Extended</a></p>
+
+<p><a href="http://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&amp;mid=2652038418&amp;idx=1&amp;sn=0ef846d70dcaf8cc65ed9f0479aa51fd&amp;scene=4#wechat_redirect">Google I/O Extended</a></p>
+
 <p>5月18日晚上10点在全国23城市举行。Google IO将于下周举行，而这个是由Google官方支持，由全国各地的GDG组织的活动，一起观看Google I/O的直播。感兴趣的可以报名，和朋友们一起High。</p>
-<hr>
+
+<hr />
+
 <p>上周移动开发前线公众号精彩文章：</p>
+
 <ul>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112179&amp;idx=1&amp;sn=4c7cb33b756b343b93de8b7ccb38b486#rd" target="_blank" rel="external">从视觉到App：网易有钱iOS项目切图与适配实践</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112195&amp;idx=1&amp;sn=27fa638e90b09a107057e4a5e8d01ab1#rd" target="_blank" rel="external">糯米移动组件架构演进之路</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112215&amp;idx=1&amp;sn=9cc5b5fa630542a6d4b7a5626e35217a#rd" target="_blank" rel="external">群分享：网易NeteaseAPM iOS SDK技术实现分享</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112179&amp;idx=1&amp;sn=4c7cb33b756b343b93de8b7ccb38b486#rd">从视觉到App：网易有钱iOS项目切图与适配实践</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112195&amp;idx=1&amp;sn=27fa638e90b09a107057e4a5e8d01ab1#rd">糯米移动组件架构演进之路</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;mid=2651112215&amp;idx=1&amp;sn=9cc5b5fa630542a6d4b7a5626e35217a#rd">群分享：网易NeteaseAPM iOS SDK技术实现分享</a></li>
 </ul>
+
 <p>阅读更多移动开发好文，欢迎关注『移动开发前线』公众号。</p>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://mobilefrontier.github.io/articles/weekly-11/" data-id="ciw28ek780001xwp180onylq4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/articles/weekly-12/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          移动开发每周阅读清单：第十二期
-        
-      </div>
-    </a>
-  
-  
-    <a href="/articles/weekly-10/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">移动开发每周阅读清单：第十期</div>
-    </a>
-  
-</nav>
+    </section>
 
-  
+    
 </article>
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
+    </main>
 
-  
-    
+    <footer class="site-footer">
+	<div class="inner">
+		<section class="footer-social">
+      
+	  
+      <a href="//weibo.com/bornmobile" target="_blank" title="Weibo"><i class="fa fa-2x fa-fw fa-weibo"></i> <span class="hidden">Weibo</span></a>&nbsp;
+      
+      
+      
+      
+      
+      
+      <a href="//github.com/mobilefrontier" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>&nbsp;
+      
+      
+      
+      
+  </section>
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/articles/weekly-37/">移动开发每周阅读清单：第三十七期</a>
-          </li>
-        
-          <li>
-            <a href="/articles/weekly-36/">移动开发每周阅读清单：第三十六期</a>
-          </li>
-        
-          <li>
-            <a href="/articles/weekly-35/">移动开发每周阅读清单：第三十五期</a>
-          </li>
-        
-          <li>
-            <a href="/articles/weekly-34/">移动开发每周阅读清单：第三十四期</a>
-          </li>
-        
-          <li>
-            <a href="/articles/weekly-33/">移动开发每周阅读清单：第三十三期</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2016 pockry<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
+		<section class="copyright">&copy; 2016 <a href="http://mobilefrontier.github.io/">pockry</a>. Released under the MIT license.</section>
+	</div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="http://mobilefrontier.github.io/js/index.js"></script>
+<script src="http://mobilefrontier.github.io/js/smooth-scroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script>
+    smoothScroll.init({
+        speed: 800,
+        easing: 'easeInOutCubic',
+        updateURL: false,
+        offset: 125,
+    });
+</script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 
-<script src="/js/script.js"></script>
-
-  </div>
 </body>
 </html>
