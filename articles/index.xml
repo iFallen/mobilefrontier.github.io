@@ -7,8 +7,128 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Mon, 28 Nov 2016 21:33:45 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Dec 2016 23:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第三十八期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-38/</link>
+      <pubDate>Tue, 06 Dec 2016 23:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-38/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://support.apple.com/zh-cn/HT207414&#34;&gt;有关 iPhone 及意外关机的信息&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple 在官网上发布了关于 iPhone 意外关机的调查结果，称：少数于 2015 年 9 月到 10 月期间生产的 iPhone 6s 设备中，某项电池元件被装进电池包之前在受控环境空气中暴露时间过长，使电池电量消耗速度快于正常水平，导致意外关机」并且强调这并不是安全问题，同时 Apple 称它们有意将 iPhone 设计为在某些情况下会自动关机，是为了保护零件不受损伤。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.leiphone.com/news/201612/RI7xjclktZ6NaNmN.html&#34;&gt;Android现新病毒，超100万账号被控制&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;据外媒报道，互联网安全公司Check Point今日发布报告称，一款名为“Gooligan”的特洛伊木马程序将自己伪装成合法应用来入侵Android智能手机和平板，自8月份以来100多万个谷歌账号已被病毒控制。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://realm.io/cn/news/tryswift-samuel-giddins-building-tiny-compiler-swift-ios/&#34;&gt;用 Swift 搭建一个微型编译器&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;对绝大多数开发者来说，尽管我们每天都要与编译器打交道，然而实际上编译器对我们来说仍然像一个神秘的黑盒。在本次 try! Swift 的分享中，Samuel Giddins 从头搭建了一个全新的微型编译器，用来编译他自制的一门编程语言，从而借此去学习编译器的基本工作机制。他还讲述了 Swift 是如何为复杂问题（例如语义解析、词法分析和代码生成）提供优雅的解决方案的。最后，我们将实现一门全新的编程语言，并完成对它的编译工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://realm.io/cn/news/real-world-swift-performance/&#34;&gt;真实世界中的 Swift 性能优化&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;有太多的因素会导致您的应用变得缓慢。在本次讲演中，我们将自底向上地来探索应用的性能优化。来看一看在真实世界中进行数据解析、数据映射和数据存储的时候，Swift 的特性（协议、泛型、结构体和类）是如何影响应用性能的，我们将确定影响性能提升的瓶颈所在，并体验 Swift 带来的「迅捷」体验。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&amp;amp;mid=2653578296&amp;amp;idx=2&amp;amp;sn=03cc579cb7e016f8bfd4ba994b0a5947&#34;&gt;美团大众点评 Hybrid 化建设&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了美团大众点评为什么要做一个 Hybrid 化这样一个东西，以及美团大众点评在 Hybrid 上实践的一些方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://shengpan.net/auto-code-review/&#34;&gt;iOS 持续集成系列 - 自动化 Code Review&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;为了保证代码质量，Code Review 是非常重要的一环。细到 &lt;code&gt;*&lt;/code&gt; 的位置是否正确，大到代码的结构是否符合了软件开发的一些基本原则，都在这项工作的范围内。受限于现实情况，大多数团队没有足够的时间进行 Code Review，那么只能把一部分 CR 工作交给计算机去完成了。本文介绍了如何使用 OCLint 搭配 CI 进行一部分的自动化 Review 。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://realm.io/cn/news/tryswift-ryan-nystrom-refactoring-at-scale-lessons-learned-rewriting-instagram-feed/&#34;&gt;大规模重构——重写 Instagram Feed 的经验之谈&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 Instagram 团队重写他们全新的 iOS Feed 的过程中，他们积累了大量的经验，遇到的坑无疑已经超出了他们的预料，比如说集合视图、差异化 (Diffing) 以及冗长代码所带来的危险之处。本文 Ryan Nystrom 向我们分享了如何才能进行一次成功的重构，并且向我们介绍了 Instagram 的一个很赞的开源组件：IGListKit。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;amp;mid=2649286426&amp;amp;idx=1&amp;amp;sn=eb75349c0c3663f10fbdd74ef87be338&#34;&gt;ART下的方法内联策略及其对Android热修复方案的影响分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;为了解决ART模式下的占用Rom空间问题，Tinker曾经花了一个半月时间实现分平台合成。Android N后对内联的新发现，似乎再一次认证了&amp;rdquo;热补丁不是请客吃饭&amp;rdquo;这句话。研究或填坑的路可能永远不会停，但Tinker团队有决心与信心可以陪大家一起走下去。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/5675c5230052&#34;&gt;Android M封装过的运行时权限处理&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android M运行时权限想必大家已经不陌生了。Google官方也提供了帮助处理的第三方库&lt;a href=&#34;http://www.jianshu.com/p/2b3661928e66&#34;&gt;EasyPermission&lt;/a&gt;。所有的封装和处理都是由开发中出现的各种问题而推动的。很明显，权限处理的代码缺点就是你不能处理一次就行了。本文对Android M的运行时权限进行了代码封装，有助于项目开发业务代码中大面积的出现重复的运行时权限处理代码.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/96c55ea3446e&#34;&gt;Android 应用内存泄漏的定位、分析与解决策略&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者做内存泄漏分析的一些心得总结，包括流程、工具等。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ghui.me/post/2016/11/thread-pool-in-android/&#34;&gt;Android中的线程池使用&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;线程池，顾名思义就是一个线程池管理一池子的工作线程（工作线程的数量依赖于具体的线程池实现）。线程池是一个强大的任务处理框架，它可以多个任务同时保存在队列中，支持任务取消，以及优先级切换。本文覆盖了线程池、线程池Executor，以及它们在Android中的使用，有助与我们了解线程相关的知识。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://halfstackdeveloper.github.io/2016/11/27/%E8%BD%BB%E6%9D%BE%E8%87%AA%E5%88%B6flyme%E6%82%AC%E6%B5%AE%E7%90%83/#more&#34;&gt;轻松自制flyme悬浮球&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最早使用悬浮球的手机应该是苹果，现在市面上的大量安卓手机也都支持了该功能。并且功能比苹果的还要强大。可以左右滑动切换应用、上拉返回桌面、下拉打开通知栏、轻触返回等。本文是一篇关于制作类似于flyme悬浮球的教程，作者写的很详细，并且给出了示例代码。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/saitjr/10000-Animations&#34;&gt;10000-Animations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;项目作者正在用 10000 小时时间去完成各种动画，动画实现可以作为参考。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sgr-ksmt/PDFGenerator&#34;&gt;PDFGenerator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;简单易用的 PDF 生成 &lt;code&gt;UIImage&lt;/code&gt; 框架。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mac-cain13/R.swift&#34;&gt;R.swift&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;像 Android R 文件一样管理资源，安全地管理 UIStoryBoard UIImage 等资源。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/onmyway133/Snowflake&#34;&gt;Snowflake&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Swift 中的 SVG 解析框架。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/android-notes/SwissArmyKnife&#34;&gt;SwissArmyKnife&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SwissArmyKnife是一款方便调试Android UI的工具，可以兼容所有Android版本，不需要Root权限。可以直接在Android手机屏幕上显示当前Activity中所有控件（不管是否隐藏）的边界，内外边距大小，每一个控件大小，图片大小，字体颜色，大小，以及自定义信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Kelin-Hong/ScrollablePanel&#34;&gt;ScrollablePanel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个实现了日历滑动效果的开源项目，支持左右、上下滑动。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/eschao/android-PageFlip&#34;&gt;android-PageFlip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一款基于OpenGL 2.0实现的3D切换效果。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;移动架构师 by 饿了么&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标上海。负责移动产品架构设计，方案制定，技术可行性研究，性能优化和安全加固，以及难题攻关，新技术预研培训，Code Review等。要求本科学历，3年以上移动开发经验，精通iOS &amp;amp; Android开发。薪资面议。简历发送至 biao.hu@ele.me&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jinshuju.net/f/lV70qu#utm_source=infoq&amp;amp;utm_campaign=techday&amp;amp;utm_medium=wechat&amp;amp;utm_term=1125&amp;amp;utm_content=android&#34;&gt;中国技术开放日广州站&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;12月9日广州举行。主题为移动开发前沿。我们邀请了来自腾讯、阿里、百度、唯品会的技术专家前来分享一线开发实践。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第三十七期</title>
@@ -1475,120 +1595,6 @@
 &lt;p&gt;&lt;strong&gt;Android/iOS工程师 by 北京优络时代科技&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;地点北京。负责公司APP开发，APP叫YOLO，是一款朋友间的视频直播工具。要求具备较好的Android/iOS开发基础，有良好的工程素养。待遇15~30K。简历发送至 xujianlin@yoloyolo.tv&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bagevent.com/event/109881&#34;&gt;APMCon中国应用性能管理大会&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;8月18日~19日在北京召开。聚焦于应用性能管理垂直领域的盛会。来自LinkedIn、AppDynamics、阿里巴巴、腾讯、京东、新浪、美团、360等国内外一线互联网公司的技术专家将给大家带来精彩的演讲分享！&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第二十三期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-23/</link>
-      <pubDate>Mon, 08 Aug 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-23/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://appleinsider.com/articles/16/08/04/new-alleged-iphone-7-pictures-surface-show-installed-apple-test-software&#34;&gt;疑似 iPhone 7 工程样机曝光：运行苹果测试系统&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;微博网友曝光疑似 iPhone 7 工程测试机的照片，工程机的造型和坊间传闻的 iPhone 7 基本一致，后置摄像头仍然凸起，照片上开机后运行的系统可能是 Apple 测试系统。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://app.techweb.com.cn/android/2016-08-06/2370858.shtml&#34;&gt;Android 7.0采用独特的Home按键设计&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Home按键能够有怎样独特的功能？无论是苹果iOS还是Android都有自己的Home按键，功能实际上都差不多，只不过分为物理实体按键和虚拟按键。当然也有很多有实力的厂商自己开发独特功能的Home按键，比如国内的魅族和ZUK。最近谷歌Android 7.0版本的新Home按键被泄露。从泄露的动态图看，这这次谷歌打算给Home按键带来点不一样的内容。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://swift.gg/2016/07/27/swift3-changes/&#34;&gt;Swift 3 新变化&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Swift 3 正式版即将发布，如果你的项目正在考虑从 Swift 2 迁移到 Swift 3，本文正合口味。文章介绍了为了让 Swift 3 变得更加安全、易读、简洁做的那些“破坏性的改动”。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://arigrant.com/blog/2014/2/12/why-objcmsgsend-must-be-written-in-assembly&#34;&gt;为什么必须用汇编实现 objc_msgSend&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用汇编实现 objc_msgSend 的真正原因并未只是追求速度、性能，本文解释了为什么实现 objc_msgSend 只能采用汇编的方案。中文翻译见&lt;a href=&#34;http://tutuge.me/2016/06/19/translation-why-objcmsgsend-must-be-written-in-assembly/&#34;&gt;翻译-为什么 objc_msgSend 必须用汇编实现&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://onevcat.com/2016/08/notification/&#34;&gt;活久见的重构 - iOS 10 UserNotifications 框架解析&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;iOS 10 把很多通知相关的“老朋友”干掉了，本文回顾了 iOS 通知的历史，然后通过例子来展示新系统中通知的特性和使用方式。全面适配为时尚早，但是未雨绸缪总没有错。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;amp;mid=2649286341&amp;amp;idx=1&amp;amp;sn=054d595af6e824cbe4edd79427fc2706&amp;amp;scene=0&#34;&gt;Android N混合编译与对热补丁影响解析&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;大约在六月底，Tinker在微信全量上线了一个补丁版本，随即华为反馈在Android N上微信无法启动。冷汗冒一地，Android N又搞了什么东东？为什么与instant run保持一致的补丁方式也会出现问题？本文详细介绍了Android N混合编译对热补丁的影响。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzA4NTg1MjM0Mg==&amp;amp;mid=2657261350&amp;amp;idx=1&amp;amp;sn=6cea730ef5a144ac243f07019fb43076#rd&#34;&gt;Android端外推送到底有多烦？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;说Android端外推送比较烦，实际有两层意思：首先是实现麻烦，其次是市场混乱。无论是你花费了多少功夫，做了多少优化，仍然可能存在推送不到或推送延迟的情况。本文的目的，就是站在一个App开发团队的角度，集中讨论两方面的问题：如何对各家的推送平台进行技术选型；在集成各家推送平台的SDK的时候，应该重点关注哪些问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/99239b9c1630&#34;&gt;Android开发架构规范&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在开发中，一个良好的开发习惯以及一个开发规范可能会让你少走很多弯路，也会一定程度上的提高代码的可读性，可维护性和可拓展性。当随着需求的不断变更，需要维护项目的时候。当随着项目的代码量的提升，需要重构的时候，便会明白一个好的开发规范多么多么的重要。本文作者整理了自己在Android开发中的一些规范，希望对大家有参考意义。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/sample-code/wwdc/2016/&#34;&gt;Sample Code - Apple Developer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;WWDC 已经过去了一个多月，Apple 更新了 WWDC 2016 示例代码。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Draveness/Typeset&#34;&gt;Typeset&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;简单、优雅的处理富文本 Objectice-C 框架，支持链式调用、灵活的匹配字符串方案。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xincc/CCRequest&#34;&gt;CCRequest&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;支持多种 Cache 的网络框架，基于 AFNetworking 3.0 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Yalantis/ColorMatchTabs&#34;&gt;ColorMatchTabs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;漂亮、简洁的顶部 TabBar Swift 框架。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Curzibn/Luban&#34;&gt;Luban&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;目前做App开发总绕不开图片这个元素。但是随着手机拍照分辨率的提升，图片的压缩成为一个很重要的问题。单纯对图片进行裁切，压缩已经有很多文章介绍。但是裁切成多少，压缩成多少却很难控制好，裁切过头图片太小，质量压缩过头则显示效果太差。于是自然想到App巨头“微信”会是怎么处理，Luban（鲁班）就是通过在微信朋友圈发送近100张不同分辨率图片，对比原图与微信压缩后的图片逆向推算出来的压缩算法。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/yadav-rahul/TastyToast&#34;&gt;TastyToast&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;TastyToast是一款自定义的Android Toast，比系统自带的Toast效果美观了很多。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/zzz40500/AndroidSweetSheet&#34;&gt;AndroidSweetSheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个带有动画的Sheet，动画效果很赞。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Android工程师 by 美甲帮&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;地点北京。负责公司App开发。要求熟悉Java和Android，有良好的工程素养。薪资面议。简历发送至 lexchen@mooyoo.com.cn&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android高级工程师 by 微鲸科技&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;地点上海。负责Android多媒体开发。要求本科3年(硕士1年)以上工作经验。薪资面议。简历发送至 logan62334@gmail.com&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS/Android 高级工程师 by 阿里国际事业部&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;地点杭州。招P6、P7级别工程师和技术专家。要求有多个完整项目经验。待遇20-50K。简历发送至 blacktea.hw@alibaba-inc.com&lt;/p&gt;
 
 &lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
 
