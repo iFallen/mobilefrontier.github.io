@@ -7,8 +7,120 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Tue, 06 Dec 2016 23:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 12 Dec 2016 23:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第三十九期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-39/</link>
+      <pubDate>Mon, 12 Dec 2016 23:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-39/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ithome.com/html/iphone/278578.htm&#34;&gt;苹果公布 2016 年度 App &amp;amp; 游戏榜单&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上周苹果公布了 2016 年度 App &amp;amp; 游戏，Prisma 和 Clash Royale 成为最大赢家。音乐制作应用 Medly 和色彩跑酷 Chameleon Run 获得年度优秀 App &amp;amp; 游戏。Pin、VUE 等 16 款应用入选国区年度十佳。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&amp;amp;mid=2652040364&amp;amp;idx=1&amp;amp;sn=57f9d3a7fe5db730f448c0eaa2f8ddc0&#34;&gt;Google Developers中国网站发布&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Developers 中国网站是特别为中国开发者而建立的，它汇集了 Google 为全球开发者所提供的开发技术资源，包括 API 文档、开发案例、技术培训的视频。&lt;a href=&#34;http://developers.googleblog.cn/&#34;&gt;谷歌开发者中文博客&lt;/a&gt;是另一个谷歌新发布的中文博客站点，这个博客以中文的形式向中国的开发者提供了来自全球的谷歌开发者博客的翻译文章。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@DianQK/%E5%88%B0%E5%B9%B4%E5%BA%95%E4%BA%86-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%9C%A8-ios-%E4%B8%8A%E5%B0%9D%E8%AF%95-rex-%E5%91%A2-f8e27d19f488#.r3o0jv4cf&#34;&gt;到年底了，为什么不在 iOS 上尝试 ReX 呢？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了作者对 RxSwift 实践较长一段时间的思考结果，整体框架参考了 Vuex 的方式。相信 ReX 是值得在 iOS 上实践的新框架。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/65XQx6HszNO_n0RhQu4Qhg&#34;&gt;如何知道某个网络请求是哪个 SDK 发起的&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大多数的 APP 都在适配 HTTPS ，在引入了很多 SDK 的我们，需要知道如何查找某个网络请求是哪个 SDK 发起的，本文结合一个具体的例子介绍了如何查找的方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://limboy.me/tech/2016/12/11/time-to-learn-rxswift.html&#34;&gt;是时候学习 RxSwift 了&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;相信在过去的一段时间里，对 RxSwift 多少有过接触或耳闻，或者已经积累了不少实战经验。本文主要针对那些在门口徘徊，想进又拍踩坑的同学。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://realm.io/news/mbltdev-hector-zarate-consistent-thin-dumb-spotify/&#34;&gt;Consistent, Thin, &amp;amp; Dumb: Redesigning the Spotify iOS App&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;团队人多了后，写 UI 的代码很容易出现不一致的情况，比如同一类型的按钮在不同屏幕大小颜色有出入， UI 代码容易变得臃肿。本文介绍了 Spotify 的 iOS 团队是如何解决这个问题的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/37e31d924be9&#34;&gt;Android增量编译3～5秒的背后&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Freeline是由蚂蚁聚宝Android团队开发的一款针对Android平台的增量编译工具。它可以充分利用缓存文件，在几秒钟内迅速地对代码的改动进行编译并部署到设备上，有效地减少了日常开发中的大量重新编译与安装的耗时。本文主要介绍了freeline是如何实现快速增量编译的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/24305296&#34;&gt;MultiDex工作原理分析和优化方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;MultiDex是Google为了解决“65535方法数超标”以及“INSTALL_FAILED_DEXOPT”问题而开发的一个Support库。当一个Dex文件太大的时候（方法数目太多、文件太大），在打包Apk文件的时候就会出问题，就算打包的时候不出问题，在Android 5.0以下设备上安装或运行Apk也会出问题。既然一个Dex文件不行的话，那就把这个硕大的Dex文件拆分成若干个小的Dex文件，刚好一个ClassLoader可以有多个DexFile，这就是MultiDex的基本设计思路。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/BQxu7vXfdbd5U4izW5VTZQ&#34;&gt;Qzone视频下载如何做到多快好省？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Qzone的日均视频播放量已经突破了10亿，其中Android端的播放量在总播放量中的占比超过70%，相比年初，播放量的增长了超过10倍。视频下载是整个视频播放的基础，如果下载侧出问题，则会造成整个视频播放的失败，这就对视频下载提出了非常高的要求。本文详细介绍了Qzone团队对于下载的优化技术方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/PnICVDyVuMSyvpvTrdEpSQ&#34;&gt;微信终端跨平台组件mars系列(二) - 信令传输超时设计&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;mars是微信官方使用C++编写的业务性无关、平台性无关的终端基础组件，目前在微信Android、iOS、Windows、Mac、Windows Phone等多个平台中使用，并正在筹备开源。本文是微信团队介绍mars的第二篇文章。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/omaralbeik/SwifterSwift&#34;&gt;SwifterSwift&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;提供了非常多的便利方法的工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zekunyan/TTGPuzzleVerify&#34;&gt;TTGPuzzleVerify&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;拼图验证控件。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/hyperoslo/Whisper&#34;&gt;Whisper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;简洁的通知和消息控件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/githubwing/ZoomHeader&#34;&gt;ZoomHeader&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;模仿饿了么详情页的效果，实现了跟随手指移动viewpager变详情页的效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tsy12321/MyOkHttp&#34;&gt;MyOkHttp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;MyOkHttp是对Okhttp3进行二次封装,对外提供了POST请求、GET请求、PATCH请求、PUT请求、DELETE请求、上传文件、下载文件、取消请求、Raw/Json/Gson返回、后台下载管理等功能，&lt;a href=&#34;http://www.jianshu.com/p/219ee2afb4f3&#34;&gt;这里&lt;/a&gt;是作者对该项目的详细介绍。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/race604/WaveLoading&#34;&gt;WaveLoading&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一款水波纹效果的加载动画，支持自定义速度、长度等。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Android高级工程师 by 融360&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京。负责公司移动产品研发。要求两年以上移动开发经验，能独立承担开发任务。薪资25-30K，好的可以更高。简历发送至 39206514@qq.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android高级工程师/专家 by 支付宝&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标上海。负责支付宝钱包、线下支付、社交等Android/iOS客户端应用架构和开发工作。要求5年客户端开发经验。职级P6-P7。简历发送至 zhengfang.zf@alibaba-inc.com&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;form.mikecrm.com/OAvnqm&#34;&gt;华为技术开放日&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;12月13日成都举行。华为发布了基于安卓7.0的EMUI5.0，通过智能学习系统优化安卓资源调度管理。华为将在成都、北京、广州举办三场EMUI5.0技术开放日，与资深极客、技术专家和花粉针对EMUI从设计到交互再到性能进行全面性的探讨交流，使广大用户对EMUI能够有更深一步的认知，并聆听用户的意见和建议，助力EMUI变得更好。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第三十八期</title>
@@ -1495,116 +1607,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第二十四期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-24/</link>
-      <pubDate>Mon, 15 Aug 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-24/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/it/2016-08-15/doc-ifxuxnak0256466.shtml&#34;&gt;库克任苹果CEO五周年专访：关于犯错、人工智能和手机市场&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;蒂姆·库克（Tim Cook）担任苹果CEO即将满5周年，他近期接受了《华盛顿邮报》的专访。这篇文章简单的概括了专访都说了些啥。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://osp.io/archives/2540&#34;&gt;Google悄悄开发的全新操作系统 Fuchsia 被发现了！&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Google 正在悄悄的开发一款全新的操作系统，命名为Fuchsia。为什么 Google 要开发一个全新的OS和kernel？最有可能的原因是，Google希望Fuchsia有一天能代替Chrome OS和Android，但也许Google也会像三星对待Tizen OS一样对待Fuchsia。但也有可能只是谷歌的一次尝试。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.sunnyxx.com/2016/08/13/reunderstanding-runtime-0/&#34;&gt;重识 Objective-C Runtime - Smalltalk 与 C 的融合&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是重识 Objective-C Runtime 系列文章的第一篇，作者曾在 2014 分享了一次 Runtime ，并出了几个题目，导致 Runtime 成了面试时的“必考题”，时隔多年，作者加深了对 Runtime 的理解，促成了这一系列的文章。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.dianqk.org/2016/08/10/better-swifty-framework-namespace/&#34;&gt;写更优雅的 Swift 框架 - rx_tap -&amp;gt; rx.tap&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者在看到 &lt;a href=&#34;https://github.com/SnapKit/SnapKit/tree/feature/0.40.0&#34;&gt;SnapKit Swift 3分支&lt;/a&gt;的 API 从 &lt;code&gt;snp_makeConstraints&lt;/code&gt; 到 &lt;code&gt;snp.makeConstraints&lt;/code&gt; 的转变，产生了极大的兴趣。本文介绍了这种新 API 的优势及实现方案，本文还有一篇&lt;a href=&#34;http://blog.dianqk.org/2016/08/11/better-swifty-framework-namespace-2/&#34;&gt;续集&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/83b6e781eb51&#34;&gt;手把手教你给一个 iOS app 配置多个环境变量&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在项目中配置 Test 和 Release 等环境是件非常必要的事情。本文详细介绍了利用 Build Configuration 、xcconfig 、Targets 三种方案配置多环境。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qq157755587.github.io/2016/08/12/custom-tabs-best-practices/&#34;&gt;Chrome Custom Tabs最佳实践&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;距离Google发布Chrome Custom Tabs已经一年，Twitter、Medium等国外App早已支持了这个功能，但遗憾的是国内App鲜有支持。这篇文章以官方开发文档和示例源码为基础，加上自己的理解，希望能帮助读者快速掌握Chrome Custom Tabs的用法。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://yrom.net/blog/2016/08/06/one-little-tip-to-handle-safe-media-volume-level-on-android/&#34;&gt;Android 上的安全音量&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;当Android 设备插上耳机，为了避免音量过高伤害用户听力，会触发其“安全音量”(Safe Media Volume)机制，如果在未经用户确认允许使用大音量时，且这时设置音量newIndex超过其推荐阈值，却会发现毫无反应，播放的声音依然不会很大。那么需要如何解决该问题呢？本文给出了答案。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/c967653a9468&#34;&gt;Android开发之App启动时间统计&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作为Android开发者，想必多多少少要接触启动速度优化相关的事情，当用户越来越多，产品的功能也随着迭代越来越多，App逐渐变得臃肿是一件很常见的现象，甚至可以说是不可避免的现象，随之而来的工作就是优化App性能，其中最主要的一项就是启动速度优化。本文的主角并不是启动速度优化，而是启动时间统计。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/kirualex/SwiftyGif&#34;&gt;SwiftyGif&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;高性能 Swift 引擎，在不限制内存情况下，CPU 占用远低于 FLAnimatedImage，限制内存下，性能略高于 FLAnimatedImage 。基于 UIImage 和 UIImageView 扩展，灵活易用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Automattic/simplenote-ios&#34;&gt;simplenote-ios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Automattic 开源了自家 Markdown 编辑软件 Simplenote 的 iOS 、Android 、macOS 等版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Automattic/simplenote-ios&#34;&gt;PMJSON&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;纯 Swift JSON 解码编码框架，在编码上，性能略优于 NSJSONSerialization 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/PiXeL16/IBLocalizable&#34;&gt;IBLocalizable&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在 Storyboard 上支持本地化，特别是对于语言的支持，体验较差，IBLocalizable 提供了更简单的方式支持 View 的本地化，支持自定义视图本地化。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/eoinfogarty/Onboarding&#34;&gt;Onboarding&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个效果非常赞的引导页。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Automattic/simplenote-android&#34;&gt;simplenote-android&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;simplenote是一款笔记应用，现在simplenote开放了各个端的源码，推荐大家下载代码学习研究。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/yipianfengye/android-adDialog&#34;&gt;android-adDialog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个简单且强大的广告活动弹窗控件，并且可以自定义多种场景。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/nekocode/CameraFilter&#34;&gt;CameraFilter&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个实时相机滤镜实现，提供了多种滤镜效果。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Android/iOS工程师 by 北京优络时代科技&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;地点北京。负责公司APP开发，APP叫YOLO，是一款朋友间的视频直播工具。要求具备较好的Android/iOS开发基础，有良好的工程素养。待遇15~30K。简历发送至 xujianlin@yoloyolo.tv&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bagevent.com/event/109881&#34;&gt;APMCon中国应用性能管理大会&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;8月18日~19日在北京召开。聚焦于应用性能管理垂直领域的盛会。来自LinkedIn、AppDynamics、阿里巴巴、腾讯、京东、新浪、美团、360等国内外一线互联网公司的技术专家将给大家带来精彩的演讲分享！&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
