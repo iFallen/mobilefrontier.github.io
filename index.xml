@@ -26,13 +26,13 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.cnbeta.com/articles/568229.htm&#34;&gt;Android Wear 2.0的部分第三方独立应用率先曝光&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;》：Google已经确认推迟Android Wear 2.0至明年发布。或许这项决定让部分人感到失望，不过好消息是新版智能手表系统将支持第三方独立应用。本周，根据Google官博客，Foursquare, Glide、Lifesum等软件将会登陆新版Android Wear。&lt;/p&gt;
+&lt;p&gt;Google已经确认推迟Android Wear 2.0至明年发布。或许这项决定让部分人感到失望，不过好消息是新版智能手表系统将支持第三方独立应用。本周，根据Google官博客，Foursquare, Glide、Lifesum等软件将会登陆新版Android Wear。&lt;/p&gt;
 
 &lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/qRW_akbU3TSd0SxpF3iQmQ&#34;&gt;DynamicCocoa：滴滴 iOS 动态化方案的诞生与起航：&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/qRW_akbU3TSd0SxpF3iQmQ&#34;&gt;DynamicCocoa：滴滴 iOS 动态化方案的诞生与起航&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;动态化一直是 App 开发梦寐以求的能力，而在 iOS 环境下，Apple 禁止了在 Main Bundle 外加载和执行的自己的动态库，所以像 Android 一样下发原生代码的方案被堵死。本文介绍了滴滴自研的 iOS 动态化方案 DynamicCocoa，包含基本的实现原理和功能。&lt;/p&gt;
 
