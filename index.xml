@@ -7,8 +7,122 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Mon, 12 Dec 2016 23:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Dec 2016 23:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第四十期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-40/</link>
+      <pubDate>Mon, 19 Dec 2016 23:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-40/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.phonearena.com/news/Apple-granted-patent-for-dual-SIM-technology_id89004&#34;&gt;Apple 双卡专利曝光&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;美国专利商标局的数据库中近日也出现了一项由 Apple 申请的双卡技术专利。专利展示了如何使用独立天线实现双卡待机并区分双卡之间的优先级，以及同时使两张 SIM 支持 LTE 网络的技术细节。但双卡技术是否会应用在明年的 iPhone 设备上仍然是个未知数。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnbeta.com/articles/568229.htm&#34;&gt;Android Wear 2.0的部分第三方独立应用率先曝光&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;》：Google已经确认推迟Android Wear 2.0至明年发布。或许这项决定让部分人感到失望，不过好消息是新版智能手表系统将支持第三方独立应用。本周，根据Google官博客，Foursquare, Glide、Lifesum等软件将会登陆新版Android Wear。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/qRW_akbU3TSd0SxpF3iQmQ&#34;&gt;DynamicCocoa：滴滴 iOS 动态化方案的诞生与起航：&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;动态化一直是 App 开发梦寐以求的能力，而在 iOS 环境下，Apple 禁止了在 Main Bundle 外加载和执行的自己的动态库，所以像 Android 一样下发原生代码的方案被堵死。本文介绍了滴滴自研的 iOS 动态化方案 DynamicCocoa，包含基本的实现原理和功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/18xXQWboHcjybd_VtcTmUg&#34;&gt;WKWebView 从入门到趟坑：&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;开发 App 的过程中，常常会遇到在 App 内部加载网页，通常用 UIWebView 加载。而这个自 iOS 2.0 开始使用的 Web 容器一直是开发的心病：加载速度慢，占用内存多，优化困难。本文介绍了作者从 UIWebView 迁移到 WKWebView 遇到的坑，并给出了部分解决方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wereadteam.github.io/2016/12/12/Monitor/&#34;&gt;微信读书 iOS 质量保证及性能监控&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在实现需求的同时，能写出既优雅性能又高效的代码是每个开发者都在追求的目标，但是在实际开发中，随着每个版本需求的迭代，功能变得越来越复杂，加上开发者的意识不够或者一时疏忽，日渐复杂的工程很容易产生或多或少的问题。 app 随机丢失动画、用户反馈 app 卡死、用户投诉看不了书籍等等的问题，这些问题都严重影响使用，也会降低产品口碑。微信读书团队开发了一些监控工具来解决这些问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mrpeak.cn/blog/ios-2016/&#34;&gt;2016 年 iOS 技术圈回顾&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2016 年同 2015 年一样，一晃神就到了年底。年关将近，不知诸君心情如何，年初的规划实现了多少，来年的计划又是否已有了眉目。年过三十的作者感觉年关是越来越难过了，本文盘点了 2016 年 iOS 技术圈发生的一些大大小小的事。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://useyourloaf.com/blog/stack-view-constraint-conflicts-when-hiding-views/&#34;&gt;Stack View Constraint Conflicts When Hiding Views&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如果你在使用 UIStackView ，免不了遇到各种约束冲突的提示，本文介绍了冲突的来源和 UISV-hiding 是什么，以及对应的解决方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/3160a0297345&#34;&gt;Weex Android SDK源码分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;12月15日，阿里巴巴宣布将移动开源项目Weex捐赠给Apache基金会开始孵化，Weex有望成为中国移动领域的首个Apache顶级项目，这意味着中国移动技术开始反哺世界。据悉，这也是继JStorm、RocketMQ之后，阿里向Apache捐赠的第三个项目。本文作者初学Weex，简单介绍了Weex Android SDK的源码。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yifeng.studio/2016/12/15/android-fragment-attentions/&#34;&gt;Android Fragment的使用，一些你不可不知的注意事项&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fragment俗称碎片，自Android 3.0开始被引进并大量使用。然而就是这样耳熟能详的一个东西，在开发中我们还是会遇见各种各样的问题，层出不穷。作为Activity界面的一部分，Fragment的存在必须依附于Activity，并且与Activity一样，拥有自己的生命周期，同时处理用户的交互动作。本文为我们详细介绍了Fragment的常用方法及一些注意事项。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/dd864140130/article/details/53645290&#34;&gt;Android 开发:由模块化到组件化(一)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;模块化就是将一个程序按照其功能做拆分，分成相互独立的模块，以便于每个模块只包含与其功能相关的内容。模块我们相对熟悉，比如登录功能可以是一个模块，搜索功能可以是一个模块，汽车的发送机也可是一个模块。组件化就是基于可重用的目的，将一个大的软件系统按照分离关注点的形式，拆分成多个独立的组件，已较少耦合。本文简单介绍了组件化与模块化的区别及整体架构。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://woshijpf.github.io/2016/12/17/Android-NDKvsAOSP-Build-System/&#34;&gt;Android NDK vs AOSP Build System&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者最近一直在做有关Android系统源码底层的开发，就经常接触到 Android NDK 和 AOSP(Android Open Source Project) Build System 这两个东西，但是由于他们两者都可以将C/C++代码编译成可执行文件或者动态链接库，导致作者经常将这两者弄混淆了。为了弄明白两者的关系，作者写下了本文。文章详细介绍了Android NDK与AOSP Build System的概念、区别以及两者之间关系。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/material-components/material-components-ios&#34;&gt;material-components-ios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;将 Material Design 应用到 iOS 上组件库。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/xmartlabs/Eureka&#34;&gt;Eureka&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;易用易扩展的动态表单工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Flipboard/FLEX&#34;&gt;FLEX&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;App Debug 工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/kickstarter/ios-oss&#34;&gt;ios-oss&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kickstarter 完整开源项目。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/githubwing/ZoomHeader&#34;&gt;ZoomHeader&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;模仿饿了么详情页的效果，实现了跟随手指移动viewpager变详情页的效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/9dd4027c2107&#34;&gt;高仿蘑菇街欢迎页&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;该项目模仿了蘑菇街欢迎页的效果，同时作者还给出了一遍介绍实现过程的文章。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/facebookincubator/TextLayoutBuilder&#34;&gt;TextLayoutBuilder&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是facebook出品的一个开源项目。使用该项目，我们可以非常方便的通过代码去创建一个layout。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;本周暂无工作推荐，可查看之前的推荐。&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第三十九期</title>
@@ -1509,104 +1623,6 @@
 &lt;p&gt;&lt;a href=&#34;http://click.aliyun.com/m/5653/&#34;&gt;蚂蚁金服&amp;amp;阿里云在线金融技术峰会&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;蚂蚁金服&amp;amp;阿里云在线金融技术峰会将于8月30日-31日在线举办。8位蚂蚁金服和阿里云技术大V，将从蚂蚁无线技术、大规模机器学习、金融领域大数据创新、云数据库OceanBase、蚂蚁开放平台等维度，分享蚂蚁从FinTech到FinLife的技术探索思考，展现技术在互联网及金融领域的创新实践应用。蚂蚁开放平台技术路线将首度公开，希望构建更加开放和共享的技术生态。免费参与。&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第二十五期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-25/</link>
-      <pubDate>Wed, 24 Aug 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-25/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://9to5mac.com/2016/08/16/apple-china-rd-center/&#34;&gt;Tim Cook 表示将在中国建立亚洲首家独立研发中心&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple CEO Tim Cook 和国务院副总理张高丽会面时表示，Apple 将在中国建立亚洲首个独立研发中心，计划于今年年底前建成。Apple 在中国建立独立研发中心将可以加强苹果在中国市场的影响力，并和政府建立更为良好的合作关系。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ithome.com/html/android/250693.htm&#34;&gt;Android 7.0牛轧糖发布时间泄露：Nexus 6P/5X将首尝“甜头”&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;谷歌将在本月放出Android 7.0牛轧糖（安卓N）正式版的传闻已经由来已久，现在更具体的日期也被曝光。来自加拿大电信运营商Telus的最新消息显示，Nexus 6P和5X将在8月22日，也就是下周一迎来安卓7.0固件更新。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tech.meituan.com/potential-memory-leak-in-reactivecocoa.html&#34;&gt;ReactiveCocoa 中潜在的内存泄漏及解决方案&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ReactiveCocoa 是 GitHub 开源的一个函数响应式编程框架，目前在美团 App 中大量使用。用过它的人都知道很好用，也确实为我们的生活带来了很多便利，特别是跟 MVVM 模式结合使用，更是如鱼得水。不过刚开始使用的时候，可能容易疏忽掉一些隐藏的细节，从而导致内存泄漏等问题。本文就带大家深入了解下 ReactiveCocoa 中隐藏的一些细节，帮助大家以更加正确的姿势使用 ReactiveCocoa。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/ed65d71554d8&#34;&gt;如何使用 Runtime 给现有的类添加 weak 属性&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文给出了一份如何使用 Runtime 实现 weak 属性的解答，思路与 @iOS程序犭袁的给出的&lt;a href=&#34;https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/%E3%80%8A%E6%8B%9B%E8%81%98%E4%B8%80%E4%B8%AA%E9%9D%A0%E8%B0%B1%E7%9A%84iOS%E3%80%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88%EF%BC%88%E4%B8%8A%EF%BC%89.md&#34;&gt;参考答案&lt;/a&gt;略有不同。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://draveness.me/http-mock/&#34;&gt;如何进行 HTTP Mock（iOS）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文是对 &lt;a href=&#34;https://github.com/AliSoftware/OHHTTPStubs&#34;&gt;OHHTTPStubs&lt;/a&gt; 源代码的分析，其实现原理建立在 NSURLProtocol 的基础上，分析了 OHHTTPStubs 是拦截 HTTP 请求及如何伪造 HTTP 原理。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzAxNjI3MDkzOQ==&amp;amp;mid=2654472617&amp;amp;idx=1&amp;amp;sn=f8a61e2232c40329d83b05e94d5a7159&amp;amp;scene=4#wechat_redirect&#34;&gt;Android最新Support V4包大拆分有用吗？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;近日Google更新的Support Library版本，其中最为显眼的功能莫过于support-v4的大拆分，然而这个拆分现在看来并没有那么美好。v4包从2011年开始引入，包含ViewPager、FragmentActivity等我们常用的功能，目前已经达到1.3M，Google此次升级将这个库拆分为5个子的Module，每个Module可以被单独引用。阅读文章，了解更多最新Support V4的细节知识。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/u013045971/article/details/52119117&#34;&gt;猎豹&amp;rdquo;快切App&amp;rdquo;中用到的Android开发技巧探索（附源码）&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;快切是从猎豹的Clear Master中分离出来的一个悬浮窗小工具。因为对这个比较感兴趣，博主断断续续花了2个月时间完成了一个类似块切的版本，起了个名字叫“Well Swipe”，中文名叫“Well 划划”。本文详细介绍了该项目开发中遇到的一些坑和技巧，同时给大家揭密了块切开发过程中用到的自定义控件技术细节。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://dev.qq.com/topic/57ac4a0ea374c75371c08ce8&#34;&gt;Android进程保活招式大全&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;目前市面上的应用，貌似除了微信和手Q都会比较担心被用户或者系统（厂商）杀死问题。Android进程拉活包括两个层面：一个是提供进程优先级，降低进程被杀死的概率，另一个是在进程被杀死后，进行拉活。本文从这两方面为我们详细讲解了如何进行保活操作。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/146BC/StyleKit&#34;&gt;StyleKit&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用 JSON 文件定制 UI Style 的 Swift 框架，支持自定义解析文本 Style 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/KevinGong2013/ChineseIDCardOCR&#34;&gt;ChineseIDCardOCR&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;中国二代身份证识别 Swift 框架。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/inamiy/ReactiveAutomaton&#34;&gt;ReactiveAutomaton&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于 ReactiveCocoa 实现的状态机框架，灵感来自于 Redux 和 Elm ，同时还有基于 RxSwift 版本的状态机 RxAutomaton。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/binIoter/GuideView&#34;&gt;GuideView&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;轻量级的新手引导库，能够快速为任何一个View创建一个遮罩层，支持单个页面，多个引导提示，支持为高亮区域设置不同的图形，支持引导动画，方便扩展&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/mychoices/Jgraph&#34;&gt;Jgraph&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个实现了线形、柱状、点状风格的图表效果，并且提供了动画功能。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/JeasonWong/SlackLoadingView&#34;&gt;SlackLoadingView&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一款效果很赞的加载动画，作者还写了一篇&lt;a href=&#34;http://www.wangyuwei.me/2016/08/15/%E6%89%8B%E6%91%B8%E6%89%8B%E6%95%99%E4%BD%A0%E5%86%99Slack%E7%9A%84Loading%E5%8A%A8%E7%94%BB/&#34;&gt;教程&lt;/a&gt;专门介绍该动画的实现过程。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Android/iOS工程师 by 谁叫随到&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;地点北京。O2O创业公司招募技术中坚，有机会成为技术合伙人。要求2年以上移动开发经验，能承担独立开发工作。薪资面议。建立发送至 hrytn2016@dingtalk.com&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 </description>
