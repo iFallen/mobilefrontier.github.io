@@ -7,8 +7,124 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Mon, 19 Dec 2016 23:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Dec 2016 23:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第四十一期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-41/</link>
+      <pubDate>Mon, 26 Dec 2016 23:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-41/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/news/?id=12212016b&amp;amp;1482372961&#34;&gt;Apple 延长 App 接入 HTTPS 期限&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在今年的 WWDC 大会，Apple 要求开发者于年底之前为提交至 App Store 中的应用启用 HTTPS ，以支持 iOS 9 引入的 ATS（App Transport Security）技术。但近日，apple 发布声明宣布延长这个时限，提供给开发者更多的时间进行相关准备。目前 Apple 尚未公布新的截止日期。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ithome.com/html/android/283379.htm&#34;&gt;CM社区官网已被禁止访问&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作为一家野心勃勃的创业公司，Cyanogen曾经希望开发一款比谷歌官方版本更好的Android系统，但该公司最近几个月却经历了动荡。他们不仅裁员，而且辞退了CEO，还有一位联合创始人离职。12月23日，圣诞节到来之前，Cyanogen公司在官网宣布，将在2016年12月31日关闭被Cyanogen所支持的所有服务，其中包括CyanogenMod系统，也就是我们所熟知的CM系统。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Code-T/salon-resources/tree/master/%E4%B8%8A%E6%B5%B7%202016:12:18&#34;&gt;上海 T 沙龙 Slide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;沙龙分享了MVVM + RAC + Command 架构实战、基于 RAC 实现的 MVVM 框架 LPDMVVMKit和面向数据流的网络请求与数据解析三个主题。回放地址：&lt;a href=&#34;http://www.bilibili.com/video/av7644194/&#34;&gt;上海 T 沙龙12月-FRP 函数响应式编程&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://autolayout.club/2016/12/22/%E5%86%99%E7%BB%99-iOS-%E5%BC%80%E5%8F%91%E8%80%85%E7%9C%8B%E7%9A%84-HTTPS-%E6%8C%87%E5%8D%97/&#34;&gt;写给 iOS 开发者看的 HTTPS 指南&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;不管怎样我们还是要适配HTTPS，本文将着重以大部分 iOS 开发者能理解的方式介绍 APP 启用 HTTPS 支持的过程中跟 APP 相关的部分。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://onevcat.com/2016/12/concurrency/&#34;&gt;Swift 并行编程现状和展望 - async/await 和参与者模式&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;距离适配完 Swift 3 可能已经过去 1 个月了，而本文作者对 2018 年发布的 Swift 5 的一些特性进行了猜想。特别是对大家可能都在期待的特性 async/await 。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/nP7UmlbCHeGJ9aCnTDsIHg&#34;&gt;iOS书写高质量代码之耦合的处理&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;耦合是每个程序员都必须面对的话题，也是容易被忽视的存在，怎么处理耦合关系到我们最后的代码质量。本文介绍了 iOS 代码中处理耦合的种种方式及差异。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://halfrost.com/reactivecocoa_racsequence_ractuple/&#34;&gt;ReactiveCocoa 中集合类 RACSequence 和 RACTuple 底层实现分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在OOP的世界里使用FRP的思想来编程，光有函数这种一等公民，还是无法满足我们一些需求的。本文专门分析了 RAC 中 RACSequence 的底层实现。相信了解了底层实现会在使用 RAC 时更加得心应手。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;amp;mid=2651232299&amp;amp;idx=1&amp;amp;sn=113a97ad70e23c5dc110cbfc0d345982&#34;&gt;Android Auto开发初探&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;谷歌于2014年6月推出了Android Auto系统。它是谷歌生态系统的一个重要终端。说它是个系统其实并不完全准确，因为谷歌并没有提供完整的操作系统，而是提供了一套Android Auto SDK给汽车厂商。汽车厂商需要把这套Android Auto SDK集成到他们自己的车载操作系统中。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzAxNzMxNzk5OQ==&amp;amp;mid=2649485010&amp;amp;idx=1&amp;amp;sn=89e7d2c68080b66adaef1eb74f1190b9&#34;&gt;上个版本我就改了一行代码！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;App的启动图标（icon）是程序在发版的时候直接打到Apk里的，但由于业务的需求，有时候我们需要修改icon图标。如果仅仅为了一个图标而去发一个新版，再提交到几十个市场，似乎有点小题大做。本文给出了一种动态替换icon的方案，完美实现了产品经理换icon的需求。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/9c07323dc7e5?hmsr=toutiao.io&amp;amp;utm_medium=toutiao.io&amp;amp;utm_source=toutiao.io&#34;&gt;Android性能监控实现原理&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;APM即应用程序性能管理。APM主要做的事情是crash监控，卡顿监控，内存监控，增加trace，网络性能监控，app页面自动埋点等。性能监控其实就是hook 代码到项目代码中，从而做到各种监控。常规手段都是在项目中增加代码，但最好的办法是做到非侵入式的，即一个sdk即可。阅读文章，了解性能监控的实现原理。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pingguohe.net/2016/12/20/Tangram-design-and-practice.html&#34;&gt;Tangram——天猫导购页面动态化方案与实践&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tangram中文名是七巧板的意思，我们希望这个框架提供一系列基本单元，就像积木块一样，通过快速拼装就能搭建出一个页面或者调整页面的结构。重运营的业务特别是电商业务，往往讲究灵活多变，需要对线上业务做实时调整，此类页面动态化的需求便应运而生。天猫团队再本月的SFDC大会上初次介绍了手机天猫的Tangram方案，本文是Tangram的整体介绍与相关业务开发实践的介绍。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/NghiaTranUIT/iOS-Awesome-Starter-Kit&#34;&gt;iOS-Awesome-Starter-Kit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;结合ReSwift和PromiseKit的初始工程。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/nitishmakhija/EasyTipView&#34;&gt;EasyTipView&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;友好地对用户展示操作提示库。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zhuhaow/NEKit&#34;&gt;NEKit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Network Extension 封装的工具库。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/hpdx/DanmukuLight&#34;&gt;DanmukuLight&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android上专为视频直播打造的轻量级弹幕库（100多kb）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/yanbober/AvatarLabelView&#34;&gt;AvatarLabelView&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个可配置的迷你版轻量级 Label辅助类，支持多种配置效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/githubwing/WowSplash&#34;&gt;WowSplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;云扩散融合效果，作者的实现思路堪称完美。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android/前端高级工程师 by 新美大平台部门大前端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京。维护美团App平台架构/业务，以及移动端和前端基础设施。高级工程师要求有一定的技术规划选型能力。薪资与BAT对标。简历发送至 radishchrist@gmail.com&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://atf.alibaba.com/weex&#34;&gt;WeexConf 2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年1月12日杭州举行。这次WeexConf我们将和业界分享以下亮点：Weex最新的技术特性、技术工具、技术能力、技术趋势发布； Weex两次历经双11大考的实战经验及阿里生态系的业务经验； Weex团队更将首次集体亮相，畅谈从开源到加入Apache的心路历程。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第四十期</title>
@@ -1519,110 +1635,6 @@
 &lt;p&gt;&lt;a href=&#34;http://form.mikecrm.com/2zCvh0&#34;&gt;高德Inside技术沙龙&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;9月10日北京举行。由InfoQ与高德开放平台联合举办的高德Inside技术沙龙活动，将邀请来自高德开放平台及游戏行业用户的专家，介绍如何利用高德地图SDK与定位SDK来解决LBS手游开发难题，分享游戏开发结合地图定位技术背后的经验教训与实践成果。活动免费，名额有限。&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第二十六期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-26/</link>
-      <pubDate>Tue, 30 Aug 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-26/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://appleinsider.com/articles/16/08/25/dangerous-targeted-iphone-attack-nullified-by-apple-with-ios-935-patch&#34;&gt;Apple 推送 iOS 9.3.5 ，修复严重安全漏洞&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;有消息称 iOS 9 上存在严重系统漏洞，目前已有间谍软件入侵中东地区政见者的 iPhone ，此次的安全漏洞，仅适用一条短信中的链接即可远程越狱入侵。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ithome.com/html/android/253064.htm&#34;&gt;谷歌将放出安卓7.&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.1.&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.1.2季度更新&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;现在爆料大神evleaks给出消息称，谷歌接下来会推出安卓7.&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.1.&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.1.2三个维护更新，这也跟之前的传闻相吻合，并且此前一份网页访问记录也曝出过安卓7.1.1和安卓7.1.2的版本。目前安卓7.0还有多项功能缺失，例如视频通话应用Allo、VR平台DayDream和谷歌助手等，估计这些功能会在后续的维护更新中添加。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://wereadteam.github.io/2016/08/23/Typesetter/&#34;&gt;微信读书排版引擎自动化测试方案&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在微信读书 App 中，排版引擎是最常用、最复杂的组件之一。对排版引擎代码变更的测试，往往耗时多、难度大、容易漏测。本文介绍了为解决测试的难题，如何逐步将人工测试步骤自动化，最终构建了一套微信读书排版引擎自动化测试流程，以确保微信读书排版引擎的质量。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.callmewhy.com/2016/08/24/autolayout-design-aesthetic/&#34;&gt;Auto Layout 设计美学&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文介绍了设计稿与 Auto Layout 的关系，分享了作者的一些 Auto Layout 最佳实践，即分享了如何将设计稿中的像素，转化为开发稿中的约束。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@JegnuX/safe-collection-subsripting-in-swift-3771f16f883#.mlv1ukkgv&#34;&gt;在 Swift 中安全的使用下标访问 Collection 数据&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者分享了一种比使用 &lt;code&gt;numbers[safe: 2]&lt;/code&gt; 更合理、更优雅的下标访问写法，即 &lt;code&gt;numbers.safe[2]&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;amp;mid=2651232105&amp;amp;idx=1&amp;amp;sn=fcc4fa956f329f839f2a04793e7dd3b9&amp;amp;scene=0&#34;&gt;Android动态布局入门及NinePatchChunk解密&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用XML定义布局的方式，有着结构清晰、可预览等优势，因而极为通用。可是，偏偏在某些场景下，布局是需要根据运行时的状态变化的，无法使用XML预先定义。这时候，我们只能通过JavaCode控制，在程序运行时，动态的实现对应的布局。本文给大家介绍了一些动态布局相关的基础知识和经验。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;amp;mid=2651232087&amp;amp;idx=1&amp;amp;sn=c8cd60ccc3b220759b44c5b951ae3cfb&amp;amp;scene=0&#34;&gt;轻听变色之谜&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;轻听是一款小而美的Android本地音乐播放器，而它的特点之一就是拥有多彩的外衣。轻听实现变色主要是结合两种方式：自定义Style、Theme与动态配置主题色。本文为我们详细讲解了轻听变色的实现过程。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&amp;amp;mid=2653577702&amp;amp;idx=1&amp;amp;sn=1288c77cd8fc2db68dc92cf18d675ace&amp;amp;scene=4#wechat_redirect&#34;&gt;Android动态链接库加载原理及HotFix方案介绍&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;随着项目中动态链接库越来越多，作者遇到了很多奇怪的问题，比如只在某一种OS上会出现的java.lang.UnsatisfiedLinkError，但是明明动态库名称没错，ABI也没错，方法也能对应的上，而且还只出现在某一些机型上。为了找到出现千奇百怪问题的原因，和能够提供一个方式来解决一些比较奇怪的动态库加载的问题，了解一下so的加载流程是非常有必要的了，便于发现问题和解决问题，这就是本文的由来。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/100mango/SwiftTimer&#34;&gt;SwiftTimer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于 Swift3 与 DiapatchSource 实现的 Timer 框架。优雅简洁地解决了 NSTimer 引用循环，Runloop 依赖，线程切换，不支持闭包以及不能动态调整时间间隔的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/wangjwchn/AImage&#34;&gt;AImage&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一个 GIF 和 APNG 的 iOS 动画引擎 Swift 框架。特别为多图情况进行了优化。GIF 渲染性能优于 &lt;a href=&#34;https://github.com/Flipboard/FLAnimatedImage&#34;&gt;FLAnimatedImage&lt;/a&gt;，尤其体现于多图情况。APNG 渲染在内存占用上低于 &lt;a href=&#34;https://github.com/onevcat/APNGKit&#34;&gt;APNGKit&lt;/a&gt; 一半。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/leancloud/ChatKit-OC&#34;&gt;ChatKit-OC&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ChatKit 是一个免费且开源的 UI 聊天组件，自带云服务器，自带推送，支持消息漫游，消息永久存储。底层聊天服务基于 LeanCloud（原名 AVOS ） 的 IM 实时通信服务「LeanMessage」而开发，采用 Protobuf 协议进行消息传输。ChatKit 可以帮助开发者快速集成 IM 服务，轻松实现聊天功能，提供完全自由的授权协议，支持二次开发。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/mzlogin/awesome-adb&#34;&gt;awesome-adb&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ADB，即Android Debug Bridge，它是Android开发/测试人员不可替代的强大工具，也是Android设备玩家的好玩具。持续更新中，欢迎补充指正，觉得有用的可以将 此GitHub仓库Star收藏备用。有部分命令的支持情况可能与Android系统版本及定制ROM的实现有关。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/eleme/Amigo&#34;&gt;Amigo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一款hotfix开源库，使用方法非常简单。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Jasonchenlijian/FastBle&#34;&gt;FastBle&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Android BLE 蓝牙开发框架，使用回调方式处理，搜索、连接、notify、indicate、读、写等一系列蓝牙操作。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/chengdazhi/StyleImageView&#34;&gt;StyleImageView&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本类库可以对ImageView，View Background，Drawable和Bitmap添加风格与设置亮度、对比度。本类库现提供十种风格。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本周暂无工作推荐，可查看上几期推荐的职位。&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://click.aliyun.com/m/5653/&#34;&gt;蚂蚁金服&amp;amp;阿里云在线金融技术峰会&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;蚂蚁金服&amp;amp;阿里云在线金融技术峰会将于8月30日-31日在线举办。8位蚂蚁金服和阿里云技术大V，将从蚂蚁无线技术、大规模机器学习、金融领域大数据创新、云数据库OceanBase、蚂蚁开放平台等维度，分享蚂蚁从FinTech到FinLife的技术探索思考，展现技术在互联网及金融领域的创新实践应用。蚂蚁开放平台技术路线将首度公开，希望构建更加开放和共享的技术生态。免费参与。&lt;/p&gt;
 
 &lt;hr /&gt;
 </description>
