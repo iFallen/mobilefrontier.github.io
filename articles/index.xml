@@ -11,6 +11,138 @@
     <atom:link href="http://mobilefrontier.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>移动开发每周阅读清单：第四十三期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-43/</link>
+      <pubDate>Tue, 10 Jan 2017 23:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-43/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://images.apple.com/newsroom/pdfs/Q1FY17DataSummary.pdf&#34;&gt;因节假日 iPhone 卖得好，Apple 新一季财报成绩喜人&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple 发布 2017 年第一季度财报。连续三季度出现收入同比下跌后，Apple 本次获得不错成绩。财报显示，自 2016 年 9 月至 2016 年 12 月，Apple 季度营收达到 783.5 亿美元，同比年增长 3%，每股收益达 3.36 美元。Apple CEO Cook 表示，该季度中，Apple 售出的 iPhone、Mac、Apple Watch，服务都创下了历史最高纪录。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://view.inews.qq.com/a/TEC2017020700552607&#34;&gt;网易或在中国运营谷歌应用商店，已经开始谈判&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;据外媒最新消息，谷歌正在和中国互联网公司网易进行接触，谷歌可能通过网易在中国经营Play商店。网易和谷歌目前正在就此事进行磋商，但是双方是否会达成合作尚未可知。谷歌母公司Alphabet的董事长施密特此前曾经表示，在中国市场，谷歌需要寻找到一个商业伙伴来开展自身的一些业务，尤其是负责和政府监管部门之间的沟通。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://soledad.me/2017/01/18/about-tiptoes/&#34;&gt;介绍一种 iOS 中实现完全自定义导航栏的思路&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文作者参考 Unread 的 iOS 客户端导航栏交互，分享了一种定制导航栏的思路。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/&#34;&gt;Building a LISP from scratch with Swift&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;用 Swift 来写一个 LISP 解释器，你可以从中了解到如何写一个解释器。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/io9rzhtn9l8RYoHvH4tWyg&#34;&gt;iOS 创建对象的姿势&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了通过 init 、 Designated initializer 、 Builder pattern 等创建对象方式，并对比其中的不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://draveness.me/racsignal/&#34;&gt;『状态』驱动的世界：ReactiveCocoa&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文从最简单的例子中了解 ReactiveCocoa 的工作原理以及概念，也是作者个人对于 RAC 学习的总结与理解。主要围绕 RAC 中核心概念 RACSignal 展开，详细了解其底层实现。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tech.meituan.com/hardware-accelerate.html&#34;&gt;Android硬件加速原理与实现简介&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在手机客户端尤其是Android应用的开发过程中，我们经常会接触到“硬件加速”这个词。由于操作系统对底层软硬件封装非常完善，上层软件开发者往往对硬件加速的底层原理了解很少，也不清楚了解底层原理的意义，因此常会有一些误解，如硬件加速是不是通过特殊算法实现页面渲染加速，或是通过硬件提高CPU/GPU运算速率实现渲染加速。本文尝试从底层硬件原理，一直到上层代码实现，对硬件加速技术进行简单介绍，其中上层实现基于Android 6.0。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/WHYA4aTWIHcd8CQ95StwDg&#34;&gt;Android热修复Tinker接入及源码浅析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;现在热修复的技术有阿里的AndFix、QZone的方案、美团提出的方案以及腾讯的Tinker等。而Tinker已运行在微信的数亿Android设备上，所以该方案已经非常成熟。本文介绍了tinker的接入方法，并且对tinker的大致的原理进行了分析。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/31ba2d0e9a60&#34;&gt;Android应用瘦身，从18MB到12.5MB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;App瘦身是每个Android开发者都需要面对的问题。本文作者介绍了自己将App从18MB瘦身到12.5MB的方法。作者主要从安装包组成、资源瘦身、Native库瘦身、代码瘦身入手。作者在文章中给出了瘦身用到的工具，希望对大家有所帮助。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/guolin_blog/article/details/53122387&#34;&gt;Android新特性介绍，ConstraintLayout完全解析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ConstraintLayout是Android Studio 2.2中主要的新增功能之一，它和传统编写界面的方式恰恰相反，非常适合使用可视化的方式来编写界面，但并不太适合使用XML的方式来进行编写。另外，ConstraintLayout还有一个优点，它可以有效地解决布局嵌套过多的问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/fefeb1b310f1&#34;&gt;Android 6.0 SSL通信&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在Android平台上使用SSL，第一步就是要生成证书。因为JDK自带的keytool工具默认生成的密钥库是JKS类型的，而Android客户端只支持BKS类型的密钥库，所以必须先扩展keytool工具使其生成BKS密钥库。要扩展，则需要下载BouncyCastle库。本文给出了生成证书的方法并且提供了具体的实现代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/wizardforcel/article/details/54730253&#34;&gt;安卓逆向系列教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;从事逆向工作的人并不是很多，但反编译过App的开发者应该不在少数。本文作者写了一个系列的文章专门介绍Android逆向的知识，学习逆向知识不仅仅是破解别人的App，更重要的是对于我们进行安防有一定的帮助。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/airbnb/lottie-ios&#34;&gt;lottie-ios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Airbnb开源的渲染 After Effects 矢量动画组件，支持iOS、Android、React Native，这是iOS版本。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://chromium.googlesource.com/chromium/src.git/+/master/ios/&#34;&gt;chromium-ios&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Google 在春节期间开源了 Chrome for iOS，加入了Chromium开源项目，Chromium现在同时支持Webkit和Blink引擎了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/steventroughtonsmith/MobileTerminal&#34;&gt;MobileTerminal&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用 MobileTerminal 可以在 iOS 上进行一些简单的命令操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/oarrabi/Guaka&#34;&gt;Guaka&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;兼容 POSIX 命令行 Swift 框架。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/airbnb/lottie-android&#34;&gt;lottie-android&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Airbnb开源的渲染 After Effects 矢量动画组件，支持iOS、Android、React Native，这是Android版本。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/jkyeo/Android-SplashView&#34;&gt;Android-SplashView&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;该项目可以帮助开发者通过简单的几行代码管理闪屏页或广告页。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Meituan-Dianping/walle&#34;&gt;walle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android Signature V2 Scheme签名下的新一代渠道包打包神器。walle通过在Apk中的APK Signature Block区块添加自定义的渠道信息来生成渠道包，从而提高了渠道包生成效率，可以作为单机工具来使用，也可以部署在HTTP服务器上来实时处理渠道包Apk的升级网络请求。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android工程师 by 爱奇艺&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京或上海。维护爱奇艺及旗下app的架构和业务，以及移动端和前端基础设施，薪资就能力浮动。要求：本科以上,工作经验两年左右。简历发送至：jinkai@qiyi.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;中高级Android/iOS开发工程师 by 小红书&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标上海。负责参加小红书主App开发。要求三年以上相关经验，有App优化实践经验，有一定框架和架构开发经验。简历至：fzhang@xiaohongshu.com，主题格式：&lt;em&gt;应聘：（Android/iOS）开发工程师-姓名-当前公司&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;高级Android工程师 by 北京九轮网络科技&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京昌平。开发海外市场社交App。要求开发经验5-10年。薪资面谈。简历发送至 laowei@biulove.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android/前端高级工程师 by 新美大平台部门大前端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京。维护美团App平台架构/业务，以及移动端和前端基础设施。高级工程师要求有一定的技术规划选型能力。薪资与BAT对标。简历发送至 luozexiang@meituan.com&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>移动开发每周阅读清单：第四十二期</title>
       <link>http://mobilefrontier.github.io/articles/weekly-42/</link>
       <pubDate>Tue, 10 Jan 2017 23:07:47 +0800</pubDate>
@@ -1541,100 +1673,6 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/adrielcafe/AndroidAudioConverter&#34;&gt;AndroidAudioConverter&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;这是一个格式转换项目，支持的格式有AAC, MP3, M4A, WMA, WAV、FLAC，集成简单。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本期暂无工作推推荐。&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第二十八期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-28/</link>
-      <pubDate>Mon, 12 Sep 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-28/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.apple.com/cn/iphone-7/&#34;&gt;Apple 发布 iPhone 7 / 7 Plus 、Apple Watch 2 等新品&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple 正式发布了 iPhone 7 / 7 Plus、Apple Watch 2 新品，带来 AirPods 无线耳机，并把马里奥带进了 iOS。iPhone 7 新增亮黑色，移除3.5mm 耳机孔，支持 IP67 防水防尘等级。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mobile.yesky.com/392/104916392.shtml&#34;&gt;谷歌开始向Android One手机推送安卓7.0&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;按照以往的惯例，谷歌的Nexus手机和平板将享受到第一时间升级至最新版Android系统的优待，今年也不例外，几天前谷歌在修复电池和性能问题之后终于向Nexus 6P推送了Android 7.0 Nougat正式版。而另一方面，Android One手机则应该是第二波收到Android 7.0更新的机型。据最新报道，谷歌已经在开始向Android One手机推送Nougat更新了。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yulingtianxia.com/blog/2016/08/29/Some-Experience-of-Gesture/&#34;&gt;处理手势冲突和错乱的一点经验&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者分享了自己在实践中得到的一些处理手势的经验，如界面内容变化较多引发的手势冲突、界面内容数量较多引发的手势错乱。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://draveness.me/layout-performance/&#34;&gt;从 Auto Layout 的布局算法谈性能&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文从 iOS 中影响性能的另一大杀手，也就是万恶之源 Auto Layout来分析如何对 iOS 应用的性能进行优化以及 Auto Layout 到底为什么会影响性能？并给出选择 Auto Layout 还是 frame 布局一些建议。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://radex.io/xcode7-xcode8/&#34;&gt;Swift 如何同时兼容 Xcode7 和 Xcode8&lt;/a&gt;本文介绍了如何让 Swift 项目可以同时在 Xcode 7 和 Xcode 8 下开发，并介绍了将项目迁移到 Xcode 8 &amp;amp; Swift 2.3 的一些技巧，同时本文还有一篇&lt;a href=&#34;http://swift.gg/2016/09/02/xcode7-xcode8/&#34;&gt;中文翻译&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/yanzhenjie1003/article/details/52503533&#34;&gt;Android 6.0运行时权限管理最佳实践&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在Android6.0开始，App可以直接安装，App在运行时一个一个询问用户授予权限，系统会弹出一个对话框让用户选择是否授权某个权限给App。这个对话框不是开发者调用某个权限的功能时由系统自动弹出，而是需要开发者手动调用，如果你直接调用而没有去申请权限的话，将会导致App奔溃。本文为我们详细讲解了Android 6.0的权限管理知识。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzAxMzYyNDkyNA==&amp;amp;mid=2651332518&amp;amp;idx=1&amp;amp;sn=bcc31ed271efbdc7784c2b18bd046d33&amp;amp;scene=1&amp;amp;srcid=0908vrWOHzhOfspBV5CIdIA4#rd&#34;&gt;Android内存泄漏的简单检查与分析方法&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;内存泄漏问题大约是Android开发者最烦恼的问题之一了，内存泄漏不可小视，在Android开发中，比如说一个Activity页面会占用许多资源开销，如果页面发生泄漏，关闭以后页面没有能被系统回收，对应用程序的伤害是很大的。本文详解了如果发现内存泄漏、发现后使用工具来分析内存泄漏等知识。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzIyMjQ0MTU0NA==&amp;amp;mid=2247483736&amp;amp;idx=1&amp;amp;sn=926a762eee99264b967dd74c3f18023e&amp;amp;scene=1&amp;amp;srcid=0906d1W2N1uRyjerIoZmpCzG#rd&#34;&gt;Android深入理解Loader机制，让APP轻装上阵&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Android开发者都经历过APP UI开发不当会造成OverDraw，导致APP UI渲染过慢，但是很多人却没听过OverLoad，OverLoad一般是由于开发者在主线程进行耗时操作，导致程序变慢，甚至出现的ANR的现象，那么Android早已为这种现象提供完美的解决方案，就是本文给大家带来的Android Loader机制。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Techprimate/TPPDF&#34;&gt;TPPDF&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一款将 NSMutableAttributedString 渲染成 PDF 的 Swift 框架，基于生成器模式。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/shinobicontrols/iOS10-day-by-day&#34;&gt;iOS10-day-by-day&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;shinobicontrols 新开 iOS-day-by-day 项目，和以往的 day-by-day 项目一样，该项目演示了 iOS 10 的各种新特性 Demo 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/eBay/NMessenger&#34;&gt;NMessenger&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于 AsyncDisplaykit 的轻量聊天消息组件。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/zhoubowen-sky/LingDong2.0&#34;&gt;LingDong2.0&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个面对面文件快传的项目。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/codeestX/GeekNews&#34;&gt;GeekNews&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;GeekNews是一款开源的新闻阅读App，使用了目前比较流行的一些技术，包括Material Design、MVP、RxJava、Retrofit、Dagger2、Realm、Glide等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ParkSangGwon/TedBottomPicker&#34;&gt;TedBottomPicker&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一款从底部弹出的图片选择器，支持滑动到顶部的功能，用户体验比较友好。&lt;/p&gt;
 
 &lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
 
