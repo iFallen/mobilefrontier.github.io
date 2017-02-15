@@ -7,8 +7,116 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Tue, 07 Feb 2017 21:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Feb 2017 21:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第四十四期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-44/</link>
+      <pubDate>Wed, 15 Feb 2017 21:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-44/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tech.sina.com.cn/it/2017-02-13/doc-ifyamkzq1263806.shtml&#34;&gt;苹果CEO库克：AR影响力将会和iPhone一样巨大&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;苹果认为AR(增强现实)将会成为下一一项重大技术,到底AR市场有多大?是不是和iPhone一样大?之前,苹果CEO库克曾经表示公司对AR有兴趣……&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://view.inews.qq.com/a/TEC2017020700552607&#34;&gt;Google手机操作系统二月份统计数据：牛轧糖份额首度超过1%&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Google手机操作系统二月份统计数已经出炉，这个月的数字显示最新的Android操作系统份额终于突破1%。这些数字显示，牛轧糖7.1的份额为0.3%，牛轧糖7.0的份额为0.9%。牛轧糖7.0二月份份额比一月份提升0.4%，牛轧糖7.1的份额提升0.1%，两个牛轧糖版本现在合并份额为1.2%，比上个月增加0.5%。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/28e8919a2cae&#34;&gt;iOS 10 不提示「是否允许应用访问数据」，导致应用无法使用的解决方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;由于大陆相关部门出台的新规定指出，应用在未经用户允许的前提下，系统不能授予其使用联网、获取定位的功能。Apple 在 iOS 10 操作系统中加入了关于应用使用数据的授权弹窗提示，用户在 iOS 10 系统中第一次打开应用时，会被要求对于是否授予应用联网权限进行选择。不过，新的权限系统的引入也带来了一个 iOS 10 的新 bug。本文给出了对应的解决方案，你也可以采取类似的方案提示用户解决该问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/4c5613e256c8&#34;&gt;ReactiveCocoa 中 奇妙无比的“宏”魔法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在ReactiveCocoa 中，开源库作者为我们提供了很多种魔法，“黑”魔法，“红”魔法……本文介绍其中的“红”魔法，即“宏”。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/22590949&#34;&gt;谈谈 GIF 格式&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;长期以来，iOS 被 Android 歧视的一个点就是不支持 GIF，甚至每一代 iPhone 推出都要有人谣传这一代 iPhone 要支持 GIF 了。事实上，只是 iOS 平台的照片应用，不支持播放 GIF 。本文介绍了作者应用 GIF 一些相关经验及如何在剪贴板里面获取 GIF 文件，以及把 GIF 放进剪贴板。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.spinytech.com/2016/12/28/android_modularization/&#34;&gt;Android架构思考(模块化、多进程)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;关于模块化(组件化)这个问题，大部分开发者可能都认真的思考过。随着项目的开发，业务不断壮大，业务模块越来越多，各个模块间相互引用，耦合越来越严重，同时有些项目还伴随着子应用单独包装推广，影子应用单独发布等等需求，重新调整架构迫在眉睫。作者介绍了自己公司项目的演进过程，文章写的很详细，架构也很实用，对大家合理架构项目很有帮助，强烈推荐大家阅读。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://droidyue.com/blog/2017/02/12/dive-into-arraymap-in-android&#34;&gt;深入剖析Android中的ArrayMap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;数据集合在任何一门编程语言中都是很重要的一部分，在Android开发中，我们会实用到ArrayList，LinkedList，HashMap等。其中HashMap是用来处理键值对需求的常用集合。而Android中引入了一个新的集合，叫做ArrayMap，为键值对存储需求增加了一种选择。本文深度剖析了ArrayMap的实现原理。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/rpDFA-h5t2RA9Dih3gVqVA&#34;&gt;混淆的另一重境界&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;众所周知，我们开混淆打包后生成的apk里，Activity、自定义View、Service等出现在xml里的相关Java类默认都会被keep住，那么这对于app的保护是不足够好的，Mess就是来解决这个问题，把即使出现在xml文件中的Java类照样混淆。本文详细介绍了Mess的使用方法。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/7b839b7c5884&#34;&gt;教你一步步搭建MVP+Retrofit+RxJava网络请求框架&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;MVP（Model View Presenter）其实就是一种项目的整体框架，能让你的代码变得更加简洁，说起框架大家可能还会想到MVC、MVVM。Retrofit是一个类型安全的用于Android和Java网络请求的客户端，其实就是一个封装好的网络请求库。本文作者详细介绍了如何使用MVP+Retrofit+RXJava的技术方案来搭建Android基础开发框架。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/JensRavens/Interstellar&#34;&gt;Interstellar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一款简单轻量的函数响应式库，基于Swift。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/KelvinJin/AnimatedCollectionViewLayout&#34;&gt;AnimatedCollectionViewLayout&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;支持自定义转场动画组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/fastred/IBAnalyzer&#34;&gt;IBAnalyzer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;IB 分析工具，可以方便地查找到未关联的 IBOutlet 和 IBAction&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/xmartlabs/XLActionController&#34;&gt;XLActionController&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;样式丰富的 Action Sheet 组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/GitLqr/LQRWeChat&#34;&gt;LQRWeChat&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本项目高仿微信6.3.31，使用网易云信SDK 3.2.0版本完成主要的聊天功能（单聊、群聊）、好友关系管理、群组管理等功能。重要的是，作者还是一名在校学生。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/hefuyicoder/ListenerMusicPlayer&#34;&gt;ListenerMusicPlayer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一款优雅的遵循Material Design的开源音乐播放器，UI参考腾讯轻听音乐播放器,使用Lastfm Api与酷狗歌词Api。项目架构采用mvp-clean，基于Retrofit2 + Dagger2 + Rxjava + RxBus + Glide。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/LaiFeng-Android/SopCastComponent&#34;&gt;SopCastComponent&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个由纯java编写的项目。整个项目完成了采集、视音频处理、编码、数据发送前处理、数据发送的功能。整个项目支持flv封包，rtmp上传，当然也向外面提供了封包和上传的相关接口。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android/前端高级工程师 by 新美大平台部门大前端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京。维护美团App平台架构/业务，以及移动端和前端基础设施。高级工程师要求有一定的技术规划选型能力。薪资与BAT对标。简历发送至 luozexiang@meituan.com&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第四十三期</title>
@@ -1585,102 +1693,6 @@
 &lt;p&gt;&lt;strong&gt;求职：Android开发工程师（实习）&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;期望地点北京。北京化工大学，本科打死在读。有只能台灯项目经历。简历见： &lt;a href=&#34;https://chaoren998.github.io/aboutme.html&#34;&gt;https://chaoren998.github.io/aboutme.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第二十九期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-29/</link>
-      <pubDate>Tue, 20 Sep 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-29/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://thenextweb.com/apple/2016/09/13/what-a-day-for-apple/&#34;&gt;iOS 10 正式版发布 用户升级遇多种问题&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple 发布了 iOS 10 正式版更新，不少在第一时间升级的用户在通过 OTA 方式升级时都遇到了假死的情况，设备会进入恢复模式，需要连接 iTunes 进行恢复以及 Apple Music 音乐库无法同步的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.ithome.com/html/iphone/258057.htm&#34;&gt;可怕的事实：美国49%用户每月下载App数量为零&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;根据comScore最新的移动应用报告，美国一半智能手机用户每月下载的应用数量为零。在给定的一个月时间里，有49%美国智能手机用户没有下载应用。在51%下载过应用的智能手机用户中，“平均的应用下载数量为3.5个”。“然而，一小部分用户下载了大部分应用。13%的智能手机用户下载的应用数量超过总数的一半。”&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[Chris Lattner 对 Swift 3 的总结与对 Swift 4 的展望]()&lt;/p&gt;
-
-&lt;p&gt;Swift 语言创始人 Chris 发表了对 Swift 3 开发的回顾以及公布了对 Swift 4 阶段性的开发计划。同时本文还有一篇&lt;a href=&#34;http://swift.gg/2016/09/14/chris-lattner-on-wrapping-up-swift-3-starting-swift-4/&#34;&gt;中文翻译&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/swift/blog/?id=37&#34;&gt;Working with JSON in Swift&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple 官方关于 JSON 转 Model 的 Swift 3 例子，它比 JSONExport 等通常的做法要优雅一点的地方在于：它不是在 struct 里面定义optional var, 而是在 model extension 里增加一个 failable initializer。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://paper.seebug.org/42/&#34;&gt;BadURLScheme in iOS&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文作者分享了 iOS 中的 XSS 漏洞，主要是在 iOS 对于 URL Scheme 及其在 UIWebView 等控件的自动诊断识别等处理机制下导致跨应用 XSS 漏洞。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/sbsujjbcy/article/details/52541803&#34;&gt;Android 热补丁技术——资源的热修复&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;今年真是热补丁框架的洪荒之力爆发的一年，短短几个月内，已经出现了好几个热修复的框架了，基本上都是大同小异。但只有自己真正的去经历过，你才会发现其中的大写的坑。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/bboyfeiyu/article/details/52572963&#34;&gt;Android ButterKnife 的实现思路&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在Android开发中，我们为了方便初始化Activity中的各种View，我们可能会使用到Jake Wharton的ButterKnife库，这个库是针对View、资源id等进行注解的开源库，它能够去除掉一些丑陋不堪的样板式代码，使得我们的代码更加简洁、易于维护，同时基于APT也使得它的效率得到保证。那么ButterKnife的原理是什么呢？@InjectView又是什么？ButterKnife的inject函数又有什么作用？本文给出了答案。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gityuan.com/2016/09/17/android-lowmemorykiller/&#34;&gt;Android LowMemoryKiller原理分析&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Android的设计理念之一，便是应用程序退出,但进程还会继续存在系统以便再次启动时提高响应时间. 这样的设计会带来一个问题, 每个进程都有自己独立的内存地址空间，随着应用打开数量的增多,系统已使用的内存越来越大，就很有可能导致系统内存不足, 那么需要一个能管理所有进程，根据一定策略来释放进程的策略，这便有了lmk，全称为LowMemoryKiller(低内存杀手)，lmkd来决定什么时间杀掉什么进程.&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/devxoul/URLNavigator&#34;&gt;URLNavigator&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;优雅的 URL Router Swift 框架，支持 UIViewController 的转场，以及可定制的匹配结果处理，如弹窗、从 Stroyboard 初始化 ViewController 转场等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/iwasrobbed/Down&#34;&gt;Down&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于 cmark 高性能 Markdown 渲染 Swift 框架。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/MModel/MetaModel&#34;&gt;MetaModel&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;底层基于 SQL 的持久化方案。不需要直接使用 SQL 语言处理数据，有更简洁的 API ，基于 Ruby 栈创建 Model 。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ryanhoo/StylishMusicPlayer&#34;&gt;StylishMusicPlayer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一款完整的音乐播放器项目，支持音乐播放、文件浏览等功能，可以在版本号为16+的设备上运行。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/scola/Qart&#34;&gt;Qart&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Qart是一个二维码生成项目，支持图片合成，使用该项目可以生成非常漂亮的二维码。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/adrielcafe/AndroidAudioConverter&#34;&gt;AndroidAudioConverter&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个格式转换项目，支持的格式有AAC, MP3, M4A, WMA, WAV、FLAC，集成简单。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本期暂无工作推推荐。&lt;/p&gt;
 
 &lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
 
