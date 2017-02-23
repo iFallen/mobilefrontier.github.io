@@ -1,14 +1,144 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles-rsses on 移动开发前线</title>
+    <title>Articles on 移动开发前线</title>
     <link>http://mobilefrontier.github.io/articles/index.xml</link>
-    <description>Recent content in Articles-rsses on 移动开发前线</description>
+    <description>Recent content in Articles on 移动开发前线</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Wed, 15 Feb 2017 21:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Feb 2017 21:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第四十五期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-45/</link>
+      <pubDate>Thu, 23 Feb 2017 21:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-45/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/wwdc/&#34;&gt;WWDC17 时间公布&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;苹果宣布，今年的苹果全球开发者大会（简称WWDC）将于6月5日正式在加州圣何塞举行，会期5天，大会上将讨论新的操作系统和新的开发组件问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://news.zol.com.cn/628/6280272.html&#34;&gt;谷歌高管暗示Android 8.0或命名奥利奥，5月17日发布&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2月21号消息，之前就有消息称在今年的谷歌I/O开发者大会上，Android 8.0将作为焦点亮相。随着大会的临近，Android8.0更多信息遭到曝光。昨日，Android业务副总裁Hiroshi Lockheimer在推特晒出带有奥利奥蛋糕的图片，似乎暗示Android 8.0将要命名为“奥利奥”。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://realm.io/news/altconf-karl-weinmeister-pushing-boundaries-swift-server/&#34;&gt;Pushing the Boundaries of Swift to the Server&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者 Karl 在 AltConf 演讲中分享了使用 IBM Cloud 用 Swift 写服务器端代码时多么轻松，作者通过完成一个 Slack 机器人展示了 IBM Swift Sandbox 的强大。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://realm.io/news/acceptance-testing/&#34;&gt;Acceptance Testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了不同于单元测试的验收测试，以及对应的测试方法和隐藏的陷阱。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/69ce01e15042&#34;&gt;iOS 逆向实战 - 钉钉签到远程“打卡”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文通过逆向分析的过程，实现了钉钉远程打卡功能，你可以从中学习其分析的过程。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/69ce01e15042&#34;&gt;iOS 无埋点数据 SDK 实践之路&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者开发无埋点数据收集 SDK 已有半年，本文中作者分享了实践的收获。包括不需要代码埋点就能自动的、动态可配的、全面且正确的收集用户在使用 App 时的所有事件数据。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://atjason.com/daily/2017-02-21.html&#34;&gt;我是如何把 Klib 带到这个世界的&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;作者开发了 Klib macOS App ，在本文中介绍了从缘由到设计再到开发和测试，以及推广等过程，你可以了解到一名个人开发者的真实写照。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiangbo.space/2017-02-12/AndroidAnatomy_Binder_CPP/&#34;&gt;理解Android Binder机制(&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt;)：C++层&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Binder的实现是比较复杂的，想要完全弄明白是怎么一回事，并不是一件容易的事情。这里面牵涉到好几个层次，每一层都有一些模块和机制需要理解。这部分内容作者预计会分为三篇文章来讲解。第一篇对整个Binder机制做了一个架构性的讲解，本文是第二篇，讲解了Binder Framework C++部分的逻辑。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/5a2d56167259&#34;&gt;Android触摸事件分发那些事&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在Android开发中，经常需要自定义View。自定义View大概可以分为两个步骤：绘制外观和处理触摸事件。处理触摸事件需要知道触摸事件的分发流程，本文将带着大家详细地了解触摸事件分发流程，以及在触摸事件分发流程中扮演重要角色的方法如：dispatchTouchEvent、onInterceptTouchEvent、onTouchEvent的详细讲解。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kaedea.com/2016/02/06/android-dynamical-loading-01-introduction/&#34;&gt;Android动态加载简单易懂的介绍方式&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;使用动态加载技术，可以达到让用户不用重新安装APK就能升级应用的功能（特别是SDK项目），这样一来不但可以大大提高应用新版本的覆盖率，也减少了服务器对旧版本接口兼容的压力，同时也可以快速修复一些线上的BUG。本文从动态加载的定义、类型、类加载器ClassLoader和dex文件、代理Activity模式等多方面详细介绍了动态加载的知识，作者对动态加载理解的很透彻，推荐阅读。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/81be1bf9600c&#34;&gt;从json文件到炫酷动画-Lottie实现思路和源码分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lottie是最近Airbnb开源的动画项目，支持Android、iOS、ReactNaitve三个平台，相关背景介绍可以参考这篇文章&lt;a href=&#34;http://www.jianshu.com/p/d887c96684be&#34;&gt;Airbnb开源炫酷动画库Lottie（译）－看看Airbnb的工程师怎么说&lt;/a&gt;。本文主要分析了Lottie是如何把json文件转为动画的思路和源码实现。文章首先介绍了Android版本Lottie的基本使用，然后分析把json文件映射到动画的实现思路，最后分析Lottie的源码实现.&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Ramotion/folding-cell&#34;&gt;folding-cell&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;参考 folding paper material 折叠效果的 UI 组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/remirobert/Dotzu&#34;&gt;Dotzu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;iOS Debug 工具，支持 log 等级、网络请求、崩溃信息记录。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/WenchaoD/FSPagerView&#34;&gt;FSPagerView&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;支持非常丰富设置项的 Pager View 。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/eggswift/ESTabBarController&#34;&gt;ESTabBarController&lt;/a&gt;：可高度自定义的 TabBarController 组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/android-notes/Cockroach&#34;&gt;Cockroach&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android中虽然可以通过设置Thread.setDefaultUncaughtExceptionHandler来捕获所有线程的异常，但主线程抛出异常时仍旧会导致Activity闪退，App进程重启。使用Cockroach后就可以保证不管怎样抛异常Activity都不会闪退，App进程也不会重启。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Jomes/routerSDK&#34;&gt;routerSDK&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一款小而美的路由框架。使用routerSDK，可以通过网页动态添加自定义参数启动应用，当然也可以实现通过url的方式在App内进行页面跳转。对于我们进行模块化或组件化开发很有参考价值。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/imablanco/Zoomy&#34;&gt;Zoomy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一款支持列表中图片拖拽、手势放大的开源库。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/imablanco/Zoomy&#34;&gt;Alerter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一款非常漂亮的自定义Alert View，从顶部弹出，位于所有视图的上层。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android高级开发工程师 by 爱奇艺&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;上海徐汇 / 三年以上工作经验 / 工作稳定踏实 / 可给出业内有竞争力的薪资。简历发送至 jinkai@qiyi.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;中高级Android/iOS开发工程师 by 小红书&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标上海。负责参加小红书主App开发。要求三年以上相关经验，有App优化实践经验，有一定框架和架构开发经验。简历至：fzhang@xiaohongshu.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android/前端高级工程师 by 新美大平台部门大前端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京。维护美团App平台架构/业务，以及移动端和前端基础设施。高级工程师要求有一定的技术规划选型能力。薪资与BAT对标。简历发送至 luozexiang@meituan.com&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gmtc.geekbang.org/?utm_source=infoq&amp;amp;utm_campaign=bornmobile&amp;amp;utm_medium=wechat&#34;&gt;GMTC 2017全球移动技术大会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;6月9日北京举行。关注移动、前端、跨平台、AI应用等多个技术领域、促进全球技术交流，推动国内技术升级。GMTC为期两天，面向移动开发、前端、AI技术人员，聚焦前沿技术及实践经验，打造技术人员的学习和交流平台。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第四十四期</title>
@@ -1597,110 +1727,6 @@
 &lt;p&gt;&lt;a href=&#34;http://form.mikecrm.com/OIFtbP&#34;&gt;QCon上海高并发与实时处理架构设计专场&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;将分享大规模实时流处理平台架构以及实时消息推送架构，并从稳定性和实时性两个方面探讨即时通讯云实践，还将揭示海量数据推送服务背后的挑战，希望能帮助开发者了解解决现实问题的新思路。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第三十期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-30/</link>
-      <pubDate>Mon, 26 Sep 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-30/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://wiki.jikexueyuan.com/project/swift/&#34;&gt;Swift官方文档中文版更新到Swift3.0版本&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;官方文档《The Swift Programming Language》 中文版更新，已经同步到 Swift 3.0 ，SwiftGG 出品。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cnbeta.com/articles/540967.htm&#34;&gt;Android Studio 2.2发布：改进平台支持 速度提升更智能&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Google刚刚发布了Android Studio 2.2，这款IDE（集成开发环境）旨在帮助开发者们从头打造Android应用。老用户可以直接在软件的设置项中点击更新，新手们则可以到官方下载页查看最新内容。Android产品经理Jamal Eason在开发者博客文章中总结了本次更新的内容，主要集中在速度、智能和Android平台支持三个方面。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://imtx.me/archives/2064.html&#34;&gt;适配 Swift 3 的一点小经验和坑&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文作者在适配 Swift 3 过程中总结了一些宝贵的经验与心得，诸如 Any vs AnyObject 的改变、protocol 实现代码位置的改变等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.nscookies.com/class-clusters/&#34;&gt;UIButton 是一个类簇( Class Clusters )？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;类簇是Foundation框架中广泛使用的设计模式。类簇将一些私有的、具体的子类组合在一个公共的、抽象的超类下面，以这种方法来组织类可以简化一个面向对象框架的公开架构，而又不减少功能的丰富性。本文作者讨论了 UIButton 是否为一个类簇，并给出了设计类簇的一些建议。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://swiftunboxed.com/lang/closures-escaping-noescape-swift3/&#34;&gt;Escaping and Nonescaping Closures in Swift 3&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文作者分享了什么是逃逸闭包和非逃逸闭包，以及二者的区别。同时介绍了在 Swift 3 中，逃逸闭包和非逃逸闭包的变化。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;amp;mid=2651232170&amp;amp;idx=1&amp;amp;sn=f4d7eb8f35ebf3b13696562ca3172bac&amp;amp;chksm=f1d9eac9c6ae63df357c3a96aa0218b5d66237c5411de5b34cd24ddb7a1d258b34444966d8c6&amp;amp;scene=0#rd&#34;&gt;Android DataBinding 数据绑定&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2015年的谷歌IO大会上，Android UI Toolkit团队发布了DataBinding 框架，将数据绑定引入了Android开发，当时还只支持单向绑定，而且需要作为第三方依赖引入，时隔一年，双向绑定这个特性也得到了支持，同时纳入了Android Gradle Plugin（1.5.0+）中，只需要在gradle配置文件里添加短短的三行，就能用上数据绑定。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/7436a1a32891&#34;&gt;Android混淆从入门到精通&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作为Android开发者，如果你不想开源你的应用，那么在应用发布前，就需要对代码进行混淆处理，从而让我们代码即使被反编译，也难以阅读。混淆概念虽然容易，但很多初学者也只是网上搜一些成型的混淆规则粘贴进自己项目，并没有对混淆有个深入的理解。本篇文章的目的就是让一个初学者在看完后，能在不进行任何帮助的情况下，独立写出适合自己代码的混淆规则。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gold.xitu.io/post/57dfe16379bc440065e85b2b&#34;&gt;拥抱SVG：苦恼于图片适配 in Android？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SVG是指可伸缩矢量图形 （Scalable Vector Graphics），它不同于传统的位图，不是通过存储图像中每一点的像素值来保存与使用图形，而是通过XML文件来定义一个图形，通过一些特定的语法和规则来绘制出我们所需的图像——同样是使用一张图片，SVG 的方式是事先定义好怎么去画这个图，然后等要用的时候再把它去画出来，而使用传统的位图的话就是已经有了画出来的图，然后要用的时候直接把画好的图拿出来用。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/MDCC2016/ProtocolNetwork&#34;&gt;ProtocolNetwork&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一个优雅的面向协议编程的示例。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ikesyo/Himotoki&#34;&gt;Himotoki&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;类型安全的 JSON 解析库，优雅地使用 throws 的方式处理 JSON 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/cyanzhong/xTextHandler&#34;&gt;xTextHandler&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;基于 Xcode Source Editor Extension 的插件集，提高 Xcode 8 的文本处理的体验。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/jflinter/Dwifft&#34;&gt;Dwifft&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Swift diff 框架，可以非常方便遍历出两次数据的不同，可以用在 UITableView 插入、删除操作。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Tencent/tinker&#34;&gt;tinker&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是Github上腾讯开源的第一个项目。tinker是微信的热修复解决方案，支持dex、library、resources的动态更新。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/supercwn/SuperPlayer&#34;&gt;SuperPlayer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SuperPlayer 是一个基于IjkPlayer的控制器，支持手势操作，滑动快进，快退，支持，上滑音量亮度的变化，支持指点位置播放，播放源的切换&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/JustWayward/BookReader&#34;&gt;BookReader&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;“任阅”，开源小说阅读器，高仿追书神器，实现追书推荐、标签检索、翻书效果、文章阅读、缓存章节、日夜间模式、文本朗读等功能。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本期暂无工作推推荐。移动前线群里有个同学求职，我把他的信息发在这里，要者自取。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;求职：Android开发工程师（实习）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;期望地点北京。北京化工大学，本科打死在读。有只能台灯项目经历。简历见： &lt;a href=&#34;https://chaoren998.github.io/aboutme.html&#34;&gt;https://chaoren998.github.io/aboutme.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
 </description>
     </item>
     
