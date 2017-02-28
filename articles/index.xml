@@ -141,6 +141,142 @@
     </item>
     
     <item>
+      <title>移动开发每周阅读清单：第四十六期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-46/</link>
+      <pubDate>Thu, 23 Feb 2017 21:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-46/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.apple.com/cn/pr/library/2017/02/22Apple-Park-Opens-to-Employees-in-April.html&#34;&gt;Apple Park 4 月对员工开放&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple 正式宣布，Apple 总部的名字为 Apple Park，并将于 4 月开始有员工入驻。公司超过 12,000 名员工将用超过 6 个月的时间搬入，公司大楼和公园的建设将一直持续到夏季。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.leiphone.com/news/201702/5lwZHiAYgGsIeDWR.html&#34;&gt;折腾了十年安卓版的“iMessage”终于诞生&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;近日，谷歌Play商店上线了 “Android Messages”，中文名“Android信息”。明眼人一瞧就知道这是干什么的。没错，它正是谷歌效仿苹果在iOS上推出iMessage的做法，开发的安卓平台御用短信软件。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/196e3bfcf95e&#34;&gt;没想到 Swift 里 KVC 还能有坑&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;因为 Swift API 的变动，Swift 团队在 KVC 和 KVO 留下了一些你需要注意坑。本文介绍了存在一个坑，以及对应的解决方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/76da56b3bd55&#34;&gt;iOS 组件化 —— 路由设计思路分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;长文，随着项目的开发，复杂度也随之增加，我们可能会考虑做一些组件化的事情。尽管这样做了以后会让开发更加有效率，更加好维护，但是如何解耦各层，解耦各个界面和各个组件，降低各个组件之间的耦合度，如何能让整个系统不管多么复杂的情况下都能保持“高内聚，低耦合”的特点？这一系列的问题都摆在开发人员面前，亟待解决。本文阐述了相应问题的一些解决方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.leichunfeng.com/blog/2017/02/20/talking-about-the-decompression-of-the-image-in-ios/#jtss-tsina&#34;&gt;谈谈 iOS 中图片的解压缩&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了 iOS 中图片的解压缩的原理，介绍了位图的概念。而图片解压缩的过程其实就是将图片的二进制数据转换成像素数据的过程。了解这些知识，将有助于我们更好地处理图片，管理好它们所占用的内存。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.mrriddler.com/2017/02/24/Clang%E6%8F%92%E4%BB%B6-Sherlock/&#34;&gt;Clang Plugin&amp;ndash;Sherlock&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了一些 Clang 插件相关的内容，你可以结合本文对自己项目进行一些类似 Lint 的操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://onevcat.com/2017/02/ownership/&#34;&gt;所有权宣言 - Swift 官方文章 Ownership Manifesto 译文评注版&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;长文，Swift 团队最近在邮件列表里向社区发了一封邮件，讲述了关于内存所有权方面的一些未来的改变方向。作为上层 API 的使用者来说，我们可能并不需要了解背后所有的事实，但是 Apple 的这封邮件中对 Swift 的值和对象的内存管理进行了很全面的表述，一步步说明了前因后果。如果你想深入学习和了解 Swift 的话，建议阅读本文。你可以在这里阅读&lt;a href=&#34;https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md&#34;&gt;原文&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;amp;mid=2651232379&amp;amp;idx=1&amp;amp;sn=b606cea54aafdcce30972cec62df45f0&#34;&gt;Android权限机制与适配经验&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android M已经发布一段时间了，市面上很多应用都已经适配Android M。权限机制，作为Android M的一大特性，受到了很多开发者的关注。本文主要分享了以下几个知识点的内容，1、Android权限机制关键知识点；2、QQ音乐对于权限的适配经验；3、近段时间以来遇到的一些Android权限方面的问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&amp;amp;mid=2650400312&amp;amp;idx=1&amp;amp;sn=ce8468991c70ab2e06634f59cd2b6865&#34;&gt;手机淘宝：亿级用户APP的快速运维交付实践&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;很少有公司会有App运维这个岗位，移动客户端运维这块，大部分公司应该都是研发工程师自己在做。不过像阿里这样几乎每天都有版本迭代的公司，App运维是很必要。本文作者比较关注移动化运维的事情，文章围绕手淘APP的运维交付实践进行了详细介绍。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/8Nouh0ZZklqjxfachhoA-g&#34;&gt;深度了解Android 7.0 ，你准备好了吗？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2016年8月22日，谷歌正式推送Android 7.0 Nougat（牛轧糖）正式版，首发推送了多款Nexus设备。除了修复常规BUG，Android 7.0还新增了分屏、新的Notification、VR支持等新特性。本文对Android 7.0的新特性进行了详解说明。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/7867fe980fb4&#34;&gt;Google VR for Android敲门&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;虚拟现实（Virtual Reality）技术是一种可以创建和体验虚拟世界的计算机仿真系统，最近几年虚拟现实概念很火，技术上也有很多突破。Google、苹果等顶级互联网公司都进行了大手笔的投入。本文是一篇介绍如何在Android手机上运行、开发VR程序的基础教程。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/cyanzhong/TodayMind&#34;&gt;TodayMind&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在通知中心管理提醒事项 App 。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/NextLevel/NextLevel&#34;&gt;NextLevel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;功能丰富的相机组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/teodorpatras/EasyTipView&#34;&gt;EasyTipView&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tip 组件，可以为你的用户友好地展示使用提示。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/totocaster/Typist&#34;&gt;Typist&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;简单轻量的键盘管理工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/CosmicMind/Motion&#34;&gt;Motion&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;无缝动画转场组件，你可以将其用在图库展示中。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/meili/ThinRPlugin&#34;&gt;ThinRPlugin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;hinR插件在编译时将除R$styleable.class以外的所有R.class删除掉，并且在引用的地方替换成对应的常量，从而达到缩减包大小和减少dex个数的效果。该插件已经在蘑菇街app上使用，将包大小降低1mb（原包大小40mb）,dex数量减少3个。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/meili/Aceso&#34;&gt;Aceso&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Aceso是基于Instant Run Hot Swap的Android热修复方案，使用它你能在不用重新发布版本的情况下对线上app的bug进行修复。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ximsfei/Android-skin-support&#34;&gt;Android-skin-support&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一款Android换肤框架，极低的学习成本， 极好的用户体验。只需要两行代码，就可以实现换肤。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/timusus/Shuttle&#34;&gt;Shuttle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一款开源的本地音乐播放器。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android高级开发工程师 by 爱奇艺&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;上海徐汇 / 三年以上工作经验 / 工作稳定踏实 / 可给出业内有竞争力的薪资。简历发送至 jinkai@qiyi.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;中高级Android/iOS开发工程师 by 小红书&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标上海。负责参加小红书主App开发。要求三年以上相关经验，有App优化实践经验，有一定框架和架构开发经验。简历至：fzhang@xiaohongshu.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS/Android/前端高级工程师 by 新美大平台部门大前端&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京。维护美团App平台架构/业务，以及移动端和前端基础设施。高级工程师要求有一定的技术规划选型能力。薪资与BAT对标。简历发送至 luozexiang@meituan.com&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gmtc.geekbang.org/?utm_source=infoq&amp;amp;utm_campaign=bornmobile&amp;amp;utm_medium=wechat&#34;&gt;GMTC 2017全球移动技术大会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;6月9日北京举行。关注移动、前端、跨平台、AI应用等多个技术领域、促进全球技术交流，推动国内技术升级。GMTC为期两天，面向移动开发、前端、AI技术人员，聚焦前沿技术及实践经验，打造技术人员的学习和交流平台。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>移动开发每周阅读清单：第四十四期</title>
       <link>http://mobilefrontier.github.io/articles/weekly-44/</link>
       <pubDate>Wed, 15 Feb 2017 21:07:47 +0800</pubDate>
@@ -1615,118 +1751,6 @@
 &lt;p&gt;&lt;a href=&#34;http://bj2016.archsummit.com/&#34;&gt;ArchSummit全球架构师峰会&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;地点北京。ArchSummit秉承“实践第一、案例为主”的原则，展示新技术在行业应用中的最新实践，技术在企业转型中的加速作用，帮助企业技术管理者、CTO、架构师做好技术选型、技术团队组建与管理，并确立技术对于产品和业务的关键作用。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第三十一期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-31/</link>
-      <pubDate>Mon, 10 Oct 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-31/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.geekpark.net/topics/216887&#34;&gt;第一部Google牌手机来了&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;和我们之前的推测一样，Google放弃了Nexus品牌，转而推出了两款Pixel打头的手机——Pixel和Pixel XL。和之前和Nexus手机相比，Pixel有两点明显的不同：第一是手机硬件上由Google旗下的Pixel团队研发，不再受制于OEM厂商（Pixel和Pixel XL的背部甚至没有出现其制造商HTC的名字）；第二点是很Pixel的定价，很贵，恩。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://it.sohu.com/20160929/n469386940.shtml&#34;&gt;Apple 中国研发中心在中关村成立&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;北京中关村园区管理委员会披露，Apple 研发（北京）有限公司在中关村朝阳园成立。该公司是苹果公司在中国第一家直接投资的研发中心。未来，该研发中心将致力于计算机软硬件、通讯、音频和视频设备、消费电子产品技术及信息技术等技术。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/22776897&#34;&gt;让支持 VoiceOver 成为一种习惯&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者因为收到视瞕用户反馈，决定让自己的 App 支持 VoiceOver 。在本文中作者分享了支持 VoiceOver 的基本开发指导。It’s the right thing to do。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://realm.io/news/tryswift-Marin-Todorov-I-create-iOS-apps-is-RxSwift-for-me/&#34;&gt;I create iOS apps - is RxSwift for me?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Marin Todorov 分享了将 RxSwift 应用到实际开发的一些经验，特别是在多个 ViewController 之间复杂交互的思考。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://draveness.me/cocoapods/&#34;&gt;CocoaPods 都做了什么？&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;作者分享了为什么 CocoaPods 和 Fastlane 都使用 Ruby 编写，并分析介绍了 CocoaPods 的工作原理。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MjM5NTIyNTUyMQ==&amp;amp;mid=2709545228&amp;amp;idx=1&amp;amp;sn=7a47a0de32e06f9c465319e8db8ca13f&amp;amp;chksm=828f0bd2b5f882c46416ab20cd9ea482b3c57b202d876b75d5625a1bb036d40fe01d31c2679a&amp;amp;scene=0#wechat_redirect&#34;&gt;黑科技：把第三方 iOS 应用转成动态库&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文作者介绍了自己写的一个工具，能够把第三方 iOS 应用转成动态库，并加载到自己的 App 中，文章最后以支付宝为例，展示如何调用其中的 C 函数和 Objective-C 方法。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzIwOTQ1MjAwMg==&amp;amp;mid=2247483771&amp;amp;idx=1&amp;amp;sn=fc2a36bddd29a0bb9d6512ba7e9b71ad&amp;amp;chksm=9772eff6a00566e0424e3bccfcf61df5bff709739ece80c6641ca6cf742e9949c27f29bc48f0&amp;amp;mpshare=1&amp;amp;scene=1&amp;amp;srcid=1008ksnBumwlSEhlQl3Qe45O#rd&#34;&gt;Activity到底是什么时候显示到屏幕上的呢&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;统计App冷启动时间，这个任务看上去不难，但是要求统计出来的时间要准，要特别准。意思就是必须要按Activity绘制到屏幕上这个时间节点作为标杆，来进行统计工作。毕竟如果是因为视图处理不当而导致的measure/layout/draw耗时太久，这是不能忍的，需要及时统计到。由于这件事情还算有意义，所有作者就深挖了一下，本文是作者的深挖过程。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://android.jobbole.com/84924/&#34;&gt;搭建 Android 7.0的源码环境&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Google已发布Android 7.0源码，想要快人一步，先下载源码一睹为快。本文详细解决了搭建Android 7.0的源码环步骤。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/c55ef05c0047&#34;&gt;App优化之电池省着用&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;电量使用优化，基本上是我们最不怎么关注的一项优化。可能很多公司连QA/Tester也不会关注测试App电量的使用。一般来说开发和测试的测试设备也一直是连着USB处于充电状态的，感官上也体会不到电量的损耗。然而，对于用户来说，实际上App的电量损耗也是用户体验的一个方面。特别是当今人们对移动设备的依赖度越来越高，电量也是用户特别关注的。本文详细介绍了电量的优化方法。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://android.jobbole.com/84881/&#34;&gt;WatchDog工作原理&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Android系统中，有硬件WatchDog用于定时检测关键硬件是否正常工作，类似地，在framework层有一个软件WatchDog用于定期检测关键系统服务是否发生死锁事件。WatchDog功能主要是分析系统核心服务和重要线程是否处于Blocked状态。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/DianQK/rx-sample-code&#34;&gt;rx-sample-code&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;多个有趣的使用 RxSwift 完成的 Demo 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/markohlebar/Import&#34;&gt;Import&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;支持在任意行键入 import 引入 framework 的 Xcode Extensions 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/yulingtianxia/pbxprojHelper&#34;&gt;pbxprojHelper&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;pbxprojHelper 可以让你通过原生 UI 应用来创建和修改 Xcode 工程，同时支持在终端使用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/schwa/punic&#34;&gt;punic&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;比 Carthage 更好用的依赖管理工具，可定制性更高，速度更快。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/jeasonlzy/okhttp-OkGo&#34;&gt;okhttp-OkGo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;该库是封装了okhttp的网络框架，支持大文件上传下载，上传进度回调，下载进度回调，表单上传，链式调用，可以自定义返回对象，支持Https和自签名证书，支持cookie的持久化和自动管理，支持四种缓存模式缓存网络数据，支持301和302重定向，扩展了统一的上传管理和下载管理功能。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/jiangzehui/yyquan&#34;&gt;yyquan&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一款基于Xmpp协议的即时通讯社交软件(客户端+服务端)。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/dudu90/FreshDownloadView&#34;&gt;FreshDownloadView&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一组跟踪下载过程的动画，包括下载进度、下载状态、重置。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本期暂无工作推荐。&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://form.mikecrm.com/OIFtbP&#34;&gt;QCon上海高并发与实时处理架构设计专场&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;将分享大规模实时流处理平台架构以及实时消息推送架构，并从稳定性和实时性两个方面探讨即时通讯云实践，还将揭示海量数据推送服务背后的挑战，希望能帮助开发者了解解决现实问题的新思路。&lt;/p&gt;
 </description>
     </item>
     
