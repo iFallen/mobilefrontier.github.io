@@ -7,8 +7,126 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Tue, 28 Feb 2017 21:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Mar 2017 21:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第四十七期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-47/</link>
+      <pubDate>Tue, 07 Mar 2017 21:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-47/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://uk.businessinsider.com/ubs-apple-1000-engineers-ar-2017-2&#34;&gt;Apple 提供上千名工程师在以色列研发 AR 相关项目&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple CEO Tim Cook 不止一次在公开场合表示过，Apple 一直在 AR 领域投资并看好它的长期发展。据一些业内人士透露，Apple 在以色列有一个超过 1000 人的工程师团队正在进行与 AR 技术相关的研发工作。年内的新一代 iPhone 可能加入 AR 技术，用于创建 3D 影像，可能还会有一个基于 AR 技术的软件开发工具包。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cnbeta.com/articles/soft/589699.htm&#34;&gt;Android Studio 2.3 正式版发布&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;谷歌最近公布了Android Studio 2.3正式版。新版本增加了对WebP的支持；ConstraintLayout库支持更新和布局编辑器的部件面板。提供一个新的App Link助手可以帮助你在应用中构建Uri的统一视图。新的运行按钮提供更直观和可靠的立即运行体验。最后是Android模拟器的测试，支持文本的复制和粘贴。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shellhue.github.io/2017/03/04/FlowOfUITouch/&#34;&gt;iOS 触摸事件的流动&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了从手指触摸屏幕开始，手机都发生了什么事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shellhue.github.io/2017/02/07/fakedata/&#34;&gt;如何在 iOS 开发中更好的做假数据？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在繁重的开发时，后端可能没有提供接口，你可以从本文中了解到几种提供假数据的方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.dianqk.org/2017/02/28/use-danger/&#34;&gt;使用 Danger 提高 Code Review 体验&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 Code Review 时，我们可能经常要去检查各种事情，比如 pr 是否提到了 develop 分支、commit 中是否有毒（存在 merge commit）、禁止某些文件在 pr 中有修改、pr 的描述是否正常等等各种事情。有时我们会忘记检查这些事情，merge 之后才发现，这个就非常尴尬了。使用 Danger 可以很好的帮我们避免上述低级错误的发生，本文对 Danger 进行了使用相关的介绍。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/63aec174bdb7&#34;&gt;硅谷和国内的 iOS 开发到底有何不同？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了作者在游览国内各公司后的体会，你可以从中了解到国内外对 Swift 不同见解、 iOS 开发需求成都、PM 素质差异、面试上流程的差异。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://amztion.com/2016/12/03/uiviewcontroller-lifecycle/&#34;&gt;UIViewController 相关生命周期总结&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文介绍了 UIViewController 生命周期相关内容，你可以从中了解到诸如 &lt;code&gt;loadView&lt;/code&gt; 、&lt;code&gt;viewDidLoad&lt;/code&gt; 被调用时都发生了什么。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/dd864140130/article/details/60466394&#34;&gt;Android 7.0应用启动流程分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;所谓冷启动就是启动应用时，后台没有该应用的进程，此时系统会创建一个进程分配给它(AMS通过Socket和Zygote通信，Zygote通过forkAndSpecialize()方法向Linux内核申请新进程)，之后会创建和初始化Application，然后通过反射执行ActivityThread中的main方法。本文结合源码，详细分析了应用冷启动的过程。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/d959250e0624&#34;&gt;Android架构那些事之第三方库的隔离&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我们在开发的过程中会不可避免的引用一些第三方库，比如网络请求库、图片加载库等等。就拿图片加载库来说，程序中不会只有一个地方来引用到此库，可能有N个类会用到此库来显示图片。这种情况下，就可以通过一个中间层来引用“第三方图片加载库”。这样做的好处是不管第三方图片加载库换成Picasso还是Glide，只需改变中间层，其他的一行代码都不需要改动。阅读文章，了解详细方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://allenfeng.com/2017/02/24/how-android-layout-inflater-work/&#34;&gt;Android LayoutInflater源码解析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大家对LayoutInflater一定不陌生，LayoutInflater是一个用于将xml布局文件加载为View或者ViewGroup对象的工具，我们可以称之为布局加载器。在Fragment的onCreateView方法、ListView Adapter的getView方法等许多地方都可以见到它的身影。本文详细介绍了LayoutInflater的用法以及加载布局的工作原理。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.leiphone.com/news/201703/gCh1K5FTWRh5LQi6.html?winzoom=1&#34;&gt;Android恶意软件开发的新技术 | 360恶意软件专题报告&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2016年全年，从手机用户感染恶意程序情况看，360互联网安全中心累计监测到Android用户感染恶意程序2.53亿，平均每天恶意程序感染量约为70万人次。从恶意软件开发技术角度看，2016年恶意软件利用社会工程学、界面劫持、破解接口、开源项目、简易开发工具、碎片化代码、注入系统根进程、篡改系统引导区以及代理反弹技术，成为主要使用的新技术。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pkluz/Swashbuckler&#34;&gt;Swashbuckler&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;你可以写像 CSS 一样的方式书写 iOS 上的样式代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/marmelroy/Format&#34;&gt;Format&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;支持格式化数字、手机号、金额的组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/marmelroy/TVButton&#34;&gt;TVButton&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 iOS 上使用 Apple TV Button 的效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/marmelroy/ObjectiveKit&#34;&gt;ObjectiveKit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;对 Swift 友好的 Objective-C Runtime API 。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/amitshekhariitbhu/Android-Debug-Database&#34;&gt;Android-Debug-Database&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android Debug Database 是一个功能强大的数据调试工具。使用改工具，我们可以通过浏览器查看、编辑数据库、shared preferences，强烈推荐使用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/alibaba/vlayout&#34;&gt;vlayout&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;vlayout是手机天猫Android版内广泛使用的一个基础UI框架项目。提供了一个用于RecyclerView的自定义的LayoutManger，可以实现不同布局格式的混排，目标是支撑客户端native页面的快速开发。它也是Tangram框架的基础模块。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zhaoss/WeiXinRecordedDemo&#34;&gt;WeiXinRecordedDemo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;高仿微信视频录制，涂鸦水印添加，基于ffmpeg实现了视频拍摄及合成，图片与视频合成等。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;上周我们发布了&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;amp;mid=2651113136&amp;amp;idx=1&amp;amp;sn=8227a7c540cf1eadcbefd70036f4c8ce&#34;&gt;移动开发前线招聘季活动&lt;/a&gt;，目前已有十多个职位发布，欢迎同学们到这里找工作，还有招聘需求的可以回复该贴，我会更新上去。&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gmtc.geekbang.org/?utm_source=infoq&amp;amp;utm_campaign=bornmobile&amp;amp;utm_medium=wechat&#34;&gt;GMTC 2017全球移动技术大会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;6月9日北京举行。关注移动、前端、跨平台、AI应用等多个技术领域、促进全球技术交流，推动国内技术升级。GMTC为期两天，面向移动开发、前端、AI技术人员，聚焦前沿技术及实践经验，打造技术人员的学习和交流平台。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第四十六期</title>
@@ -1627,110 +1745,6 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/fishwjy/MultiType-FilePicker&#34;&gt;MultiType-FilePicker&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;一款轻量级的文件选择器，支持音频、视频、图片的选择。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本期暂无工作推荐。&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://bj2016.archsummit.com/&#34;&gt;ArchSummit全球架构师峰会&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;地点北京。ArchSummit秉承“实践第一、案例为主”的原则，展示新技术在行业应用中的最新实践，技术在企业转型中的加速作用，帮助企业技术管理者、CTO、架构师做好技术选型、技术团队组建与管理，并确立技术对于产品和业务的关键作用。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第三十二期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-32/</link>
-      <pubDate>Mon, 24 Oct 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-32/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://thenextweb.com/apple/2016/10/19/apple-plans-to-unveil-the-long-awaited-2016-macbook-at-october-27-event/&#34;&gt;Apple 发出新 Mac 发布会邀请函，本月 28 日召开&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple 正式公布新 Mac 发布会的邀请函，发布会将于 10 月 28 日凌晨 1 点召开。本次邀请函的口号与 1998 年乔布斯回归苹果后发布的第一代 iMac 宣传语 hello (again) 非常相似。本次苹果将会对多款 Mac 产品进行更新，新款 MacBook Pro 将加入 OLED 触控条、USB-C 等诸多新特性。发布会直达链接 &lt;a href=&#34;http://www.apple.com/apple-events/october-2016/&#34;&gt;hello again&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://digi.163.com/16/1020/11/C3QML2NQ001687H3.html&#34;&gt;Android7.1开放下载&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;想要获得和Pixel/Pixel XL中相同的系统版本吗？Google宣布Android 7.1开发者预览版于近日正式开放下载，尽管并非是完全版本更新但依然带来了一些新功能，包括对Daydream VR平台和GIF键盘的支持，开放制作圆形图标的相关资源和应用快捷方式（通过长按获得类似于3D Touch的使用体验）。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tech.meituan.com/spider.html&#34;&gt;移动 App 兼容性测试工具 Spider&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文总结了美团点评技术沙龙 11 期的部分内容，主要涉及 Spider 功能介绍、相关背景、功能实现。相关分享 &lt;a href=&#34;http://www.slideshare.net/meituan/011-appspider&#34;&gt;Slide 链接&lt;/a&gt; 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/50e0efb66bdf&#34;&gt;Realm数据库从入门到“放弃”&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文作者从入门实践到 Realm 内部原理分析，以及 Realm 当前的优势与限制，很详细。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://swift.gg/2015/11/23/swift-reflection-api-what-you-can-do/&#34;&gt;Swift 反射 API 及用法&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;本文作者分享了关于 Swift 中反射 API 的相关知识及其用法，并分享了一个 Struct 转换成 Core Data 的例子。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;amp;mid=2649286405&amp;amp;idx=1&amp;amp;sn=414e2d2eb577884ccee5c9076e8b8357&amp;amp;chksm=8334c387b4434a9124f5acd93f331968a44256b8374eeafb4b1857671072b3b6364e5ec38485&amp;amp;scene=0#rd&#34;&gt;Android ListView与RecyclerView对比浅析&amp;ndash;缓存机制&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;RecyclerView是谷歌官方出的一个用于大量数据展示的新控件，可以用来代替传统的ListView，更加强大和灵活。作者最近遇到了是否要将ListView替换为RecyclerView的问题。秉承着实事求是的作风，弄清楚RecyclerView是否有足够的吸引力替换掉ListView，作者从性能这一角度出发，研究RecyclerView和ListView二者的缓存机制，并得到了一些较有益的结论。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://halfstackdeveloper.github.io/2016/10/19/tinker%E6%BA%90%E7%A0%81%E7%A0%94%E8%AF%BB%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E8%A1%A5%E4%B8%81%E7%94%9F%E6%88%90%E4%B9%8BDexDiff%E5%8E%9F%E7%90%86%E7%AE%80%E6%9E%90/&#34;&gt;tinker源码研读（一）：补丁生成之DexDiff原理简析&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Tinker和以往的HotFix库思路不太一样，它更像是APP的增量更新，在服务器端通过差异性算法，计算出新旧dex之间的差异包，推送到客户端，进行合成。传统的差异性算法有BsDiff，而Tinker的优秀之处就在于它自己基于Dex的文件格式，研发出了DexDiff算法。&lt;/p&gt;
-
-&lt;p&gt;[Android进程绝杀技&amp;ndash;forceStop]()&lt;/p&gt;
-
-&lt;p&gt;话说Android开源系统拥有着App不计其数，百家争鸣，都想在这“大争之世”寻得系统存活的一席之地。然则系统资源有限，如若都割据为王，再强劲的CPU也会忙不过来，再庞大的内存终会消耗殆尽，再大容量的电池续航终会昙花一现。面对芸芸众生，无尽变数，系统以不变应万变，一招绝杀神技forceStop腾空出世，需要具有FORCE_STOP_PACKAGES权限，当然这个并非第3方app可以直接调用的， 否则App间可以相互停止对方。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ReactiveX/RxSwift/releases/tag/3.0.0&#34;&gt;RxSwift&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;RxSwift 更新到 3.0 版本，支持 Linux 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Naituw/WBWebViewConsole&#34;&gt;WBWebViewConsole&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;将 &lt;code&gt;UIWebView&lt;/code&gt; 和 &lt;code&gt;WKWebView&lt;/code&gt; log 打印到 App 中，同时直接在 Console 执行 JavaScript 代码与 Web 交互。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/cyanzhong/retriver&#34;&gt;retriver&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;非越狱查看所有 App info.plist 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/pascalbros/PAPermissions&#34;&gt;PAPermissions&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;统一系统 API 请求权限 Swift 框架。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/TellH/GitClub&#34;&gt;GitClub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个Github客户端，也是一个发现优秀Github开源项目的app。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/JZ-Darkal/AndroidHttpCapture&#34;&gt;AndroidHttpCapture&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一款针对于移动流量劫持而开发的手机抓包软件。主要功能包括：手机端抓包、PING/DNS/TraceRoute诊断、抓包HAR数据上传分享，使用前请确保手机HTTP代理的关闭。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/baoyongzhang/BigBang&#34;&gt;BigBang&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;该项目模仿了Smartisan OS的 BigBang功能。&lt;/p&gt;
 
 &lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
 
