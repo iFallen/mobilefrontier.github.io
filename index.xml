@@ -129,6 +129,124 @@
     </item>
     
     <item>
+      <title>移动开发每周阅读清单：第四十八期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-48/</link>
+      <pubDate>Tue, 07 Mar 2017 21:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-48/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;amp;mid=2651113173&amp;amp;idx=1&amp;amp;sn=8c52d83c505e2be7afe175c01a36de4e&#34;&gt;苹果“热修复门”事件回顾和分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3月8日，很多iOS开发者发了警告邮件，声称其App违规使用动态方法，责令限时整改。一时间整个iOS圈炸了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.ithome.com/html/android/296708.htm&#34;&gt;谷歌公布最新安卓版本分布：7.0/7.1已达2.8%&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;谷歌目前公布了2017年3月份的安卓系统各版本最新分布情况统计，数据显示目前Android Nougat（7.0+7.1）的份额已经达到2.8%，目前占比最多的仍然是Android Lollipop（32.5%），眼看最新的安卓8.0系统再过几个月就要问世了，目前安卓阵营的碎片化仍然不容乐观。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.cnbang.net/tech/3386/&#34;&gt;iOS App 签名的原理&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;iOS 签名机制相对复杂，各种证书，Provisioning Profile，entitlements，CertificateSigningRequest，p12，AppID，概念一堆，也很容易出错，本文尝试从原理出发，一步步推出为什么会有这么多概念，希望能有助于理解 iOS App 签名的原理和流程。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25647026&#34;&gt;闲谈 iOS 的动态化&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文不聊具体的技术内容，而最近一些应用收到 Apple 警告的问题。提示该应用使用了一些动态技术，让应用在审核之后出现一些不一样的功能，从而越过审核去实现更新，警告开发者对代码进行一些检查，去掉这样的实现。实际上这是一个历史悠久，错综复杂，没有一个统一标准的事情。聊这个事情要从一个很古老的 Wax 项目开始讨论 Native 动态化的事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/7026de47dc75&#34;&gt;关于 @synchronized 比你想知道的还多&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如果你曾经使用 Objective-C 做过并发编程，那你肯定见过 @synchronized 。@synchronized 发挥了和锁一样的作用：它避免了多个线程同时执行同一段代码。和使用 NSLock 进行创建锁、加锁、解锁相比，在某些情况下 @synchronized 会更方便、更易读。如果你从来没有使用过 @synchronized ，具体如何使用可以参考下面的实例。本文的将围绕我对 @synchronized 的原理的探究进行讲述。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.dianqk.org/2017/03/09/rxexamples-github-search-repositories/&#34;&gt;RxExample GitHubSearchRepositories&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 iOS 中，我们该如何处理网络请求状态、如何管理分页逻辑以及如何处理网络错误，RxSwift 给出了一个官方的例子 GitHubSearchRepositories ，本文对这个例子代码进行了详细的解释。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/EGaAyDineE4ZlgMCGec1Vw&#34;&gt;Android Studio2.3正式版发布，官方全解析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android Studio 2.3中最令人激动的是质量上的改进，但此版本也加入了一些新功能：设计应用时，增加利用面向应用图像的更新版WebP支持；内容库支持以及布局编辑器中的小部件选项板；在开发过程中，Android Studio新增了一个应用链接助手，它可以帮助您构建一个应用URI合并视图，在构建和部署应用时，使用更新版运行按钮可获得更加直观而又可靠的Instant Run体验等。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tech.meituan.com/android_custom_lint2.html&#34;&gt;Android自定义Lint实践2——改进原生Detector&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;本文来自美团的技术博客。Android Lint是Google提供给Android开发者的静态代码检查工具。使用Lint对Android工程代码进行扫描和检查，可以发现代码潜在的问题，提醒程序员及早修正。为保证代码质量，美团在开发流程中加入了代码检查，如果代码检测到问题，则无法合并到正式分支中，这些检查中就包括Lint。本文介绍了美团App如何使用自定义Lint进行代码检查。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s/aWuenpGOKug4fovT5uKXTQ&#34;&gt;React Native for Android异常处理概览&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;研究RN框架异常的动机在于，需要建立起一套针对性的容错机制，毕竟它还是一个不够成熟的框架。期望能够做到的效果就是，对于每一个RN页面的启动，能够在进入页面至退出页面期间侦测所有发生的RN相关的崩溃，然后根据崩溃来考虑该页面是否该有降级策略、判断框架是否真的能够支持稳定迭代。本文从启动期和运行期两方面介绍了RN的异常方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/c56b762210f2&#34;&gt;Android Drawable完全解析（一）：Drawable源码分析系列&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android开发中，Drawable几乎无处不在，Drawable涉及的面很广，尤其是竟然有那么多的继承类。我们常用的有ColorDrawable、StateListDrawable、BitmapDrawable等很有限的几个子类，大多数开发者对于Drawable的应用还是太零散了。因此作者写了关于Drawable的系列文章，从源码的角度详细分析了Drawable的实现。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzAxNjI3MDkzOQ==&amp;amp;mid=2654472687&amp;amp;idx=1&amp;amp;sn=3a8c101fab3b032d043c6ea0922c76f2&#34;&gt;Android技巧-Debug判断不再用BuildConfig&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android开发中一般会通过BuildConfig.DEBUG判断是否是Debug模式，从而做一些在Debug模式才开启的特殊操作，比如打印日志。这样好处是不用在发布前去主动修改，因为这个值在Debug模式下为true，Release模式下为false。本文介绍如何不设置BuildConfig的Debug技巧。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zixun/GodEye&#34;&gt;GodEye&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;全自动，零代码入侵，一行代码接入来监控应用的日志，卡顿，崩溃，网络，内存泄漏，CPU以及内存使用率，帧率等信息工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/yukiasai/Nori&#34;&gt;Nori&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;将样式代码代码应用到 Storyboard 组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/jerkoch/SwipeCellKit&#34;&gt;SwipeCellKit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;提供 Cell 丰富左右滑动功能，支持自定义效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/louisdh/panelkit&#34;&gt;panelkit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在 iOS 上提供面板功能，即支持多个窗口操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/alibaba/atlas&#34;&gt;atlas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Atlas是伴随着手机淘宝的不断发展而衍生出来的一个运行于Android系统上的一个容器化框架，也叫动态组件化(Dynamic Bundle)框架。它主要提供了解耦化、组件化、动态性的支持。覆盖了工程师的工程编码期、Apk运行期以及后续运维期的各种问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Meituan-Dianping/Robust&#34;&gt;Robust&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;美团点评根据Instant Run研发的新一代热更新系统Robust，对Android版本无差别兼容。无需发版就可以做到随时修改线上bug，快速对重大线上问题作出反应，补丁修补成功率高达99.9%。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/florent37/Depth&#34;&gt;Depth&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;非常炫的页面转换3D效果，可以用于浏览器多页面切换。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3月初我们发布了&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;amp;mid=2651113136&amp;amp;idx=1&amp;amp;sn=8227a7c540cf1eadcbefd70036f4c8ce&#34;&gt;移动开发前线招聘季活动&lt;/a&gt;，目前已有十多个职位发布，欢迎同学们到这里找工作，还有招聘需求的可以回复该贴，我会更新上去。&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gmtc.geekbang.org/?utm_source=infoq&amp;amp;utm_campaign=bornmobile&amp;amp;utm_medium=wechat&#34;&gt;GMTC 2017全球移动技术大会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;6月9日北京举行。关注移动、前端、跨平台、AI应用等多个技术领域、促进全球技术交流，推动国内技术升级。GMTC为期两天，面向移动开发、前端、AI技术人员，聚焦前沿技术及实践经验，打造技术人员的学习和交流平台。6折倒计时啦！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>移动开发每周阅读清单：第四十六期</title>
       <link>http://mobilefrontier.github.io/articles/weekly-46/</link>
       <pubDate>Tue, 28 Feb 2017 21:07:47 +0800</pubDate>
@@ -1661,110 +1779,6 @@
 &lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&amp;amp;mid=2652039994&amp;amp;idx=1&amp;amp;sn=01d0e9c687c0fab258c0c3c83384929a&amp;amp;chksm=808d4b7fb7fac26923c785988c7683d989dc49987e4b634513a9e2cffd41a62be4a3b85914e8&amp;amp;mpshare=1&amp;amp;scene=1&amp;amp;srcid=1107qS5pHobbBA1ZdEZ94Gfi#wechat_redirect&#34;&gt;2016 Google开发者大会 中国版&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;2016 Google 开发者大会（Google Developer Day - GDD）登陆中国，旨在与开发者们和科技行业翘楚们分享 Google 的最新科技和开放平台。大会将于 2016 年 12 月 8 日在北京，2016 年 12 月 14 日在上海分别举办。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第三十三期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-33/</link>
-      <pubDate>Mon, 31 Oct 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-33/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.apple.com/newsroom/2016/10/apple-unveils-groundbreaking-new-macbook-pro.html&#34;&gt;Apple 发布新MacBook Pro 增加Touch Bar&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;全新Macbook Pro用Touch Bar替换掉了传统功能键，Touch Bar为Retina触摸屏，可以根据场景应用适应调整相应的功能。使用4个USB Type-C代替之前诸多借口，包括Magsafe. 低配版13英寸MacBook Pro（无Touch Bar）起价1499美元（国内售价11488元）。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/23232457&#34;&gt;Google推出 Material Design 新网站：material.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;之前众所周知 Material Design 的资源主要是放在 Google Design , 在大约几小时前，Google 发布了一个全新的网站 — — material.io，专注于 Material Design 相关资源、工具以及规范的汇总。&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.cee.moe/touchbar-tutorial.html&#34;&gt;TouchBar 入门开发指南&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;新款的 MacBook Pro 增加了 TouchBar ，本文介绍了 TouchBar 开发的一些基础知识。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://useyourloaf.com/blog/openurl-deprecated-in-ios10/&#34;&gt;openURL Deprecated in iOS10&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple 在 iOS 10 中带来了新的 OpenURL 的 API ，本文介绍了该 API 的特性以及对应的适配方案。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://medium.cobeisfresh.com/a-reusable-uitableviewdatasource-in-swift-e74d76bdda5f#.85nmui9vv&#34;&gt;A reusable UITableViewDataSource in Swift&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在 UITableView 中处理多种 Cell 是件复杂的事情。本文分享了在 Swift 中， UITableViewDataSource 的最佳实践。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://medium.com/swift-programming/why-swift-guard-should-be-avoided-484cfc2603c5#.3o2hybbsy&#34;&gt;Why Swift guard Should Be Avoided&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;使用 guard 是确保代码执行在预期的位置的一种方式，而本文分享了为什么有时候应该避免使用 guard 。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;amp;mid=2651232214&amp;amp;idx=1&amp;amp;sn=90b9e68874cdf9736c2cde284ba0abba&amp;amp;chksm=f1d9eab5c6ae63a30b36c20f54a07cab1dd9a59020aa0896c19a33b3a3d67c8aa802753a575b&amp;amp;scene=0#rd&#34;&gt;Android Studio 2.2 Native 开发新特性&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;与更早引入Android Studio开发环境下的，用于Native构建的Experimental Gradle Plugin方案相比，官方支持CMake和ndk-build配合Gradle用于构建，颇有一种“返璞归真”的意味。Android Studio 2.2对Native开发的支持程度，已经足够吸引开发者们主动改变跨环境开发的现状了。本文介绍了Android Studio 2.2 Native的新特性以及其使用方法。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&amp;amp;mid=2649796870&amp;amp;idx=1&amp;amp;sn=fd911850e32dd955316664c8c4104946&amp;amp;chksm=f1fcc55ec68b4c4865fd7466cc21f5e0b72080a034757613678cd011162858561310513834af&amp;amp;scene=0#rd&#34;&gt;Android卡慢监控组件简介&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;该组件是一个巧妙利用卡慢时间关联出抓取堆栈，并由后台进行聚合的概率统计手法，问题以调用堆栈的信息展示，也是最快的定位手段。组件刚投入项目中就显著的发现大量问题，并有效解决，收益高。腾讯公司内产品：QQ音乐、全民K歌、天天P图、画报、企鹅电竞，已接入该监控组件，显著优化了界面卡慢问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://dev.qq.com/topic/5811d42e7fd6ec467453bf58&#34;&gt;从0到1打造直播App&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;目前较为成熟的直播产品，大致都是以Server端、H5直播前端和Native（Android,iOS）搭配实现直播。本文主要从Android客户端出发，从最初的录制视频到客户端观看直播的整个流程，给出了各个技术点的概要和解决方案，从0到1完成了简单的直播实现。从0到1易，从1到100还有更多的技术细节有待研究。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/FIRHQ/LogGuru&#34;&gt;LogGuru&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;通过读取手机日志，找到应用无法安装的原因工具。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/douban/rexxar-ios&#34;&gt;rexxar-ios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;豆瓣 Hybrid 混合开发框架 iOS 版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/dalu93/Each&#34;&gt;Each&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;对 Timer 的封装，更加易用的定时器框架。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/lygttpod/SuperTextView&#34;&gt;SuperTextView&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一个功能强大的TextView，可以满足日常大部分布局方式，开发者可已自行组合属性配置出属于自己风格的样式。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/oubowu/SlideBack&#34;&gt;SlideBack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一款高仿微信视差手势滑动返回库。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/fishwjy/MultiType-FilePicker&#34;&gt;MultiType-FilePicker&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一款轻量级的文件选择器，支持音频、视频、图片的选择。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;本期暂无工作推荐。&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://bj2016.archsummit.com/&#34;&gt;ArchSummit全球架构师峰会&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;地点北京。ArchSummit秉承“实践第一、案例为主”的原则，展示新技术在行业应用中的最新实践，技术在企业转型中的加速作用，帮助企业技术管理者、CTO、架构师做好技术选型、技术团队组建与管理，并确立技术对于产品和业务的关键作用。&lt;/p&gt;
 </description>
     </item>
     
