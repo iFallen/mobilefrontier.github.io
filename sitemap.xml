@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://mobilefrontier.github.io/articles/weekly-47/</loc>
-    <lastmod>2017-03-07T21:07:47+08:00</lastmod>
+    <loc>http://mobilefrontier.github.io/articles/weekly-49/</loc>
+    <lastmod>2017-03-22T21:07:47+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://mobilefrontier.github.io/articles/weekly-48/</loc>
+    <lastmod>2017-03-15T21:07:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mobilefrontier.github.io/articles/weekly-47/</loc>
     <lastmod>2017-03-07T21:07:47+08:00</lastmod>
   </url>
   
@@ -254,7 +259,7 @@
   
   <url>
     <loc>http://mobilefrontier.github.io/articles/</loc>
-    <lastmod>2017-03-07T21:07:47+08:00</lastmod>
+    <lastmod>2017-03-22T21:07:47+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -265,7 +270,7 @@
   
   <url>
     <loc>http://mobilefrontier.github.io/</loc>
-    <lastmod>2017-03-07T21:07:47+08:00</lastmod>
+    <lastmod>2017-03-22T21:07:47+08:00</lastmod>
     <priority>0</priority>
   </url>
   
