@@ -7,8 +7,146 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Released under the MIT license.</copyright>
-    <lastBuildDate>Wed, 22 Mar 2017 21:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Mar 2017 21:07:47 +0800</lastBuildDate>
     <atom:link href="http://mobilefrontier.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>移动开发每周阅读清单：第四十八期</title>
+      <link>http://mobilefrontier.github.io/articles/weekly-50/</link>
+      <pubDate>Wed, 29 Mar 2017 21:07:47 +0800</pubDate>
+      
+      <guid>http://mobilefrontier.github.io/articles/weekly-50/</guid>
+      <description>
+
+&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.macrumors.com/2017/03/27/apple-releases-ios-10-3/&#34;&gt;Apple 发布 iOS 10.3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple 发布了 iOS 10.3 ，带来了新的 Apple ID 页面，增加了允许 App 内评分及留言、APFS、Find My AirPods 等功能。（当然也发布了 Xcode 8.3）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://developers.googleblog.cn/2017/03/android-o-developer-preview.html&#34;&gt;Android O Developer Preview 终于推出啦！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;谷歌在系统上的更新一直很积极，安卓系统可以说在市场的占占有率是很高的，谷歌在系统迭代上一直非常积极，Android N市场占有率还没到两位数时，Google发布了首个Android O开发者预览版。 在接下来的几个月中，Google 将发布开发者预览版的更新，更多详情将在今年5月的Google I/O大会上揭晓。&lt;/p&gt;
+
+&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[&lt;a href=&#34;http://irace.me/swift-profiling&#34;&gt;Profiling your Swift compilation times&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Swift 的编译速度非常慢（Swift 3.1 略有改进），本文介绍了如何在项目中检查每个方法的编译时间，以及如何使用 &lt;code&gt;xcodebuild&lt;/code&gt; 更好地筛选出编译时间较长的方法。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.dianqk.org/2017/03/27/handle-error-example-upload-image/&#34;&gt;RxSwift 处理错误例子 - 上传图片&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上传图片通常我们会选择一些对象存储服务减少对服务器的压力，为此我们就需要先上传图片到对象存储服务器中，再将上传完成的图片链接配合其他参数返回给我们的服务器，本文介绍了一种如何处理上述相对复杂逻辑的方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/3f43370437d2&#34;&gt;iOS 自动构建命令——xcodebuild&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;通常我们使用 Xcode 提供的 GUI 方式编译项目，&lt;code&gt;xcodebuild&lt;/code&gt; 是一个命令行工具，你可以用它来完成一些自动化的操作，本文介绍了 &lt;code&gt;xcodebuild&lt;/code&gt; 的基本使用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://useyourloaf.com/blog/variable-height-table-view-header/&#34;&gt;Variable Height Table View Header&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;为了适配不同屏幕的大小，我们可能需要动态修改 TableView 的 HeaderView 的高度，本文介绍了一种比较好的动态修改高度方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://draveness.me/kvocontroller/&#34;&gt;如何优雅地使用 KVO&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;KVO 作为 iOS 中一种强大并且有效的机制，为 iOS 开发者们提供了很多的便利；我们可以使用 KVO 来检测对象属性的变化、快速做出响应，这能够为我们在开发强交互、响应式应用以及实现视图和模型的双向绑定时提供大量的帮助。但是在大多数情况下，除非遇到不用 KVO 无法解决的问题，笔者都会尽量避免它的使用，这并不是因为 KVO 有性能问题或者使用场景不多，总重要的原因是 KVO 的使用是在是太麻烦了。本文介绍了优雅的解决方案 &lt;a href=&#34;https://github.com/facebook/KVOController&#34;&gt;KVOController&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/LHJF5knghtlimQB3qOp1WA&#34;&gt;小微团队怎么玩转App自动化测试&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;App自动化测试一直是小微团队很少会去涉足的领域，在互联网快速迭代这个大场景下，随着业务发展，回归压力逐渐增大。相信每次因为回归覆盖不足而导致线上事故，懊恼郁闷到要砸桌子的绝对不止我一个。一般情况小微团队的测试包括回归测试都是人工进行的，一些偏离主流程却又比较关键的业务往往是人工回归测试容易遗漏的。本文给出了小团队进行自动化测试的方案，推荐小团队的开发者阅读。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/a1cc8f2e0877&#34;&gt;Android 优化APP 构建速度的17条建议&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;较长的构建时间将会减缓项目的开发进度，特别是对于大型的项目，app的构建时间长则十几分钟，短则几分钟，长的构建时间已经成了开发瓶颈，本篇文章根据Google官方文档，外加作者的一些理解，目的是提供一些提升app构建速度的优化建议。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/26029881&#34;&gt;是时候和 Implict Broadcast 说再见了&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android O对于系统广播（Broadcast）的改变归根结底都是为了进一步的节省功耗。Google在Android Marshmallo(6.0, API level 23)中引入了Doze and App Standby来改进Android系统的电池表现。本文主要介绍了Android O中对Broadcast的改变。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/9eLTmtzY-yGuMitXm0iEnA&#34;&gt;一个完整的示例：Android Things和TensorFlow能擦出怎样的火花？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;现在深度学习很火，那我们就在Android Things中，利用摄像头抓拍图片，让TensorFlow去识别图像，最后用扬声器告诉我们结果。是不是很酷？阅读文章，了解具体实现。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wuxiaolong.me/2017/03/26/Rendering/&#34;&gt;Android渲染优化&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Android系统每隔16ms发出VSYNC信号，触发对UI进行渲染，要每次渲染都成功，这样就必须达到流畅的画面所需要的60fps，否则会发生丢帧的现象，丢帧越多，用户明确感到卡顿。卡顿现象，由于复杂的布局或界面过度绘制未能在每帧16ms内完成导致的。本文讲解了渲染优化的技巧。&lt;/p&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode&#34;&gt;BuildTimeAnalyzer-for-Xcode&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Swift 编译时间分析的工具，Swift开发必备。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/joshaber/Few.swift&#34;&gt;Few.swift&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;类似于 React 写法的组件库，基于Swift。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/onevcat/FengNiao&#34;&gt;FengNiao&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;检查项目中无用资源的工具，喵神出品。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/recruit-lifestyle/AutoToggleHeaderFooterView&#34;&gt;AutoToggleHeaderFooterView&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;为你的滚动视图添加随手势变化的动态Header Footer UI 组件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/zjw-swun/AppMethodOrder&#34;&gt;AppMethodOrder&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一个能让你了解所有函数调用顺序的Android库（无需侵入式代码）。原理就是基于android sdk中提供的工具——traceview，和dmtracedump。traceview会生成.trace文件，该文件记录了函数调用顺序，函数耗时，函数调用次数等等有用的信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/nisrulz/android-tips-tricks&#34;&gt;android-tips-tricks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;该项目收集了Android开发需要的一些小技巧。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/andyb129/FlipsideCamera&#34;&gt;FlipsideCamera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;很有意思的一个项目，支持前后摄像头拍摄照片显示在同一屏幕，并且提供了滤镜功能。&lt;/p&gt;
+
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3月初我们发布了&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&amp;amp;mid=2651113136&amp;amp;idx=1&amp;amp;sn=8227a7c540cf1eadcbefd70036f4c8ce&#34;&gt;移动开发前线招聘季活动&lt;/a&gt;，目前已有十多个职位发布，欢迎同学们到这里找工作，还有招聘需求的可以回复该贴，我会更新上去。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;iOS高级工程师1名 by 银如意App&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标上海。上市公司移动团队，负责开发维护银如意App，要求移动开发经验4年，职位工程师，薪资面议，简历发送至邮箱：wangsu2004@163.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android高级开发工程师N名 by APUS公司客户端研发团队&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;坐标北京。负责开发维护客户端App，要求移动开发经验5年，职位高级Android开发，薪资40K左右～简历发送至邮箱：zhanghongjiao@apusapps.com&lt;/p&gt;
+
+&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gmtc.geekbang.org/?utm_source=infoq&amp;amp;utm_campaign=bornmobile&amp;amp;utm_medium=wechat&#34;&gt;GMTC 2017全球移动技术大会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;6月9日北京举行。关注移动、前端、跨平台、AI应用等多个技术领域、促进全球技术交流，推动国内技术升级。GMTC为期两天，面向移动开发、前端、AI技术人员，聚焦前沿技术及实践经验，打造技术人员的学习和交流平台。8折倒计时啦！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2017.qconbeijing.com/&#34;&gt;QCon北京站2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;4月16日北京举行。明年第一场最值得期待的综合性技术大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和最佳实践。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.bagevent.com/event/378252&#34;&gt;第二届 @Swift 开发者大会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5.13-14 在深圳举办。邀请到了 Uber 的 iOS 负责人，RayWenderlich CTO，CocoaPods 核心团队成员，Realm 核心成员，RxSwift 作者，Perfect 作者，唐巧，虾神，以及来自腾讯、Google、ThoughtWorks、美团、滴滴的技术大牛。输入邀请码「infoq」，每张票优惠 79 元，只能使用 50 次，先到先得。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://test-china.org/&#34;&gt;MTSC 2017第三届中国移动互联网测试开发大会&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;7月15日北京举行。MTSC是一个为期一天的围绕移动测试开发技术的非营利国际性技术大会，主要关注移动互联网和移动应用方面的测试开发技术。期间我们将邀请众多国内外顶尖的测试人员来分享他们的知识及对测试的独到见解。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>移动开发每周阅读清单：第四十八期</title>
@@ -1683,116 +1821,6 @@
 &lt;p&gt;&lt;a href=&#34;http://form.mikecrm.com/RIrDrw&#34;&gt;百度技术沙龙68期：移动端输入法性能优化实战&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;本期百度技术沙龙，我们将邀请到百度输入法团队的工程师们，从三个方面解析百度输入法当前的进展，包括对iOS输入法启动速度和内存的优化措施；人工智能在手写引擎中的应用，输入体验的提升；以及智能语音输入的技术核心，实现方式，优化细节等等。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>移动开发每周阅读清单：第三十五期</title>
-      <link>http://mobilefrontier.github.io/articles/weekly-35/</link>
-      <pubDate>Mon, 14 Nov 2016 21:33:45 +0800</pubDate>
-      
-      <guid>http://mobilefrontier.github.io/articles/weekly-35/</guid>
-      <description>
-
-&lt;h2 id=&#34;新闻&#34;&gt;新闻&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://tech.qq.com/a/20161107/019819.htm&#34;&gt;苹果CEO库克提出下一代产品战略：专注增强现实&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;已有迹象表明，苹果正试图将某些与头戴设备相关的功能集成至iOS系统。2015年，苹果收购了Metaio，后者开发移动增强现实浏览器，以及一整套的增强现实工具。另外，前不久，苹果曝光了新的 AR 导航专利和头盔专利。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://it.sohu.com/20161111/n472878365.shtml&#34;&gt;Android 打算终结第三方快充，强推Type-C充电标准&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;根据Android于10月25日更新的最新相容性定义文件（CDD）中，有开发者发现在其中 7.7 USB的相容性定义一节中，Google更新了关于充电的标准以及规范。在这份文件定义中，他们表示：“我们强烈建议Type-C设备不要支持那些借由修改提高了原本预设Vbus电压，或是修改sink/source输入电路导致设备不支持标准的USB充电器或目前Android设备上USB供电的方法。”&lt;/p&gt;
-
-&lt;h2 id=&#34;教程&#34;&gt;教程&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/6c8bf19eb10d&#34;&gt;iOS中的各种锁&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在日常开发过程中，为了提升程序运行效率，以及用户体验，我们经常使用多线程。在使用多线程的过程中，难免会遇到资源竞争问题。我们采用锁的机制来确保线程安全。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cocoachina.com/ios/20161108/17982.html&#34;&gt;译文：iOS 10和macOS中的卷积神经网络&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;苹果在iOS 10和macOS 10.12的Metal Performance Shaders框架和Accelerate框架里，引入了新的卷积神经网络APIs。本文将带读者走近它们，并且介绍如何使用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.raywenderlich.com/139591/building-custom-collection-swift&#34;&gt;Building a Custom Collection in Swift&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;常用的集合类型有 Array 、 Dictionary 、 Set ，本文介绍了如何在 Swift 中编写一个自定义的集合类型。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://khanlou.com/2016/10/structs-and-nscoding/&#34;&gt;Structs and NSCoding&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;实现 NSCoding 需要服从NSObjectProtocol 协议，这是一个 class 的协议，那么在 Swift 中如何更好地结合 Struct 和 NSCoding ，本文作者探讨了一种可行的方案。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://liwenkun.xyz/2016/11/11/android-load-class-dynamically/&#34;&gt;安卓动态加载入门&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;动态加载代码就是通过在运行时加载外部代码（磁盘，网络等）改变程序行为的技术。关于安卓动态加载技术的文章网上有很多，但很多都是基于较低安卓版本的，对于较高版本有些地方不一定适用。本文什么都基于Andriod M和大家分享了安卓的动态加载技术，让大家对这项技术有一个初步的了解。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAxNjI3MDkzOQ==&amp;amp;mid=2654472649&amp;amp;idx=1&amp;amp;sn=3319a3e1ca0d9a78c3c3a5f05ae6f638&#34;&gt;Android 7.1新特性之Shortcuts介绍&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Android 7.1允许App自定义Shortcuts，类似iOS的3D touch。通过在桌面长按App弹出Shortcut列表，点击某个Shortcut快速进入某项操作，同时Shortcut可以拖动到桌面进行固定。由于7.1SDK的Sources尚未开放，目前大部分内容还是根据官方AP 文档而来。Shortcuts全面介绍分为两篇，本文是基础介绍。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drakeet.me/effective-multitype&#34;&gt;Android 复杂的列表视图新写法: MultiType详解篇&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我们写一个类似微博列表页面，这样的列表是十分复杂的：有纯文本的、带转发原文的、带图片的、带视频的、带文章的等等，甚至穿插一条可以横向滑动的好友推荐条目。不同的Item类型众多，而且随着业务发展，还会更多。如果我们使用传统的开发方式，经常要做一些繁琐的工作，代码可能都堆积在一个Adapter中。本文作者给出了一种新的解决方案——MultiType。阅读文章，了解该技术的更多特性。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&amp;amp;mid=2651232233&amp;amp;idx=1&amp;amp;sn=03d9858ac451f2768b804d2604a8e12e&#34;&gt;PNG图片压缩对比分析&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;为了实现PNG图片的压缩，之前的处理方式是先在本地进行压缩，然后提交到SVN，再打包发布。一般采用在线压缩工具处理，将res目录下的PNG图片批量手动处理，这种方式容易出现的问题，比如为了追求高的压缩率，容易出现一张图片重复压缩的情况，导致图片严重失真；不能自定义参数开发，无法满足开发需求等。本文对比了多种压缩方案，给出了不同方案的优缺点。&lt;/p&gt;
-
-&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;iOS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/WhiskerzAB/PlaygroundTDD&#34;&gt;PlaygroundTDD&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在 Playground 中编写测试代码。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/tid-kijyun/XcodeSourceEditorExtension-Alignment&#34;&gt;XcodeSourceEditorExtension-Alignment&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;用于格式化代码的 Xcode Editor Extension 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/malcommac/SwiftDate&#34;&gt;SwiftDate&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;可能是在 Swift 中处理 Date 的最佳方案的框架。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Piasy/BigImageViewer&#34;&gt;BigImageViewer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个非常强大的图片工具，可以显示超级大图，不会出现OOM问题，并且占用内存很少，支持图片的平移和缩放。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/wuhx/shelldroid&#34;&gt;shelldroid&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个可以实现在同一台手机上管理多个微信账号的项目，手机需要ROOT，不过项目的实现原理很简单。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Hitomis/ActivitySwitcher&#34;&gt;ActivitySwitcher&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ActivitySwitcher是一个基于Activity视图操作管理库，可以实现Activity之间任意跳转、关闭任意一个Activity以及结束应用程序等功能。&lt;/p&gt;
-
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新开栏目，有招聘移动开发工程师需求可以给我发邮件：amos@infoq.com，附上公司名称介绍、招聘需求、待遇、联系方式等等。我会选择一些放在这里。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Android研发工程师 by QQ空间&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;坐标深圳。负责Android客户端相关研发。要求2年以上项目经验，熟悉Web、React Native相关知识，对新技术有热情。简历发送至 mangosmwang@qq.com&lt;/p&gt;
-
-&lt;h2 id=&#34;活动&#34;&gt;活动&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;新栏目之二，宣传社区办的一些移动相关的线下活动，有想放在这里的欢迎和我打招呼，友情帮宣传。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://bj2016.archsummit.com/&#34;&gt;ArchSummit全球架构师峰会&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;地点北京。ArchSummit秉承“实践第一、案例为主”的原则，展示新技术在行业应用中的最新实践，技术在企业转型中的加速作用，帮助企业技术管理者、CTO、架构师做好技术选型、技术团队组建与管理，并确立技术对于产品和业务的关键作用。&lt;/p&gt;
 </description>
     </item>
     
